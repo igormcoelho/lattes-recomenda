@@ -1,6 +1,6 @@
 {
   "name": "avaliacao-qualis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jadsonsantos/avaliacao-qualis/issues"
   },
-  "homepage": "https://github.com/jadsonsantos/avaliacao-qualis#readme"
+  "homepage": "https://github.com/jadsonsantos/avaliacao-qualis#readme",
+  "dependencies": {
+    "sheet2json": "0.0.3"
+  }
 }
