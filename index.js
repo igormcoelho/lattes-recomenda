@@ -123,6 +123,5 @@ function salvaDadosdaProducaoemArquivo() {
     var json = JSON.stringify(data, null, " ");
     fs.writeFile ("./artigos-com-estrato-por-periodico.json", json, function(err) {
         if (err) throw err;
-        console.log("Arquivo com artigos e suas classificações gerado.");
     });
 }
