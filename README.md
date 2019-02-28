@@ -14,8 +14,8 @@ Ao final, será gerado um arquivo json com as publicações em determinado inter
 var avaliacaoQualis = require('avaliacao-qualis');
 
 avaliacaoQualis({
-    classificacoesPublicadas: "classificacoes.xls",
-    curriculoLattes: "curriculo.xml",
+    classificacoesPublicadas: "./classificacoes.xls", // arquivo xls com as publicações no Qualis
+    curriculoLattes: "./curriculo.xml",
     anoInicial: 2015,
     anoFinal: 2019
 }, 
