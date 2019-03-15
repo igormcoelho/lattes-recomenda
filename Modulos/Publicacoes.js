@@ -1,40 +1,3 @@
-/*const fs2 = require('fs'),
-      pdf = require('pdf-parse');
-
-
-exports = module.exports = AvaliacaoConferencia
-
-
-function AvaliacaoConferencia(config, callback) {
-    
-    new Conferencia(config, callback);
-}
-
-
-function Conferencia(config, callback) {
-
-    this.parsePdfToTxt(config.arquivoConferencias, callback);
-}
-
-
-Conferencia.prototype.parsePdfToTxt = function(arquivoConferencias) {
-
-    pdf(fs2.readFileSync(arquivoConferencias)).then(function(data) {
-        fs2.writeFileSync(
-            './conferencias.txt', 
-            data.text, 
-            function(err) {
-                if(err) {
-                    return console.log("Erro na escrita do arquivo: " + err);
-                }
-            }  
-        ); 
-    });
-}
-
-*/
-/* -------------------------------------------------------------------------------------------------- */
-
 var fs = require('fs'),
     convert = require('xml-js'),
     arquivoLattes, arquivoQualis, dadosArtigo = [], artigos, cont = 0, data = { artigos: [] },
@@ -45,11 +8,11 @@ exports = module.exports.AvaliacaoPublicacao = AvaliacaoPublicacao
 
 function AvaliacaoPublicacao(config, callback) {
 
-    /*if (!config.classificacoesPublicadas) {
+    if (!config.classificacoesPublicadas) {
         callback(new Error("Você não informou o arquivo xls de entrada."), null);
     } else if (!config.curriculoLattes) {
         callback(new Error("Você não informou o arquivo xml de entrada."), null);
-    }*/
+    }
 
     new Publicacao(config, callback);
 }
