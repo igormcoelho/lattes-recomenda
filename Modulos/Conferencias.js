@@ -1,5 +1,6 @@
 const fs = require('fs'),
       pdf = require('pdf-parse');
+let   conferenciasQualis = [];
 
 
 exports = module.exports.AvaliacaoConferencia = AvaliacaoConferencia
@@ -14,6 +15,7 @@ function AvaliacaoConferencia(config, callback) {
 function Conferencia(config, callback) {
 
     this.parsePdfToTxt(config.arquivoConferencias, callback);
+    this.salvaConferencias();
 }
 
 
@@ -29,5 +31,13 @@ Conferencia.prototype.parsePdfToTxt = function(arquivoConferencias) {
                 }
             }  
         ); 
+    });
+}
+
+Conferencia.prototype.salvaConferencias = function() {
+    fs.readFile("./conferencias.txt", 'utf8', function(err, data) {
+        if (err) throw err;
+        
+        conferenciasQualis = data.toString().split("\n");
     });
 }
