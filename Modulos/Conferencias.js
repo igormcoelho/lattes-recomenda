@@ -16,6 +16,7 @@ function Conferencia(config, callback) {
 
     this.parsePdfToTxt(config.arquivoConferencias, callback);
     this.salvaConferencias();
+    this.parseXmlToJson(config.arquivoLattes)
 }
 
 
@@ -40,4 +41,25 @@ Conferencia.prototype.salvaConferencias = function() {
         
         conferenciasQualis = data.toString().split("\n");
     });
+}
+
+Conferencia.prototype.parseXmlToJson = function(arquivoLattes) {
+    
+    var convert = require('xml-js'),
+        xml = fs.readFileSync(arquivoLattes, 'utf8'),
+        options = {
+            ignoreComment: true, alwaysChildren: true, compact: true, addParent: true, spaces: 2
+        },
+        result = convert.xml2json(xml, options); 
+
+    arquivoLattes = "./curriculo-lattes.json";
+    fs.writeFile(
+        arquivoLattes, 
+        result, 
+        function(err) {
+          if(err) {
+            return console.log(err);
+          }
+        }  
+    );     
 }
