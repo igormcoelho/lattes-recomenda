@@ -1,7 +1,7 @@
 const fs = require('fs'),
       pdf = require('pdf-parse'),
       jsonfile = require('jsonfile');
-let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {};
+let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {};
 
 
 exports = module.exports.AvaliacaoConferencia = AvaliacaoConferencia
@@ -89,4 +89,14 @@ function getInfosLattes(eventoLattes) {
 
     conferenciaLattes.nome = eventoLattes['DETALHAMENTO-DO-TRABALHO']['_attributes']['NOME-DO-EVENTO'].toUpperCase();
     conferenciaLattes.tituloTrabalho = eventoLattes['DADOS-BASICOS-DO-TRABALHO']['_attributes']['TITULO-DO-TRABALHO'];
+}
+
+
+function criaConferenciaQualis(linha) {
+
+    // Remove os ultimos 2 caracteres da string. ex: B1
+    conferenciaQualis.nome = linha.slice(0, linha.length-2).toUpperCase();
+    conferenciaQualis.conceito = linha.slice(-2);
+    var n = conferenciaQualis.nome.indexOf(" -");
+    conferenciaQualis.nome = conferenciaQualis.nome.substring(n/2);
 }
