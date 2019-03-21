@@ -80,19 +80,26 @@ function salvaConferenciaQualis() {
 
 function comparaConferencias(conferenciasLattes, conferenciasQualis) {
 
-    console.log("Lattes: ", conferenciasLattes.length);
-    console.log("Qualis: ", conferenciasQualis.length);   
+    for (var i in conferenciasLattes) {    
+        for (var j in conferenciasQualis) {
+
+            getInfosConferenciaLattes(conferenciasLattes[i]);
+            getInfosConferenciaQualis(conferenciasQualis[j]);
+        }    
+    }
+    console.log(conferenciaLattes.nome);
+    console.log(conferenciaLattes.tituloTrabalho);
 }
 
 
-function getInfosLattes(eventoLattes) {
+function getInfosConferenciaLattes(eventoLattes) {
 
     conferenciaLattes.nome = eventoLattes['DETALHAMENTO-DO-TRABALHO']['_attributes']['NOME-DO-EVENTO'].toUpperCase();
     conferenciaLattes.tituloTrabalho = eventoLattes['DADOS-BASICOS-DO-TRABALHO']['_attributes']['TITULO-DO-TRABALHO'];
 }
 
 
-function criaConferenciaQualis(linha) {
+function getInfosConferenciaQualis(linha) {
 
     // Remove os ultimos 2 caracteres da string. ex: B1
     conferenciaQualis.nome = linha.slice(0, linha.length-2).toUpperCase();
