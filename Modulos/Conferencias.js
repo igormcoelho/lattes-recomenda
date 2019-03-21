@@ -90,8 +90,6 @@ function comparaConferencias(conferenciasLattes, conferenciasQualis) {
             checaSimilaridade(similarity);
         }    
     }
-    console.log(conferenciaLattes.nome);
-    console.log(conferenciaLattes.tituloTrabalho);
 }
 
 
@@ -124,7 +122,17 @@ function checaSimilaridade(similarity) {
             "\nGrau Similaridade: " + similarity + 
             "\n________________________________________________________________________________________________"
         );
+
+        salvaInfosEmArquivo("./conferencias-resultado.txt", conferenciasEncontradas);
         
         flag = true;
     } 
+}
+
+
+function salvaInfosEmArquivo(caminhoArquivo, data) {
+
+    fs.writeFile(caminhoArquivo, data, function(err, data) {
+        if (err) console.log(err);
+    });
 }
