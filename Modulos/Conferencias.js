@@ -1,6 +1,7 @@
 const fs = require('fs'),
       pdf = require('pdf-parse'),
-      jsonfile = require('jsonfile');
+      jsonfile = require('jsonfile'),
+      stringSimilarity = require('string-similarity');
 let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], flag;
 
 
@@ -85,6 +86,8 @@ function comparaConferencias(conferenciasLattes, conferenciasQualis) {
 
             getInfosConferenciaLattes(conferenciasLattes[i]);
             getInfosConferenciaQualis(conferenciasQualis[j]);
+            var similarity = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
+            checaSimilaridade(similarity);
         }    
     }
     console.log(conferenciaLattes.nome);
