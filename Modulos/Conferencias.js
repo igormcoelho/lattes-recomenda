@@ -60,13 +60,27 @@ Conferencia.prototype.parseXmlToJson = function(arquivoLattes) {
 
 Conferencia.prototype.salvaConferencias = function() {
     
-    fs.readFile("./conferencias.txt", 'utf8', function(err, data) {
-        if (err) throw err;        
-        conferenciasQualis = data.toString().split("\n");
-    });
-    
     jsonfile.readFile("./curriculo-lattes.json", function (err, obj) {
         if (err) console.error(err)
         conferenciasLattes = obj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
+        salvaConferenciaQualis();
     });
+}
+
+
+function salvaConferenciaQualis() {
+    
+    fs.readFile("./conferencias.txt", 'utf8', function(err, data) {
+        if (err) throw err;        
+        conferenciasQualis = data.toString().split("\n");
+        comparaConferencias(conferenciasLattes, conferenciasQualis);
+    });
+}
+
+
+function comparaConferencias(conferenciasLattes, conferenciasQualis) {
+
+    console.log("Lattes: ", conferenciasLattes.length);
+    console.log("Qualis: ", conferenciasQualis.length);
+    
 }
