@@ -2,7 +2,7 @@ const fs = require('fs'),
       pdf = require('pdf-parse'),
       jsonfile = require('jsonfile'),
       stringSimilarity = require('string-similarity');
-let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], flag;
+let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [], flag, cont;
 
 
 exports = module.exports.AvaliacaoConferencia = AvaliacaoConferencia
@@ -81,13 +81,17 @@ function salvaConferenciaQualis() {
 
 function comparaConferencias(conferenciasLattes, conferenciasQualis) {
 
-    for (var i in conferenciasLattes) {    
+    for (var i in conferenciasLattes) {   
+
+        cont = 0; flag = false;        
         for (var j in conferenciasQualis) {
 
             getInfosConferenciaLattes(conferenciasLattes[i]);
             getInfosConferenciaQualis(conferenciasQualis[j]);
             var similarity = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
             checaSimilaridade(similarity);
+            cont++;
+            salvaConferenciasNaoEncontradas(cont, flag);
         }    
     }
 }
@@ -127,6 +131,22 @@ function checaSimilaridade(similarity) {
         
         flag = true;
     } 
+}
+
+
+function salvaConferenciasNaoEncontradas(cont, flag) {
+
+    if ( cont === conferenciasQualis.length && flag === false ) {
+        
+        conferenciasNaoEncontradas.push(
+            "\nConferência não encontrada na base do Qualis", 
+            "\nNome da Conferência: " + conferenciaLattes.nome, 
+            "\nNome do Trabalho: " + conferenciaLattes.tituloTrabalho + 
+            "\n________________________________________________________________________________________________"
+        );
+
+        salvaInfosEmArquivo("./conferencias-nao-encontradas-resultado.txt", conferenciasNaoEncontradas);
+    }   
 }
 
 
