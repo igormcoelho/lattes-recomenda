@@ -1,7 +1,7 @@
 const fs = require('fs'),
       pdf = require('pdf-parse'),
       jsonfile = require('jsonfile');
-let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {};
+let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], flag;
 
 
 exports = module.exports.AvaliacaoConferencia = AvaliacaoConferencia
@@ -99,4 +99,22 @@ function criaConferenciaQualis(linha) {
     conferenciaQualis.conceito = linha.slice(-2);
     var n = conferenciaQualis.nome.indexOf(" -");
     conferenciaQualis.nome = conferenciaQualis.nome.substring(n/2);
+}
+
+
+function checaSimilaridade(similarity) {
+
+    if ( similarity >= 0.8 ) {
+
+        conferenciasEncontradas.push(
+            "\nEvento no Lattes: " + conferenciaLattes.nome, 
+            "\nEvento no Qualis: " + conferenciaQualis.nome, 
+            "\nNome do Trabalho: " + conferenciaLattes.tituloTrabalho, 
+            "\nQualis do Evento: " + conferenciaQualis.conceito, 
+            "\nGrau Similaridade: " + similarity + 
+            "\n________________________________________________________________________________________________"
+        );
+        
+        flag = true;
+    } 
 }
