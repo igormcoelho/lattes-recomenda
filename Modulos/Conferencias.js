@@ -1,7 +1,7 @@
 const fs = require('fs'),
       pdf = require('pdf-parse'),
       jsonfile = require('jsonfile');
-let   conferenciasQualis = [], conferenciasLattes;
+let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {};
 
 
 exports = module.exports.AvaliacaoConferencia = AvaliacaoConferencia
@@ -81,6 +81,12 @@ function salvaConferenciaQualis() {
 function comparaConferencias(conferenciasLattes, conferenciasQualis) {
 
     console.log("Lattes: ", conferenciasLattes.length);
-    console.log("Qualis: ", conferenciasQualis.length);
-    
+    console.log("Qualis: ", conferenciasQualis.length);   
+}
+
+
+function getInfosLattes(eventoLattes) {
+
+    conferenciaLattes.nome = eventoLattes['DETALHAMENTO-DO-TRABALHO']['_attributes']['NOME-DO-EVENTO'].toUpperCase();
+    conferenciaLattes.tituloTrabalho = eventoLattes['DADOS-BASICOS-DO-TRABALHO']['_attributes']['TITULO-DO-TRABALHO'];
 }
