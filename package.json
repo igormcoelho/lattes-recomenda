@@ -25,6 +25,7 @@
     "jsonfile": "^5.0.0",
     "pdf-parse": "^1.1.1",
     "sheet2json": "0.0.3",
+    "string-similarity": "^3.0.0",
     "xml-js": "^1.6.9"
   },
   "devDependencies": {
