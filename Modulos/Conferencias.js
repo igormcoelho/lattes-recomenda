@@ -1,6 +1,7 @@
 const fs = require('fs'),
-      pdf = require('pdf-parse');
-let   conferenciasQualis = [];
+      pdf = require('pdf-parse'),
+      jsonfile = require('jsonfile');
+let   conferenciasQualis = [], conferenciasLattes;
 
 
 exports = module.exports.AvaliacaoConferencia = AvaliacaoConferencia
@@ -15,8 +16,8 @@ function AvaliacaoConferencia(config, callback) {
 function Conferencia(config, callback) {
 
     this.parsePdfToTxt(config.arquivoConferencias, callback);
+    this.parseXmlToJson(config.arquivoLattes);
     this.salvaConferencias();
-    this.parseXmlToJson(config.arquivoLattes)
 }
 
 
@@ -24,7 +25,7 @@ Conferencia.prototype.parsePdfToTxt = function(arquivoConferencias) {
 
     pdf(fs.readFileSync(arquivoConferencias)).then(function(data) {
         fs.writeFileSync(
-            './conferencias.txt', 
+            "./conferencias.txt", 
             data.text, 
             function(err) {
                 if(err) {
@@ -35,13 +36,6 @@ Conferencia.prototype.parsePdfToTxt = function(arquivoConferencias) {
     });
 }
 
-Conferencia.prototype.salvaConferencias = function() {
-    fs.readFile("./conferencias.txt", 'utf8', function(err, data) {
-        if (err) throw err;
-        
-        conferenciasQualis = data.toString().split("\n");
-    });
-}
 
 Conferencia.prototype.parseXmlToJson = function(arquivoLattes) {
     
@@ -52,9 +46,8 @@ Conferencia.prototype.parseXmlToJson = function(arquivoLattes) {
         },
         result = convert.xml2json(xml, options); 
 
-    arquivoLattes = "./curriculo-lattes.json";
     fs.writeFile(
-        arquivoLattes, 
+        "./curriculo-lattes.json", 
         result, 
         function(err) {
           if(err) {
@@ -62,4 +55,18 @@ Conferencia.prototype.parseXmlToJson = function(arquivoLattes) {
           }
         }  
     );     
+}
+
+
+Conferencia.prototype.salvaConferencias = function() {
+    
+    fs.readFile("./conferencias.txt", 'utf8', function(err, data) {
+        if (err) throw err;        
+        conferenciasQualis = data.toString().split("\n");
+    });
+    
+    jsonfile.readFile("./curriculo-lattes.json", function (err, obj) {
+        if (err) console.error(err)
+        conferenciasLattes = obj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
+    });
 }
