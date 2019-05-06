@@ -1,16 +1,21 @@
 var fs = require('fs'),
     convert = require('xml-js'),
-    arquivoLattes, arquivoQualis, dadosArtigo = [], artigos, cont = 0, data = { artigos: [] },
-    jsonfile = require('jsonfile');
+    sheet2json = require("sheet2json"),
+    jsonfile = require('jsonfile'),
+    arquivoLattes, arquivoQualis, dadosArtigo = [], artigos, cont = 0, data = { artigos: [] };
 
 
 exports = module.exports.AvaliacaoPublicacao = AvaliacaoPublicacao
 
+
 function AvaliacaoPublicacao(config, callback) {
 
     if (!config.classificacoesPublicadas) {
+
         callback(new Error("Você não informou o arquivo xls de entrada."), null);
+        
     } else if (!config.curriculoLattes) {
+
         callback(new Error("Você não informou o arquivo xml de entrada."), null);
     }
 
@@ -19,64 +24,85 @@ function AvaliacaoPublicacao(config, callback) {
     
 
 function Publicacao(config, callback) { 
+
     this.xlsToJson(config.classificacoesPublicadas, callback);
     this.xmlToJson(config.curriculoLattes);
     this.informaProducao(config.anoInicial, config.anoFinal);
+    this.salvaProducao();
 }
 
 
 Publicacao.prototype.xlsToJson = function(classificacoesPublicadas) {
-    require("sheet2json")(classificacoesPublicadas, response => {
+
+    sheet2json(classificacoesPublicadas, response => {
+
         var json = JSON.stringify(response, null, " ");
-        arquivoQualis = "./classificacoes_publicadas.json";
-        fs.writeFile(arquivoQualis, json, (err) => {
-          if (err) {
-            console.error(err)
-            return
-          }
+
+        arquivoQualis = "./periodicos_conceito.json";
+
+        fs.writeFileSync(arquivoQualis, json, (err) => {
+            if (err) {
+                console.error(err)
+                return
+            }
         })
     });
 }
 
+
 Publicacao.prototype.xmlToJson = function (curriculoLattes) {
+
     var xml = fs.readFileSync(curriculoLattes, 'utf8'),
     options = {
         ignoreComment: true, alwaysChildren: true, compact: true, addParent: true, spaces: 2
     },
-    result = convert.xml2json(xml, options); 
+    json = convert.xml2json(xml, options); 
 
-    arquivoLattes = "./curriculo-lattes.json";
-    fs.writeFile(
-        arquivoLattes, 
-        result, 
-        function(err) {
-          if(err) {
-            return console.log(err);
-          }
+    arquivoLattes = "./curriculo_lattes.json";
+
+    fs.writeFileSync(arquivoLattes, json, (err) => {
+            if(err) {
+                return console.log("Erro na criação de curriculo em json: " + err);
+            }
         }  
     ); 
 }
 
+
 Publicacao.prototype.informaProducao = function(anoInicial, anoFinal) {
+
     jsonfile.readFile(arquivoLattes, function (err, obj) {
-        if (err) console.error(err)
-        retornaArtigosNoIntervalo(obj, anoInicial, anoFinal);
+
+        if (err) console.error("Erro na leitura de curriculo em json: " + err)
+        artigos = obj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['ARTIGOS-PUBLICADOS']['ARTIGO-PUBLICADO'];
+        
+        retornaArtigosNoIntervalo(artigos, anoInicial, anoFinal);
         verificaQuantidadeArtigos();
     });
+}
+
+
+Publicacao.prototype.salvaProducao = function() {
+
     jsonfile.readFile(arquivoQualis, function (err, dadosQualis) {
-        if (err) console.error(err)
+
+        if (err) console.error("Erro na leitura dos periodicos em json: " + err)
         verificaISSN(dadosQualis);
+        verificaSeArquivoFoiCriado();
     });        
 }
 
-function retornaArtigosNoIntervalo(obj, anoInicial, anoFinal) {
+
+function retornaArtigosNoIntervalo(artigos, anoInicial, anoFinal) {
+
     var artigo = {};
 
-    artigos = obj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['ARTIGOS-PUBLICADOS']['ARTIGO-PUBLICADO'];
-
     for (var i in artigos) {
+
         artigo.ano = artigos[i]['DADOS-BASICOS-DO-ARTIGO']["_attributes"]["ANO-DO-ARTIGO"];
+       
         if (anoInicial <= artigo.ano && anoFinal >= artigo.ano) {
+
             artigo.titulo = artigos[i]['DADOS-BASICOS-DO-ARTIGO']["_attributes"]["TITULO-DO-ARTIGO"];
             artigo.issn = artigos[i]['DETALHAMENTO-DO-ARTIGO']["_attributes"]["ISSN"];
             var obj = {
@@ -84,6 +110,7 @@ function retornaArtigosNoIntervalo(obj, anoInicial, anoFinal) {
                 'ano': artigo.ano,
                 'issn': artigo.issn
             }
+
             dadosArtigo.push(obj);
         }
         else {
@@ -92,22 +119,29 @@ function retornaArtigosNoIntervalo(obj, anoInicial, anoFinal) {
     }    
 }
 
+
 function verificaQuantidadeArtigos() {
+
     if (artigos.length === cont) {
         console.log("Não há artigos para o intervalo informado.")
     }
 }
 
+
 function verificaISSN(dadosQualis) {
+
     var  periodico = {}, objArtigo = {};
 
     for (var i in dadosArtigo) {
         for (var j in dadosQualis) {
+
             periodico.issn = dadosQualis[j]['ISSN'];
             periodico.issn = periodico.issn.split('-').join('');
             periodico.titulo = dadosQualis[j]['Título'];
             periodico.conceito = dadosQualis[j]['Estrato'];
+
             if (periodico.issn == dadosArtigo[i].issn) {
+                
                 objArtigo = {
                     'tituloDoArtigo': dadosArtigo[i].titulo,
                     'anoDoArtigo': dadosArtigo[i].ano,
@@ -115,17 +149,31 @@ function verificaISSN(dadosQualis) {
                     'tituloDoPeriodico': periodico.titulo, 
                     'conceitoDoPeriodico': periodico.conceito
                 }
+
                 data.artigos.push(objArtigo);
-                salvaDadosdaProducaoemArquivo();
+                salvaDadosdaProducaoemArquivo(data);
                 break;
             }
         }
     }
 }
 
-function salvaDadosdaProducaoemArquivo() {
+
+function salvaDadosdaProducaoemArquivo(data) {
+
     var json = JSON.stringify(data, null, " ");
-    fs.writeFile ("./artigos-com-estrato-por-periodico.json", json, function(err) {
-        if (err) throw err;
-    });
+
+    fs.writeFileSync("./resultado_artigos_com_conceito.json", json, (err) => {
+        if(err) {
+            return console.log("Erro na criação de arquivo de avaliação de publicações: " + err);
+        }
+    }); 
+}
+
+
+function verificaSeArquivoFoiCriado() {
+
+    if (fs.existsSync('./resultado_artigos_com_conceito.json')) {
+        console.log("Arquivo de avaliação de publicações criado com sucesso."); 
+    }
 }
