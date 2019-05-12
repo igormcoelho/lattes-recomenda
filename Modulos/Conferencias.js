@@ -19,7 +19,7 @@ function AvaliacaoConferencia(config, callback) {
 
 function Conferencia(config, callback) {
 
-    this.parsePdfToTxt(config.arquivoConferencias, callback);
+    //this.parsePdfToTxt(config.arquivoConferencias, callback);
     this.parseXmlToJson(config.arquivoLattes);
     this.salvaConferencias();
     this.verificaArquivosCriados();
@@ -77,7 +77,7 @@ Conferencia.prototype.verificaArquivosCriados = function() {
 
 function salvaConferenciaQualis() {
     
-    fs.readFileSync(conferenciasTxt, 'utf8', function(err, data) {
+    fs.readFile(conferenciasTxt, 'utf8', function(err, data) {
         if (err) throw err;        
         conferenciasQualis = data.toString().split("\n");
         comparaConferencias(conferenciasLattes, conferenciasQualis);
@@ -158,7 +158,7 @@ function salvaConferenciasNaoEncontradas(cont, flag) {
 
 function salvaInfosEmArquivo(caminhoArquivo, data) {
 
-    fs.writeFile(caminhoArquivo, data, function(err) {
+    fs.writeFileSync(caminhoArquivo, data, function(err) {
         
         if(err) return console.log("Erro na criação de arquivo com resultado final: " + err);
     })  
