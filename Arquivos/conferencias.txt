@@ -1,0 +1,1215 @@
+
+
+QUALIS CONFERÊNCIAS - CIÊNCIA DA COMPUTAÇÃO - 2016
+SIGLANOME DA CONFERÊNCIAQUALIS
+AAAIAAAI - Conference on Artificial IntelligenceA1
+AAMASAAMAS - International Conference on Autonomous Agents and Multiagent SystemsA1
+ACLACL - Annual Meeting of the Association for Computational LinguisticsA1
+ACMSOCCSoCC - ACM Symposium on Cloud ComputingA1
+ALLERTONALLERTON - Allerton Conference on Communication, Control, and ComputingA1
+ASEASE - IEEE/ACM International Conference on Automated Software EngineeringA1
+ASIACRYPTASIACRYPT - Annual International Conference on the Theory and Applications of Cryptology and Information SecurityA1
+ASPLOSASPLOS - International Conference on Architectural Support for Programming Languages and Operating SystemsA1
+BMVCBMVC - British Machine Vision ConferenceA1
+CCGRIDCCGrid - IEEE/ACM International Symposium on Cluster, Cloud and Grid ComputingA1
+CCSCCS/ASIACCS - ACM Symposium on Information, Computer and Communications SecurityA1
+CECCEC - IEEE Congress on Evolutionary ComputationA1
+CHESCHES - Conference on Cryptographic Hardware and Embedded SystemsA1
+CHICHI - ACM Conference on Human Factors in Computing SystemsA1
+CIKMCIKM - ACM International Conference on Information and Knowledge ManagementA1
+CloudComCloudCom - IEEE International Conference on Cloud Computing Technology and ScienceA1
+CONEXTCONEXT - Conference on Emerging Network Experiment and TechnologyA1
+CSCWCSCW - ACM Conference on Computer Supported Cooperative Work & Social ComputingA1
+CVPRCVPR - IEEE Conference on Computer Vision and Pattern RecognitionA1
+DACDAC - Design Automation ConferenceA1
+DATEDATE - Design, Automation and Test in Europe Conference and ExhibitionA1
+DSNDSN - Annual IEEE/IFIP International Conference on Dependable Systems and NetworksA1
+ECCVECCV - European Conference on Computer VisionA1
+ECMLECML/PKDD - European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in DatabasesA1
+ECRTSECRTS - Euromicro Conference on Real-Time SystemsA1
+EDBTEDBT - International Conference on Extending Database TechnologyA1
+EMNLPEMNLP - Conference on Empirical Methods in Natural Language ProcessingA1
+ESWSESWC - European Semantic Web ConferenceA1
+EUROPAREUROPAR - European Conference on Parallel ComputingA1
+EUROSYSEUROSYS - European Conference on Computer SystemsA1
+FGRFGR - IEEE International Conference on Automatic Face and Gesture RecognitionA1
+FSE/ESECFSE/ESEC -  Joint Meeting on European Software Engineering Conference and Foundations of Software EngineeringA1
+FUSIONFUSION - International Conference on Information FusionA1
+GECCOGECCO - Genetic and Evolutionary Computation ConferenceA1
+GISSIGSPATIAL/GIS - ACM SIGSPATIAL International Conference on Advances in Geographic Information SystemsA1
+
+GLOBECOMGLOBECOM - IEEE Global Communications ConferenceA1
+HICSSHICSS - Hawaii International Conference on System SciencesA1
+HLTHLT - International Conference Baltic Human Language TechnologyA1
+HOTNETSHotNets - ACM Workshop on Hot Topics in NetworksA1
+HPCAHPCA - IEEE  International Symposium on High Performance Computer ArchitectureA1
+HPDCHPDC - International Symposium on High Performance Distributed ComputingA1
+ICASSPICASSP - IEEE International Conference on Acoustics, Speech and Signal ProcessingA1
+ICCICC - IEEE International Conference on CommunicationsA1
+ICCADICCAD - IEEE/ACM International Conference on ComputerAided DesignA1
+ICCSICCS - International Conference on Computational ScienceA1
+ICDARICDAR - International Conference on Document Analysis and RecognitionA1
+ICDCSICDCS - International Conference on Distributed Computing SystemsA1
+ICDEICDE - IEEE International Conference on Data EngineeringA1
+ICDMICDM - IEEE International Conference on Data MiningA1
+ICIPICIP - IEEE International Conference on Image ProcessingA1
+ICISICIS - International Conference on Information SystemsA1
+ICMLICML - International Conference on Machine LearningA1
+ICMRICMR - ACM International Conference on Multimedia Retrieval A1
+ICNICN - ACM International Conference on Information-Centric NetworkingA1
+ICPPICPP - International Conference on Parallel ProcessingA1
+ICRAICRA - IEEE International Conference on Robotics and AutomationA1
+ICSEICSE - International Conference on Software EngineeringA1
+ICSMICSME - IEEE International Conference on Software Maintenance and EvolutionA1
+ICWSMICWSM - International AAAI Conference on Weblogs and Social MediaA1
+IEEECLOUDIEEEECLOUD - IEEE International Conference on Cloud Computing A1
+IJCAIIJCAI - International Joint Conference on Artificial IntelligenceA1
+IJCNNIJCNN - IEEE International Joint Conference on Neural NetworksA1
+IMCIMC - ACM Internet Measurement ConferenceA1
+INFOCOMINFOCOM - IEEE International Conference on Computer CommunicationsA1
+INTERSPEECHINTERSPEECH - Conference of the International Speech Communication AssociationA1
+IPDPSIPDPS - IEEE International Parallel & Distributed Processing SymposiumA1
+IPSNIPSN - International Conference on Information Processing in Sensor NetworksA1
+IROSIROS - IEEE/RSJ International Conference on Intelligent Robots and SystemsA1
+ISCAISCA - International Symposium on Computer ArchitectureA1
+ISCASISCAS - IEEE International Symposium on Circuits and SystemsA1
+ISITISIT - International Symposium on Information TheoryA1
+ISMIRISMIR - International Society for Music Information Retrieval ConferenceA1
+ISSTAISSTA - International Symposium on Software Testing and AnalysisA1
+ISWCISWC - International Semantic Web ConferenceA1
+
+KDDKDD - ACM SIGKDD Conference on Knowledge Discovery and Data MiningA1
+LAKLAK - International Learning Analytics and Knowledge ConferenceA1
+LRECLREC - International Conference on Language Resources and EvaluationA1
+MICCAIMICCAI - International Conference on Medical Image Computing and Computer Assisted InterventionA1
+MOBICOMMOBICOM - ACM/IEEE International Conference on Mobile Computing and NetworkingA1
+MOBILEHCIMOBILEHCI - International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct A1
+MSRMSR - Working Conference on Mining Software RepositoriesA1
+NSDINSDI - Networked Systems Design and ImplementationA1
+OOPSLAOOPSLA - Conference on Object-Oriented Programming Systems, Languages, and ApplicationsA1
+PACTTPACT - International Conference on Parallel Architectures and Compilation TechniquesA1
+PERCOMPERCOM - International Conference on Pervasive Computing and CommunicationsA1
+PIMRCPIMRC - International Symposium on Personal, Indoor and Mobile Radio CommunicationsA1
+PLDIPLDI - SIGPLAN Conference on Programming Language Design and ImplementationA1
+POPLPOPL - Symposium on Principles of Programming LanguagesA1
+PPOPPPPoPP - ACM SIGPLAN Symposium on Principles and Practice of Parallel ProgrammingA1
+RECSYSRecSYS - ACM Conference on Recommender SystemsA1
+SACSAC - ACM Symposium on Applied ComputingA1
+SCSC - International Conference for High Performance Computing, Networking, Storage and AnalysisA1
+SDMSDM - SIAM International Conference on Data MiningA1
+SenSysSenSys - ACM Conference on Embedded Network Sensor SystemsA1
+SIGCOMMSIGCOMM - ACM SIGCOMM ConferenceA1
+SIGCSESIGCSE - ACM Technical Symposium on Computer Science EducationA1
+SIGIRSIGIR -  International ACM SIGIR Conference on Research and Development in Information RetrievalA1
+SIGMODSIGMOD - ACM Conference on Management DataA1
+SOCIALCOMSocialCom - International Conference on Social ComputingA1
+SODASODA - ACM-SIAM Symposium on Discrete AlgorithmsA1
+SPLCSPLC - International Software Product Line Conference: New Directions in Systems and Software Product Line EngineeringA1
+UAIUAI - Conference on Uncertainty in Artificial IntelligenceA1
+UbiCompUbiComp - ACM International Joint Conference on Pervasive and Ubiquitous ComputingA1
+UISTUIST - User Interface Software Technology SymposiumA1
+WACVWACV - Winter Conference on Applications of Computer VisionA1
+WSDMWSDM - ACM Conference International Conference on Web Search and Data MiningA1
+WWWWWW - International World Wide Web ConferencesA1
+AIEDAIED - Intternational Conference on Artificial Intelligence in EducationA2
+AIIDEAIIDE - AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment A2
+AINAAINA - IEEE International Conference on Advanced Information Networking and ApplicationsA2
+AMCISAMCIS - Americas Conference on Information SystemsA2
+ARESARES - International Conference on Availability, Reliability and SecurityA2
+ASONAMASONAM - IEEE/ACM International Conference on Advances in Social Networks Analysis and MiningA2
+
+ASSETSASSETS - International ACM SIGACCESS Conference on Computers and AccessibilityA2
+AVSSAVSS - IEEE International Conference on Advanced Video and Signal Based SurveillanceA2
+BPMBPM - International Conference on Business Process ManagementA2
+BTASBTAS - IEEE International Conference on Biometrics: Theory, Applications, and SystemsA2
+CADECADE - International Conference on Automated DeductionA2
+CAISECAISE - International Conference on Advanced Information Systems EngineeringA2
+CGOCGO - International Symposium on Code Generation and OptimizationA2
+CICCCICC - IEEE Custom Integrated Circuits ConferenceA2
+CICLINGCICLing - International Conference on Intelligent Text Processing and Computational LinguisticsA2
+CIGCIG - IEEE Conference on Computational Intelligence and GamesA2
+CLOSERCLOSER - International Conference on Cloud Computing and Services ScienceA2
+CLUSTERCLUSTER - IEEE International Conference on Cluster ComputingA2
+CNSMCNSM - International Conference on Network and Service ManagementA2
+CODES+ISSSCODES+ISSS - International Conference on Hardware/Software Codesign and System SynthesisA2
+COLINGCOLING - International Conference on Computational LinguisticsA2
+COMPGEOMSoCG - International Symposium on Computational GeometryA2
+COMPSACCOMPSAC - Annual International Computers, Software & Applications ConferenceA2
+COMSNETSCOMSNETS - International Conference on COMmunication Systems & NETworkSA2
+CONCURCONCUR - International Conference on Concurrency TheoryA2
+CoopISCoopIS - International Conference on Cooperative Information SystemsA2
+CPCP - International Conference on Principles and Practice of Constraint ProgrammingA2
+CSFCSF - IEEE Computer Security Foundations SymposiumA2
+CSMRCSMR - European Conference on Software Maintenance and ReengineeringA2
+CT-RSACT-RSA - RSA Conference Cryptographers' TrackA2
+DCOSSDCOSS - International Conference on Distributed Computing in Sensor SystemsA2
+DEBSDEBS - International Conference on Distributed and Event-Based SystemsA2
+ECAIECAI - European Conference on Artificial IntelligenceA2
+ECIRECIR - European Conference on Information RetrievalA2
+ECISECIS - European Conference on Information SystemsA2
+ECOOPECOOP - European Conference on Object-Oriented ProgrammingA2
+EDMEDM - International Conference on Educational Data MiningA2
+EDOCEDOC - IEEE International Enterprise Distributed Object Computing ConferenceA2
+EICSEICS - ACM SIGCHI Symposium on Engineering Interactive Computing SystemsA2
+ESAESA - European Symposium on AlgorithmsA2
+ESEMESEM - ACM/IEEE International Symposium on Empirical Software Engineering and MeasurementA2
+ESORICSESORICS - European Symposium on Research in Computer SecurityA2
+ETRAETRA - Biennial ACM Symposium on Eye Tracking Research & ApplicationsA2
+EUSIPCOEUSIPCO - European Signal Processing ConferenceA2
+FASEFASE - International Conference on Fundamental Approaches to Software EngineeringA2
+
+FCCMFCCM - IEEE Annual International Symposium on Field-Programmable Custom Computing MachinesA2
+FMFM - International Symposium on Formal MethodsA2
+FMCADFMCAD - International Conference on Formal Methods in Computer-Aided DesignA2
+FPLFPL - International Conference on Field-Programmable Logic and ApplicationsA2
+HPCCHPCC - International Conference on High Performance Computing and CommunicationsA2
+HTHT - ACM Conference on Hypertext and Social MediaA2
+I2MTCI2MTC - IEEE International Instrumentation and Measurement Technology ConferenceA2
+I3DI3D - ACM Symposium on Interactive 3D Graphics and GamesA2
+ICAISCICAISC - International Conference on Artificial Intelligence and Soft ComputingA2
+ICAPSICAPS - International Conference on Automated Planning and SchedulingA2
+ICBICB - International Conference on BiometricsA2
+ICCCNICCCN - International Conference on Computer Communications and NetworksA2
+ICCDICCD - International Conference on Computer DesignA2
+ICCNCICNC - International Conference on Computing, Networking and CommunicationsA2
+ICMEICME - IEEE International Conference on Multimedia and ExpoA2
+ICPADSICPADS - International Conference on Parallel and Distributed SystemsA2
+ICPCICPC - International Conference on Program ComprehensionA2
+ICPEICPE - International Conference on Performance EngineeringA2
+ICPRICPR - International Conference on Pattern RecognitionA2
+ICSOCICSOC - International Conference on Service Oriented ComputingA2
+ICSTVICST - IEEE International Conference on Software Testing, Verification and ValidationA2
+ICWSICWS - IEEE International Conference on Web ServicesA2
+IEEESCCSCC - IEEE International Conference on Services ComputingA2
+IGSCIGSC - International Green and Sustainable Computing ConferenceA2
+IISWCIISWC - IEEE International Symposium on Workload CharacterizationA2
+IMIM - IFIP/IEEE International Symposium on Integrated Network ManagementA2
+IMISIMIS - International Conference on Innovative Mobile and Internet Services in Ubiquitous ComputingA2
+INTERACTINTERACT - IFIP TC 13 International Conference on Human-Computer InteractionA2
+ISCCISCC - International Symposium on Computers and CommunicationsA2
+ISLPEDISLPED - International Symposium on Low Power Electronics and DesignA2
+ISMARISMAR - International Symposium on Mixed and Augmented RealityA2
+ISPASSISPASS - IEEE International Symposium on Performance Analysis of Systems and SoftwareA2
+ISSREISSRE - IEEE International Symposium on Software Reliability EngineeringA2
+ISWCSISWCS - International Symposium on Wireless Communication SystemsA2
+ITICSEITiCSE - Conference on Innovation and Technology in Computer Science EducationA2
+IUIIUI - International Conference on Intelligent User InterfacesA2
+IWCMCIWCMC - International Wireless Communications and Mobile Computing ConferenceA2
+JCDLJCDL - ACM/IEEE Joint Conference on Digital LibrariesA2
+KRKR - International Conference on Principles of Knowledge Representation and ReasoningA2
+
+MASCOTSMASCOTS - International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication SystemsA2
+MDMMDM - IEEE International Conference on Mobile Data ManagementA2
+MIDDLEWAREMIDDLEWARE - International Middleware ConferenceA2
+MMSYSMMSys - ACM Multimedia Systems ConferenceA2
+MOBIHOCMOBIHOC - ACM International Symposium on Mobile Ad Hoc Networking and ComputingA2
+MODELSMODELS - International Conference on Model Driven Engineering Languages and SystemsA2
+MODULARITYMODULARITY - International Conference on ModularityA2
+MSSTMSST - IEEE Symposium on Mass Storage Systems and TechnologiesA2
+NETWORKINGNetworking - IFIP Networking ConferenceA2
+NFMNFM - NASA Formal Methods SymposiumA2
+NOMSNOMS - IEEE/IFIP Network Operations and Management SymposiumA2
+OMOM - International Workshop on Ontology MatchingA2
+PacificVisPacificVis - IEEE Pacific Visualization SymposiumA2
+PAKDDPAKDD - Pacific-Asia Conference on Knowledge Discovery and Data MiningA2
+PAMPAM - Passive and Active Network Measurement ConferenceA2
+PDPPDP - Euromicro International Conference on Parallel, Distributed and Network-Based ProcessingA2
+RERE - IEEE International Requirements Engineering ConferenceA2
+RECOMBRECOMB - International Conference on Research in Computational Molecular BiologyA2
+RTSSRTSS - Real-Time Systems SymposiumA2
+SACRYPTSAC - Workshop on Selected Areas in CryptographyA2
+SANERSANER - IEEE International Conference on Software Analysis, Evolution and ReengineeringA2
+SATSAT - International Conference on Theory and Applications of Satisfiability TestingA2
+SEASEA - International Symposium on Experimental AlgorithmsA2
+SEAMSSEAMS - International Symposium on Software Engineering for Adaptive and Self-Managing SystemsA2
+SERVICESSERVICES - IEEE World Congress on ServicesA2
+SIGGRAPHSIGGRAPH - International Conference and Exibition on Computer Graphics and Interactive TechniquesA2
+SLTSLT - Workshop on Spoken Language TechnologyA2
+SMCSMC - IEEE International Conference on Systems, Man and CyberneticsA2
+TABLETOPSITS - International Conference on Interactive Tabletops and SurfacesA2
+TEITEI - International Conference on Tangible, Embedded and Embodied InteractionA2
+TRECTREC - Text Retrieval ConferenceA2
+TRUSTCOMTrustCom - International Conference on Trust, Security and Privacy in Computing and CommunicationsA2
+UCCUCC - IEEE/ACM International Conference on Utility and Cloud ComputingA2
+UMAPUMAP - International Conference on User Modeling, Adaptation and PersonalizationA2
+VAMOSVaMoS - International Workshop on Variability Modelling of Software-intensive SystemsA2
+VASTVAST - IEEE Conference on Visual Analytics Science and TechnologyA2
+VNCVNC - IEEE Vehicular Networking ConferenceA2
+WCREWCRE - Working Conference on Reverse EngineeringA2
+WEBSCIWebSci - Web Science ConferenceA2
+
+WIMOBWiMob - IEEE International Conference on Wireless and Mobile Computing, Networking and CommunicationsA2
+WOWMOMWoWMoM - International Symposium on a World of Wireless, Mobile and Multimedia NetworksA2
+WSCWSC - Winter Simulation ConferenceA2
+3DIC3DIC - International 3D System Integration ConferenceB1
+3DTV3DTV - 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D VideoB1
+3DUI3DUI - IEEE Symposium on 3D User InterfacesB1
+3PGCIC3PGCIC - International Conference on P2P, Parallel, Grid, Cloud and Internet ComputingB1
+ACEACE - International Conference on Advances in Computer Entertainment TechnologyB1
+ACIVSACIVS - Advanced Concepts for Intelligent Vision SystemsB1
+ADBISADBIS - East European Conference on Advances in Databases and Information SystemsB1
+ADHOC-NOWADHOC-NOW - International Conference on Ad-Hoc Networks and WirelessB1
+AGIAGI - Conference on Artificial General IntelligenceB1
+AGILEAGILE - Agile ConferenceB1
+AHAH - Augmented Human International ConferenceB1
+AHSAHS - NASA/ESA Conference on Adaptive Hardware and SystemsB1
+AIAI - Canadian Conference on Artificial IntelligenceB1
+AMWAMW - Alberto Mendelzon International Workshop on Foundations of Data ManagementB1
+APLASAPLAS - Asian Symposium on Programming Languages and SystemsB1
+ARCARC - International Symposium on Applied Reconfigurable ComputingB1
+ASAPASAP - IEEE International Conference on Application-specific Systems, Architectures and ProcessorsB1
+BIBEBIBE - IEEE International Conference on BioInformatics and BioEngineeringB1
+BIBMBIBM - IEEE International Conference on Bioinformatics and BiomedicineB1
+BIGDATABigData - IEEE International Congress on BigDataB1
+BIOSIGBIOSIG - International Conference of the Biometrics Special Interest GroupB1
+BMEIBMEI - International Conference BioMedical Engineering and InformaticsB1
+BMSBBMSB - IEEE International Symposium on Broadband Multimedia Systems and BroadcastingB1
+CAIPCAIP - International Conference on Computer Analysis of Images and Patterns B1
+CANSCANS - International Conference on Cryptology and Network SecurityB1
+CASCONCASCON - Annual International Conference on Computer Science and Software EngineeringB1
+CASECASE - IEEE Conference on Automation Science and EngineeringB1
+CASESCASES - International Conference on Compilers, Architecture, and Synthesis for Embedded SystemsB1
+CASONCASoN - International Conferennce on Computational Aspects of Social NetworksB1
+CBICBI - IEEE Conference on Business InformaticsB1
+CBMICBMI - International Workshop on Content-Based Multimedia IndexingB1
+CBMSCBMS - International Symposium on Computer-Based Medical SystemsB1
+CBSECBSE - International ACM Sigsoft Symposium on Component-Based Software EngineeringB1
+CCCGCCCG - Canadian Conference on Computational GeometryB1
+CCECECCECE - Canadian Conference on Electrical and Computer EngineeringB1
+CDCCDC - IEEE Conference on Decision and ControlB1
+
+CFCF - ACM International Conference on Computing FrontiersB1
+CGCCGC - International Conference on Cloud and Green Computing B1
+CHASECHASE - International Workshop on Cooperative and Human Aspects of Software EngineeringB1
+CIARPCIARP - Iberoamerican Congress on Pattern RecognitionB1
+CIDMCIDM - Symposium on Computational Intelligence and Data MiningB1
+CISISCISIS - International Conference on Complex, Intelligent, and Software Intensive SystemsB1
+CITCIT - IEEE International Conference on Computer and Information TechnologyB1
+CloudNetCloudNet - IEEE International Conference on Cloud NetworkingB1
+CMSBCMSB - International Conference on Computational Methods in Systems BiologyB1
+COCOONCOCOON - International Computing and Combinatorics ConferenceB1
+CogSIMACogSIMA - IEEE International Multi-Disciplinary Conference on Cognitive Methods in Situation Awareness and Decision SupportB1
+COMMACOMMA - International Conference on Computational Models of ArgumentB1
+CPMCPM - Annual Symposium on Combinatorial Pattern MatchingB1
+CSCWDCSCWD - IEEE International Conference on Computer Supported Cooperative Work in DesignB1
+CSECSE - International Conference on Computational Science and EngineeringB1
+CSEDUCSEDU - International Conference on Computer Supported EducationB1
+CSEE&TCSEE&T - Conference on Software Engineering Education and TrainingB1
+CSNDSPCSNDSP - International Symposium on Communication Systems, Networks and Digital Signal ProcessingB1
+DASDAS - International Workshop on Document Analysis SystemsB1
+DAWAKDaWaK - International Conference on Big Data Analytics and Knowledge DiscoveryB1
+DCCDCC - Data Compression ConferenceB1
+DDECSDDECS - IEEE  International Symposium on Design and Diagnostics of Electronic Circuits and SystemsB1
+DEXADEXA - International Conference on Database and Expert Systems ApplicationsB1
+DFTDFT - IEEE International Symposium on Defect and Fault Tolerance in VLSI SystemsB1
+DGODG.O - Annual International Conference on Digital Government ResearchB1
+DOCENGDOCENG - ACM SIGWEB International Symposium on Document EngineeringB1
+DOLAPDOLAP -  International Workshop On Data Warehousing and OLAPB1
+DRCNDRCN - International Conference on the Design of Reliable Communication NetworksB1
+DSDDSD - Euromicro Conference on Digital System DesignB1
+DSRTDSRT - IEEE/ACM International Symposium on Distributed Simulation and Real Time ApplicationsB1
+EASEEASE - International Conference on Evaluation and Assessment in Software EngineeringB1
+ECALECAL - European Conference on Artificial LifeB1
+ECCTDECCTD - European Conference on Circuit Theory and DesignB1
+ECMDAFAECMFA - European Conference on Modelling Foundations and ApplicationsB1
+ECMSECMS - European Conference on Modelling and SimulationB1
+ECSAECSA - European Conference on Software ArchitectureB1
+ECSQARUECSQARU - European Conference on Symbolic and Quantitative Approaches to Reasoning and UncertaintyB1
+ECTELEC-TEL - European Conference on Technology Enhanced LearningB1
+EGOVEGOV - International Conference on Electronic GovernmentB1
+
+EMBCEMBC - Annual International Conference of the IEEE Engineering in Medicine and Biology SocietyB1
+EMOEMO - International Conference on Evolutionary Multi-Criterion OptimizationB1
+EPIAEPIA - Portuguese Conference on Artificial IntelligenceB1
+ERER - International Conference on Conceptual ModelingB1
+ESANNESANN - European Symposium on Artificial Neural Networks, Computational Intelligence and Machine LearningB1
+ESCIENCEe-Science - IEEE International Conference on e-ScienceB1
+ETSETS - IEEE European Test SymposiumB1
+EuroGPEuroGP - European Conference on Genetic ProgrammingB1
+EUROITVEUROITV - European Conference on Interactive TV and VideoB1
+EUROMICROSEAA - Euromicro Conference on Software Engineering and Advanced ApplicationsB1
+EuroSPIEUROSPI2 - European Conference on Software Process ImprovementB1
+EUSFLATEUSFLAT - Conference of the European Society for Fuzzy Logic and TechnologyB1
+EVOAPPLICATIONSEvoApplications - European Conference on the Applications of Evolutionary ComputationB1
+EVOCOPEVOCOP - European Conference on Evolutionary Computation in Combinatorial OptimizationB1
+EWSDNEWSDN - European Workshop on Software Defined NetworksB1
+FEDCSISFedCSIS - Federated Conference on Computer Science and Information SystemsB1
+FIEFIE - IEEE Frontiers in Education ConferenceB1
+FLAIRSFLAIRS - International Florida Artificial Intelligence ConferenceB1
+FSKDFSKD - International Conference on Fuzzy Systems and Knowledge DiscoveryB1
+FSTTCSFSTTCS - Annual Conference on Foundations of Software Technology and Theoretical Computer ScienceB1
+FUZZIEEEFUZZIEEE - IEEE International Conference on Fuzzy SystemsB1
+GIGI - Graphics Interface ConferenceB1
+GLOBALSIPGlobalSIP - Global Conference on Signal and Information ProcessingB1
+GLVLSIGLSVLSI - ACM Great Lakes Symposium on VLSIB1
+GRAPPGRAPP - International Conference on Computer Graphics Theory and ApplicationsB1
+HAISHAIS - International Conference on Hybrid Artificial Intelligence SystemsB1
+HASEHASE - IEEE International Symposium on High Assurance Systems EngineeringB1
+HCOMPHcomp - Conference on Human Computation and CrowdsourcingB1
+HIPCHiPC - IEEE International Conference on High Performance ComputingB1
+HOSTHOST - IEEE International Symposium on Hardware Oriented Security and TrustB1
+HPCSHPCS - International Conference on High Performance Computing & SimulationB1
+HVCHVC - International Haifa Verification ConferenceB1
+IATIAT - IEEE/WIC/ACM International Conference on Intelligent Agent TechnologyB1
+ICA3PPICA3PP - International Conference on Algorithms and Architectures for Parallel ProcessingB1
+ICAARTICAART - International Conference on Agents and Artificial IntelligenceB1
+ICALTICALT - IEEE International Conference on Advanced Learning TechnologiesB1
+ICANNICANN - International Conference on Artificial Neural NetworksB1
+ICARICAR - International Conference on Advanced RoboticsB1
+ICARVICARCV - International Conference on Control, Automation, Robotics and VisionB1
+
+ICCAICCA - IEEE International Conference on Control and AutomationB1
+ICCPICCP - IEEE International Conference on Intelligent Computer Communication and ProcessingB1
+ICCSAICCSA - International Conference on Computational Science and Its ApplicationsB1
+ICDSPDSP - IEEE International Conference on Digital Signal ProcessingB1
+ICEBEICEBE - IEEE International Conference on e-Business EngineeringB1
+ICECICEC - IFIP International Conference on Entertainment ComputingB1
+ICECCSICECCS - International Conference on Engineering of Complex ComputerB1
+ICECSICECS - IEEE International Conference on Electronics, Circuits and SystemsB1
+ICFEMICFEM - International Conference on Formal Engineering MethodsB1
+ICFHRICFHR - International Conference on Frontiers in Handwriting RecognitionB1
+ICGSEICGSE - IEEE International Conference on Global Software EngineeringB1
+ICIAPICIAP - International Conference on Image Analysis and ProcessingB1
+ICIARICIAR - International Conference on Image Analysis and RecognitionB1
+ICICICIC - International Conference on Intelligent ComputingB1
+ICISSICISS - International Conference on Information Systems SecurityB1
+ICITSTICITST - International Conference for Internet Technology and Secured TransactionsB1
+ICLPICLP - International Conference on Logic ProgrammingB1
+ICMICM - International Conference on MicroelectronicsB1
+ICMC ICMC - International Computer Music ConferenceB1
+ICMLAICMLA - IEEE International Conference on Machine Learning and ApplicationsB1
+ICNCICNC - IInternational Conference on Natural ComputationB1
+ICNSCICNSC - IEEE International Conference on Networking, Sensing and ControlB1
+ICOINICOIN - International Conference on Information NetworkingB1
+ICONIPICONIP - International Conference on Neural Information ProcessingB1
+ICSCICSC - International Conference on Semantic ComputingB1
+ICSIICSI - International Conference on Swarm IntelligenceB1
+ICSOBICSOB - International Conference on Software BusinessB1
+ICSOFTICSOFT - International Conference on Software and Data TechnologiesB1
+ICSTICST - International Conference on Sensing TechnologyB1
+ICTICT - International Conference on TelecommunicationsB1
+ICTAIICTAI - IEEE International Conference on Tools with Artificial IntelligenceB1
+ICVSICVS - International Conference on Computer Vision SystemsB1
+ICWEICWE - International Conference on Web EngineeringB1
+IECONIECON - Annual Conference of the IEEE Industrial Electronics SocietyB1
+IEEEANTSIEEEANTS - IEEE International Conference on Advanced Networks and Telecommuncations SystemsB1
+IFACIFAC - World Congress of the International Federation of Automatic ControlB1
+IIWASiiWAS - International Conference on Information Integration and Web-based Applications & ServicesB1
+INCOSINCOS - International Conference on Intelligent Networking and Collaborative SystemsB1
+INDININDIN - IEEE International Conference on Industrial InformaticsB1
+
+IOLTSIOLTS - IEEE International On-Line Testing SymposiumB1
+IPCCCIPCCC - International Performance, Computing, and Communications ConferenceB1
+IPCOIPCO - Conference on Integer Programming and Combinatorial OptimizationB1
+IRIIRI - IEEE International Conference on Information Reuse and IntegrationB1
+ISAACISAAC - International Symposium Algorithms and ComputationB1
+ISCISISCIS - International Symposium on Computer and Information SciencesB1
+ISDAISDA - International Conference on Intelligent Systems Design and ApplicationsB1
+ISEUDIS-EUD - International Symposium on End-User DevelopmentB1
+ISIISI - IEEE International Conference on Intelligence and Security InformaticsB1
+ISMISM - IEEE International Symposium on MultimediaB1
+ISMISISMIS - International Symposium on Methodologies for Intelligent SystemsB1
+ISMMISMM - International Symposium on Mathematical MorphologyB1
+ISNNISNN - International Symposium on Neural NetworksB1
+ISOLAISOLA - International Symposium on Leveraging Applications of Formal Methods, Verification and ValidationB1
+ISORCISORC - IEEE International Symposium on RealTime Distributed Computing B1
+ISPDISPD - ACM International Symposium on Physical DesignB1
+ISPDCISPDC - International Symposium on Parallel and Distributed ComputingB1
+ISQEDISQED - International Symposium on Quality Electronic DesignB1
+ISVCISVC - International Symposium on Visual ComputingB1
+ISVLSIISVLSI - IEEE Computer Society Annual Symposium on VLSIB1
+ITCITC - International Test ConferenceB1
+ITNGITNG - International Conference on Information Technology : New GenerationsB1
+ITSITS - International Conference on Intelligent Tutoring SystemsB1
+IVIV - International Conference on Information VisualizationB1
+IVAIVA - International Conference on Intelligent Virtual AgentsB1
+IVAPPIVAPP - International Conference on Information Visualization Theory and ApplicationsB1
+IVSIVS - Intelligent Vehicles SymposiumB1
+IWANNIWANN - International Work-Conference on Artificial and Natural Neural NetworksB1
+IWSSIPIWSSIP - International Conference on Systems, Signals and Image ProcessingB1
+KESKES - International Conference on Knowledge-Based and Intelligent Information & Engineering SystemsB1
+KESAMSTAKES-AMSTA - International KES Conference on Agents and Multi-Agent Systems: Technologies and ApplicationsB1
+LATINLATIN - Latin American Symposium on Theoretical InformaticsB1
+LCNLCN - IEEE Conference on Local Computer NetworksB1
+LIONLION - Learning and Intelligent Optimization ConferenceB1
+LPNMRLPNMR - International Conference on Logic Programming and Non-monotonic ReasoningB1
+MEDHOCNETMed-Hoc-Net - Mediterranean Ad Hoc Networking WorkshopB1
+MICAIMICAI - Mexican International Conference on Artificial IntelligenceB1
+MIGMIG - ACM Siggraph Conference on Motion in GamesB1
+MLDMMLDM - International Conference on Machine Learning and Data Mining in Pattern RecognitionB1
+
+MLSPMLSP - IEEE International Workshop on Machine Learning for Signal ProcessingB1
+MMMMMM - International Conference on Multimedia ModellingB1
+MMSPMMSP - International Workshop on Multimedia and Signal ProcessingB1
+MOBIQUITOUSMobiQuitous - International Conference on Mobile and Ubiquitous Systems: Computing, Networking and ServicesB1
+MSWIMMSWiM - ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile SystemsB1
+MUMMUM - International Conference on Mobile and Ubiquitous MultimediaB1
+MWSCASMWSCAS - International Midwest Symposium on Circuits and SystemsB1
+NCANCA - IEEE International Symposium on Network Computing and ApplicationsB1
+NEWCASNEWCAS - IEEE International New Circuits and Systems ConferenceB1
+NIMENIME - International Conference on New Interfaces for Musical ExpressionB1
+NLDBNLDB - International Conference on Application of Natural Language to Information SystemsB1
+NordiCHINordiCHI - Nordic Conference on Human-Computer InteractionB1
+NTMSNTMS - IFIP International Conference on New Technologies, Mobility and SecurityB1
+OFCOFC - IEEE Optical Fiber Communication ConferenceB1
+OPODISOPODIS - International Conference on Principles of Distributed SystemsB1
+OzCHIOzCHI - Australian Conference on Human-Computer InteractionB1
+P2PP2P - International Conference on Peer-to-Peer ComputingB1
+PAAMSPAAMS - International Conference on Practical Applications of Agents, Multi-Agent Systems and SustainabilityB1
+PACISPACIS - Pacific Asia Conference on Information SystemsB1
+PACTPACT - International Conference on Parallel Computing TechnologiesB1
+PADSPADS - ACM SIGSIM Conference on Principles of Advanced Discrete SimulationB1
+ParCOParCO - International Conference on Parallel ComputingB1
+PCSPCS - Picture Coding SymposiumB1
+PDCATPDCAT - International Conference on Parallel and Distributed Computing, Applications and TechnologiesB1
+PESGMPESGM - IEEE Power & Energy Society General MeetingB1
+PETRAPETRA - ACM International Conference on PErvasive Technologies Related to Assistive EnvironmentsB1
+PPDPPPDP - International Symposium on Principles and Practice of Declarative ProgrammingB1
+PPSNPPSN - International Conference on Parallel Problem Solving from NatureB1
+PRDCPRDC - Pacific Rim International Symposium on Dependable ComputingB1
+PROFESPROFES - International Conference on Product-Focused Software Process ImprovementB1
+PSTPST - International Conference on Privacy, Security and Trust B1
+QESTQEST - International Conference on Quantitative Evaluation of SystemsB1
+QoMEXQoMEX - International Workshop on Quality of Multimedia ExperienceB1
+RAMSRAMS - Annual Reliability and Maintainability SymposiumB1
+RANLPRANLP - International Conference on Recent Advances in Natural Language Processing B1
+RCISRCIS - International Conference on Research Challenges in Information ScienceB1
+RECONFIGRECONFIG - International Conference on Reconfigurable Computing and FPGAsB1
+RECOSOCRECOSOC - International Symposium on Reconfigurable Communication-centric Systems-on-ChipB1
+REFSQREFSQ - International Working Conference on Requirements Engineering: Foundations for Software QualityB1
+
+RFIDRFID - IEEE International Conference on RFIDB1
+ROBOCUPRoboCup - Robocup International SymposiumB1
+RTCSARTCSA - International Conference on Embedded and Real-Time Computing Systems and ApplicationsB1
+RuleMLRuleML - International Web Rule SymposiumB1
+SACISACI - IEEE International Symposium on Applied Computational Intelligence and InformaticsB1
+SAFECOMPSAFECOMP - International Conference on Computer Safety, Reliability, and SecurityB1
+SAMOSSAMOS - International Conference on Embedded Computer Systems: Architectures, Modeling and SimulationB1
+SASSAS - IEEE Sensors Applications SymposiumB1
+SASOSASO - International Conference on Self-Adaptive and Self-Organizing SystemsB1
+SBAC-PADSBAC-PAD - International Symposium on Computer Architecture and High Performance ComputingB1
+SBIESBIE - Simpósio Brasileiro de Informática na EducaçãoB1
+SCAMSCAM - IEEE International Working Conference on Source Code Analysis and ManipulationB1
+SECSEC - International Conference on ICT Systems Security and Privacy ProtectionB1
+SEFMSEFM - International Conference on Software Engineering and Formal MethodsB1
+SEKESEKE - International Conference on Software Engineering and Knowledge EngineeringB1
+SIBGRAPISIBGRAPI - Conference on Graphics, Patterns and ImagesB1
+SIMUTOOLSSIMUTools - International Conference on Simulation Tools and TechniquesB1
+SMARTGRIDCOMMSmartGridComm - IEEE International Conference on Smart Grid CommunicationsB1
+SOCINFOSocInfo - International Conference on Social InformaticsB1
+SOCSSoCS - International Symposium on Combinatorial SearchB1
+SOFSEMSOFSEM - International Conference on Current Trends in Theory and Practice of Computer ScienceB1
+SOFTCOMSoftCOM - International Conference on Software, Telecommunications and Computer NetworksB1
+SOSESOSE - IEEE International Symposium on Service-Oriented System EngineeringB1
+SPIRESPIRE - International Symposium on String Processing and Information Retrieval B1
+SRDSSRDS - IEEE Symposium on Reliable Distributed SystemsB1
+SSBSESSBSE - International Symposium on Search Based Software EngineeringB1
+SSDBMSSDBM - International Conference on Scientific and Statistical Database ManagementB1
+SSTDSSTD - International Symposium on Spatial and Temporal DatabasesB1
+SUMSUM - International Conference on Scalable Uncertainty ManagementB1
+SYSCONSYSCON - IEEE International Systems ConferenceB1
+TPDLTPDL - International Conference on Theory and Practice of Digital LibrariesB1
+TSDTSD - International Conference on Text, Speech and DialogueB1
+UKSIMUKSim - International Conference on Computer Modelling and SimulationB1
+VCIPVCIP - IEEE International Conference on Visual Communications and Image ProcessingB1
+VISAPPVISAPP - International Conference on Computer Vision Theory and ApplicationsB1
+VISSOFTVISSOFT - IEEE Working Conference on Software VisualizationB1
+VLHCCVLHCC - IEEE Symposium on Visual Languages and Human-Centric ComputingB1
+VLSIVLSI-SOC - International Conference on Very Large Scale IntegrationB1
+VLSIDVLSID - International Conference on VLSI DesignB1
+
+VRVR - IEEE Virtual Reality ConferenceB1
+VRCAIVRCIA - International Conference on Virtual Reality Continuum and its ApplicationsB1
+VTCVTC - Vehicular Technology ConferenceB1
+VTSVTS - IEEE VLSI Test SymposiumB1
+W4AW4A - Conference on Web AccessibilityB1
+WABIWABI - Workshop on Algorithms in BioinformaticsB1
+WCNCWCNC - IEEE Wireless Communications and Networking ConferenceB1
+WDWD - Wireless Days ConferenceB1
+WEB3DWEB3D - International Conference on 3D Web TechnologyB1
+WETICEWETICE - IEEE International Conference on Enabling Technologies: Infrastructure for Collaborative EnterprisesB1
+WFCSWFCS - IEEE World Conference on Factory Communication SystemsB1
+WGWG - International Workshop on Graph-Theoretic Concepts in Computer ScienceB1
+WICSAWICSA - Working IEEE/IFIP Conference on Software ArchitectureB1
+WIFSWIFS - IEEE Workshop on Information Forensics and SecurityB1
+WI-IATWI-IAT - IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent TechnologyB1
+WISEWISE - International Conference on Web Information Systems EngineeringB1
+WMNCWMNC - Joint IFIP Wireless and Mobile Networking ConferenceB1
+WOLLICWoLLIC - International Workshop on Logic, Language, Information and ComputationB1
+XPXP - International Conference on Agile Software DevelopmentB1
+AAIMAAIM - International Conference on Algorithmic Aspects of Information and ManagementB2
+AC-HCIAC - International Conference on Augmented CognitionB2
+ACRIACRI - International conference on Cellular Automata for Research and IndustryB2
+AGEREAGERE - Workshop on Programming based on Actors, Agents, and Decentralized ControlB2
+AGILEGISAGILEGIS -  Conference on Geographic Information ScienceB2
+AICCSAAICCSA - ACS/IEEE International Conference on Computer Systems and ApplicationsB2
+AICTAICT - International Conference on Application of Information and Communication TechnologiesB2
+AIMLAIML - Advances in Modal LogicB2
+AMIAAMIA - Annual Symposium of the American Medical Informatics AssociationB2
+ANNPRANNPR - International IAPR TC3 Workshop on Artificial Neural Networks in Pattern RecognitionB2
+ANTSANTS - International Conference on Swarm IntelligenceB2
+ASYNCASYNC - IEEE International Symposium on Asynchronous Circuits and SystemsB2
+BCBBCB - ACM International Conference on Bioinformatics and Computational Biology and Health InformaticsB2
+BEDSBEDS - ACM International Conference on Distributed Event-Based SystemsB2
+BIHBIH - International Conference on Brain Informatics and HealthB2
+BIRBIR - International Conferences on Perspectives in Business Informatics ResearchB2
+BPMDSBPMDS - International Conference BPMDS/EMMSADB2
+BRACISBRACIS - Brazilian Conference on Intelligent SystemB2
+CANDARCANDAR - International Symposium on Computing and NetworkingB2
+CCCC - International Conference on Compiler ConstructionB2
+
+CCNCCCNC - Annual IEEE Consumer Communications & Networking ConferenceB2
+CGICGI - Computer Graphics International ConferenceB2
+CIBCBCIBCB - IEEE Conference on Computational Intelligence in Bioinformatics and Computational BiologyB2
+CISRCCISRC - Cyber Security and Information Intelligence Research WorkshopB2
+CITSCITS - International Conference on Computer, Information, and Telecommunication SystemsB2
+CLEFCLEF - Conference and Labs of the Evaluation ForumB2
+COCOACOCOA - International Conference on Combinatorial Optimization and ApplicationsB2
+COGSCICOGSCI - Annual Meeting of the Cognitive Science SocietyB2
+CompSysTechCompSysTech - International Conference on Computer Systems and TechnologiesB2
+COSNCOSN - Conference on Online Social NetworksB2
+DAISDAIS - International Conference on Distributed Applications and Interoperable SystemsB2
+DARSDARS - International Symposium on Distributed Autonomous Robotic SystemsB2
+DCAIDCAI - International Symposium on Distributed Computing and Artificial IntelligenceB2
+DESEDESE - International Conference on Developments in eSystems EngineeringB2
+DHDH - Digital HeritageB2
+DHMDHM - International Conference on Digital Human Modeling - Applications in Health, Safety, Ergonomics and Risk ManagementB2
+DILSDILS - International Conference on Data Integration in Life SciencesB2
+DIVANETDIVANET - ACM Symposium on Development and Analysis of Intelligent Vehicular Networks and ApplicationsB2
+DSAIDSAI - International Conference on Software Development for Enhancing Accessibility and Fighting Info-exclusion B2
+DUXUDUXU - International Conference on Design, User Experience, and Usability: Interactive Experience DesignB2
+EAISEAIS - IEEE Conference on Evolving and Adaptive Intelligent SystemsB2
+ECCECC - European Control ConferenceB2
+ECCEECCE - European Conference on Cognitive ErgonomicsB2
+EGOVISEGOVIS - International Conference on Electronic Government and the Information Systems PerspectiveB2
+ENASEENASE - International Conference on Evaluation of Novel Approaches to Software EngineeringB2
+ENICENIC - European Network Intelligence ConferenceB2
+ETFAETFA - IEEE International Conference on Emerging Technologies and Factory AutomationB2
+EUCEUC - IEEE/IFIP International Conferences on Embedded and Ubiquitous ComputingB2
+EUMASEUMAS - European Conference on Multi-Agent SystemsB2
+EUVIPEUVIP - European Workshop on Visual Information ProcessingB2
+EWSNEWSN - European Conference on Wireless Sensor NetworksB2
+FACSFACS - International Conference on Formal Aspects of Component SoftwareB2
+FAWFAW - International Frontiers of Algorithmics WorkshopB2
+FDLFDL - Forum on Specification and Design LanguagesB2
+FGFG - Conference on Formal GrammarB2
+FORMATSFORMATS - International Conference on Formal Modeling and Analysis of Timed SystemsB2
+FOSDFOSD - International Workshop on Feature-Oriented Software DevelopmentB2
+GECONGECON - International Conference on Economics of Grids, Clouds, Systems and ServicesB2
+GIISGIIS - Global Information Infrastructure and Networking SymposiumB2
+
+GPCGPC - International Conference on Grid And Pervasive ComputingB2
+GPCEGPCE - ACM International Conference on Generative Programming: Concepts and ExperiencesB2
+GRECGREC - International Workshop on Graphic Recognition: Current Trends and ChallengesB2
+GreenComGreenCom - IEEE International Conference on Green Computing and CommunicationsB2
+GROUPGROUP - International Conference on Supporting Group WorkB2
+HCIHCI - International Conference on Human-Computer InteractionB2
+HEALTHCOMHealthCom - IEEE International Conference on E-health Networking, Application & ServicesB2
+HIMI-HCIHIMI - Human Interface and the Management of Information Thematic AreaB2
+HISHIS - International Conference on Hybrid Intelligent SystemsB2
+HMHM - International Workshop on Hybrid MetaheuristicsB2
+IASIAS - Industry Applications Society Annual MeetingB2
+IBERAMIAIBERAMIA - Ibero-American Conference on Artificial IntelligenceB2
+IbPRIAIbPRIA - Iberian Conference on Pattern Recognition and Image AnalysisB2
+ICATICAT - International Conference on Artificial Reality and TelexistenceB2
+ICCEICCE - IEEE International Conference on Consumer ElectronicsB2
+ICCICICCIC - International Conference on Computational Intelligence and Computing ResearchB2
+ICCL2ICCL - International Conference on Computational LogisticsB2
+ICCPSICCPS - International Conference on Cyber-Physical SystemsB2
+ICDIMICDIM - International Conference on Digital Information ManagementB2
+ICEGOVICEGOV - International Conference on Theory and Practice of Eletronic GovernanceB2
+ICEISICEIS - International Conference on Enterprise Information SystemsB2
+ICGTTICGT - International Conference on Graph TransformationB2
+ICINCOICINCO - International Conference on Informatics in Control, Automation and RoboticsB2
+ICISOICISO - International Conference on Informatics and Semiotics in OrganisationsB2
+ICITSICITS - International Conference on Information Theoretic SecurityB2
+ICSRICSR - International Conference on Software ReuseB2
+ICTACICTAC - International Colloquium on Theoretical Aspects of ComputingB2
+ICTIRICTIR - Conference on the Theory of Information RetrievalB2
+ICTSSICTSS - IFIP International Conference on Testing Software and SystemsB2
+ICVRICVR - International Conference on Virtual RehabilitationB2
+IDCIDC - International Symposium on Intelligent Distributed ComputingB2
+IDEALIDEAL - International Conference on Intelligent Data Engineering and Automated LearningB2
+IDEASIDEAS - International Database Engineering and Applications SymposiumB2
+IFMIFM - International Conference on Integrated Formal MethodsB2
+IFSAIFSA - World Congress of International Fuzzy Systems AssociationB2
+IGARSSIGARSS - IEEE International Geoscience and Remote Sensing SymposiumB2
+IGICIGIC - IEEE International Games Innovation ConferenceB2
+IHCIHC - Simpósio Brasileiro sobre Fatores Humanos em Sistemas ComputacionaisB2
+IJCARIJCAR - International Joint Conference on Automated ReasoningB2
+
+ILPILP - International Conference on Inductive Logic ProgrammingB2
+IMRIMR - International Meshing Roundtable and User ForumB2
+IPAWIPAW - International Provenance and Annotation WorkshopB2
+IPMUIPMU - International Conference on Information Processing and Management of Uncertainty in Knowledge-Based SystemsB2
+ISAmIISAmI - International Symposium on Ambient IntelligenceB2
+ISBIISBI - IEEE International Symposium on Biomedical ImagingB2
+ISGTEUROPEISGT-Europe - IEEE International Conference on Innovative Smart Grid TechnologiesB2
+ISICISIC - International Symposium on Integrated CircuitsB2
+ISIEISIE - IEEE International Symposium on Industrial ElectronicsB2
+ISSPITISSPIT - IEEE International Symposium on Signal Processing and Information TechnologyB2
+ISWISC - Information Security ConferenceB2
+ITHETITHET - International Conference on Information Technology Based Higher Education and TrainingB2
+ITSCITSC - IEEE International Conference on Intelligent Transportation SystemsB2
+IWBBIOIWBBIO - International Work-Conference on Bioinformatics and Biomedical EngineeringB2
+IWOCAIWOCA - International Workshop on Combinatorial AlgorithmsB2
+IWSM-MENSURAIWSM Mensura - International Conference on Measurement and Data AnalyticsB2
+JCSSEJCSSE - International Joint Conference on Computer Science and Software EngineeringB2
+JURIXJURIX - International Conference on Legal Knowledge and Information SystemsB2
+KESWKESW - International Conference on Knowledge Engineering and Semantic WebB2
+LANMAMLANMAN - IEEE International Symposium on Local and Metropolitan Area NetworksB2
+LASCASLASCAS - IEEE Latin American Symposium on Circuits and SystemsB2
+LATINCOMLATINCOM - IEEE  Latin-American Conference on CommunicationsB2
+LATWLATW - Latin American Test WorkshopB2
+LCTRTSLCTES - ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded SystemsB2
+MATESMATES - German Conference on Multiagent System TechnologiesB2
+MCPR2MCPR - Mexican Conference on Pattern RecognitionB2
+MCSMCS - International Workshop on Multiple Classifier Systems Multiple Classifier SystemsB2
+MDAIMDAI - International Conference on Modeling Decisions for Artificial IntelligenceB2
+MEDESMEDES - International Conference on Management of Emergent Digital EcoSystemsB2
+MOBILECLOUDMOBILECLOUD - International Conference on Mobile Cloud, Computing and Service EngineeringB2
+MOBILESOFTMOBILESOFT - International Conference on Mobile Software Engineering and SystemsB2
+MOBIWACMOBIWAC - ACM International Symposium on Mobility Management and Wireless AccessB2
+MODELSWARDMODELSWARD - International Conference on Model-Driven Engineering and Software DevelopmentB2
+MSMS - IEEE International Conference on Mobile ServicesB2
+MSNMSN - International Conference on Mobile Ad-Hoc and Sensor NetworksB2
+MTSRMTSR - International Conference on Metadata and Semantics ResearchB2
+NABICNaBIC - World Congress on Nature and Biologically Inspired ComputingB2
+NAFIPSNAFIPS - Annual Conference of the North American Fuzzy Information Processing SocietyB2
+NEW2ANNEW2AN - International Conference on Internet of Things, Smart Spaces, and Next Generation Networks and SystemsB2
+
+NFV-SDNNFV-SDN - IEEE Conference on Network Function Virtualization and Software Defined NetworksB2
+NOFNOF - International Conference on Network of the FutureB2
+OROR - International Conference on Operations ResearchB2
+OSSOSS - International Conference on Open Source SystemsB2
+PDESPDES - IFAC International Conference on Programmable Devices and Embedded SystemsB2
+PE-WASUNPE-WASUM - ACM International Symposium on Performance Evaluation of Wireless Ad Hoc, Sensor, and Ubiquitous NetworksB2
+PLOPPLOP - Conference on Pattern Languages of ProgramsB2
+POSTPOST - International Conference on Principles of Security and TrustB2
+PRIBPRIB - IAPR International Conference on Pattern Recognition in BioinformaticsB2
+PRIMAPRIMA -International Conference on Principles and Practice of Multi-Agent SystemsB2
+PROMISEPROMISE - International Conference on Predictive Models and Data Analytics in Software EngineeringB2
+PSCCPSCC - Power Systems Computation ConferenceB2
+Q2SWinetQ2SWinet - ACM Symposium on QoS and Security for Wireless and Mobile NetworksB2
+QoSAQoSA - International ACM Sigsoft Conference on the Quality of Software ArchitecturesB2
+QUATICQUATIC - International Conference on Quality of Information and Communications TechnologyB2
+RACSRACS - Conference on Research in Adaptive and Convergent SystemsB2
+ROSEROSE - IEEE International Symposium on Robotic and Sensors EnvironmentsB2
+RSPRSP - IEEE International Symposium on Rapid System PrototypingB2
+RUSMARTruSMART - Conference on Internet of Things and Smart SpacesB2
+SBBDSBBD - Simpósio Brasileiro de Banco de DadosB2
+SBCCISBCCI - Symposium on Integrated Circuits and Systems DesignB2
+SBESSBES - Brazilian Symposium on Software EngineeringB2
+SBESCSBESC - Brazilian Symposium on Computing System EngineeringB2
+SBGAMESSBGames - Simpósio Brasileiro de Jogos e Entretenimento DigitalB2
+SBIASBIA - Brazilian Symposium on Artificial IntelligenceB2
+SBRCSBRC - Simpósio Brasileiro de Redes de Computadores e Sistemas DistribuídosB2
+SBSISBSI - Simpósio Brasileiro de Sistemas de InformaçãoB2
+SCSMSCSM - International Conference on Social Computing and Social MediaB2
+SDLSDL - Symposium on Dynamic LanguagesB2
+SIGDOCSIGDOC - ACM International Conference on Design of CommunicationB2
+SIMULTECHSIMULTECH - International Conference on Simulation and Modeling Methodologies, Technologies and ApplicationsB2
+SISAPSISAP -International Conference on Similarity Search and ApplicationsB2
+SIYSTORSIYSTOR - ACM International on Systems and Storage ConferenceB2
+SOCCSOCC - IEEE International System-on-Chip ConferenceB2
+SPINSPIN - International SPIN symposium on Model Checking of SoftwareB2
+SSPRSSPR - International Workshop on Structural and Syntactic Pattern RecognitionB2
+SVRSVR - Symposium on Virtual and Augmented RealityB2
+SYSTOLSYSTOL - Conference on Control and Fault-Tolerant SystemsB2
+TABLEAUXTABLEAUX - International Conference on Automated Reasoning with Analytic Tableaux and Related Methods B2
+
+TAPTAP - International Conference on Tests and ProofsB2
+TAROSTAROS - Conference Towards Autonomous Robotics SystemsB2
+UAHCIUAHCI - International Conference Universal Access in Human-Computer InteractionB2
+UCAMIUCAMI - International Conference on Ubiquitous Computing and Ambient IntelligenceB2
+UICUIC - IEEE International Conference on Ubiquitous Intelligence and ComputingB2
+VAMRVAMR - International Conference on Virtual, Augmented and Mixed RealityB2
+VECPARVECPAR - International Meeting on High Performance Computing for Computational ScienceB2
+VMVVMV - Vision, Modeling & VisualizationB2
+VRSTVRST - ACM Symposium on Virtual Reality Software and TechnologyB2
+W2GISW2GIS - International Symposium Web and Wireless Geographical Information SystemsB2
+WALCOMWALCOM - International Workshop on Algorithms and ComputationB2
+WAOAWAOA - Workshop on Approximation and Online AlgorithmsB2
+WEBISTWEBIST - International Conference on Web Information Systems and TechnologiesB2
+WEBMEDIAWebMedia - Brazilian Symposium on Multimedia and the WebB2
+WiSecWiSec - ACM Conference on Security & Privacy in Wireless and Mobile NetworksB2
+WOCCWOCC - Wireless and Optical Communications ConferenceB2
+WSKSWSKS - World Summit on the Kowledge SocietyB2
+BDCLOUDBDCLOUD - International Conference on Big Data and Cloud ComputingB3
+BIGMMBigMM - IEEE International Conference on Multimedia Big DataB3
+BSBBSB - Brazilian Symposium on BioinformaticsB3
+CADGRAPHICSCAD/Graphics - International Conference on Computer-Aided Design and Computer GraphicsB3
+CALDAMCALDAM - International Conference on Algorithms and Discrete Applied MathematicsB3
+CASACASA - Conference on Computer Animation and Social AgentsB3
+CDVECDVE - International Conference on Cooperative Design, Visualization, and EngineeringB3
+CEDEMCEDEM - International Conference for E-Democracy and Open GovernmentB3
+CENTERISCENTERIS - Conference on ENTERprise Information SystemsB3
+CICOMMSCICOMMS - Symposium on Computational Intelligence for Communication Systems and NetworksB3
+CICSCICS - Symposium on Computational Intelligence in Cyber SecurityB3
+CLEICLEI - Conferencia Latinoamericana de InformáticaB3
+COLOGNETWENTECOLOGNETWENTE - Cologne-Twente Workshop on Graphs and Combinatorial OptimizationB3
+COMPIMAGECompIMAGE - International Symposium CompIMAGEB3
+CRIWGCRIWG - International Conference on Collaboration and TechnologyB3
+DEPCOSDepCoS-RELCOMEX - International Conference on Dependability and Complex SystemsB3
+DMSDMS - International Conference on Distributed Multimedia SystemsB3
+DSDS - International Conference on Discovery ScienceB3
+DSAADSAA - IEEE International Conference on Data Science and Advanced AnalyticsB3
+EANNEANN - Internation Conference on Engineering Applications of Neural NetworksB3
+EATISEATIS - Euro American Conference on Telematics and Information SystemsB3
+ECWebECWeb - International Conference on Electronic Commerce and Web TechnologiesB3
+
+EDCCEDCC - European Dependable Computing ConferenceB3
+EUROHAPTICSEUROHAPTICS - EurohapticsB3
+EuroPloPEuroPloP -  European Conference on Pattern Languages of ProgramsB3
+EVAEVA - Electronic Visualisation and the ArtsB3
+EXP.ATEXP.AT - Experiment@ International ConferenceB3
+FOGAFOGA - ACM Conference on Foundations of Genetic AlgorithmsB3
+FOISFOIS - International Conference on Formal Ontology in Information SystemsB3
+GAMEONGAMEON - Annual Simulation and AI in Games ConferenceB3
+GEOINFOGeoInfo - Brazilian Symposium on GeoInformaticsB3
+HCISTHCIST - International Conference on Health and Social Care Information Systems and TechnologiesB3
+HCSEHCSE - International Working Conference on Human-Centred Software EngineeringB3
+ICAISICAIS - International Conference on Adaptive and Intelligent SystemsB3
+ICCEBerlinICCEBerlin - IEEE International Conference on Consumer Electronics BerlinB3
+ICISTICIST - International Conference on Information and Software TechnologiesB3
+ICITICIT - IEEE International Conference on Industrial TechnologyB3
+ICLAICLA - Indian Conference on Logic and its ApplicationsB3
+ICTONICTON - International Conference on Transparent Optical NetworksB3
+ICUASICUAS - International Conference on Unmanned Aircraft SystemsB3
+ICUMTICUMT - International Conference on Ultra Modern TelecommunicationsB3
+IDCSIDCS - International Conference on Internet and Distributed Computing SystemsB3
+IEAAIEIEA/AIE - International Conference on Industrial Engineering & Other Applications of Appled Intelligence SystemsB3
+IEEENANOIEEENANO - International Conference on NanotechnologyB3
+IESSIESS - IFIP International Embedded Systems SymposiumB3
+IFUZZYIFUZZY - International Conference on Fuzzy Theory and its ApplicationsB3
+IHMIHM - Conférence Francophone sur l’Interaction Homme-MachineB3
+IIRIIR - Italian Information Retrieval WorkshopB3
+IJCCIIJCCI - International Joint Conference on Computational IntelligenceB3
+IMS3TWIMS3TW - Annual International Mixed-Signals, Sensors and Systems Test WorkshopB3
+INTECHINTECH - International Conference on Innovative Computing TechnologyB3
+IRMMWIRMMW - International Conference on Infrared, Millimeter, and Terahertz WavesB3
+ISBRAISBRA - International Symposium on Bioinformatics Research and ApplicationsB3
+ISC2ISC2 - IEEE International Smart Cities ConferenceB3
+ISCEISCE - IEEE International Symposium on Consumer ElectronicsB3
+ISCOPTISCO - International Symposium on Combinatorial OptimizationB3
+ISDEVELISD - International Conference on Information Systems DevelopmentB3
+ISERISER - International Symposium on Experimental RoboticsB3
+ISSIISSI - International Society of Scientometrics and Informetrics ConferenceB3
+ISTARiStar - International  i*WorkshopB3
+IWBFIWBF - International Workshop on Biometrics and ForensicsB3
+
+IWEIIWEI - International IFIP Working Conference on Enterprise InteroperabilityB3
+IWTIWT - International Workshop on TelecommunicationsB3
+KMOKMO - International Conference on Knowledge Management in OrganizationsB3
+LACLOLACLO - Latin American Conference on Learning Objects and TechnologiesB3
+LADCLADC - Latin-American Symposium on Dependable ComputingB3
+LAGOSLAGOS - Latin-American Algorithms, Graphs and Optimization SymposiumB3
+LANCLANC - Latin American Networking ConferenceB3
+LANOMSLANOMS - Latin-American Network Operations and Management SymposiumB3
+LARSLARS - IEEE Latin American Robotics SymposiumB3
+LATINCRYPTLATINCRYPT - International Conference on Cryptology and Information Security in Latin AmericaB3
+LAWLAW - Linguistic Annotation WorkshopB3
+LA-WEBLA-WEB - Latin American Web CongressB3
+LightSecLightSec - International Workshop on Lightweight Cryptography for Security & PrivacyB3
+LSFALSFA - Workshop on Logical and Semantic Frameworks, with ApplicationsB3
+MEDMED - Mediterranean Conference on Control and AutomationB3
+MEMEAMeMeA - IEEE International Symposium on Medical Measurements and ApplicationsB3
+MOBILWAREMOBILWARE - International Conference on MOBILe Wireless MiddleWARE, Operating Systems, and ApplicationsB3
+NETWORKSNETWORKS - International Telecommunications Network Strategy and Planning SymposiumB3
+ONTOBRASONTOBRAS - Brazilian Seminar on OntologiesB3
+PATMOSPATMOS - International Workshop on Power and Timing Modeling, Optimization and SimulationB3
+PGMPGM - International Conference on Probabilistic Graphical ModelsB3
+PROPORPROPOR - International Conference on Computational Processing of the Portuguese LanguageB3
+QRSQRS - IEEE International Conference on Software Quality, Reliability and SecurityB3
+RADECSRADECS - European Conference on Radiation Effects on Components and SystemsB3
+SAICCSAICC - Science and Information ConferenceB3
+SAMSAM - Sensor Array and Multichannel Signal Processing WorkshopB3
+SBCARSSBCARS - Brazilian Symposium on Components, Architectures and Reuse SoftwareB3
+SBCMSBCM - Simpósio Brasileiro de Computação MusicalB3
+SBLPSBLP - Brazilian Symposium on Programming LanguagesB3
+SBMFSBMF - Brazilian Symposium on Formal MethodsB3
+SBQSSBQS - Simpósio Brasileiro de Qualidade de SoftwareB3
+SBSCSBSC - Simpósio Brasileiro de Sistemas ColaborativosB3
+SBSegSBSeg - Simpósio Brasileiro em Segurança da Informação e de Sistemas ComputacionaisB3
+SCCCSCCC - International Conference of the Chilean Computer Science SocietyB3
+SEGAHSeGAH - International Conference on Serious Games and Applications for HealthB3
+SENSORNETSSENSORNETS - International Conference on Sensor NetworksB3
+SENSORSSENSORS - IEEE SensorsB3
+SIIESIIE - Simpósio Internacional de Informática EducaticaB3
+SMARTGREENSSMARTGREENS - International Conference on Smart Grids and Green ICT SystemsB3
+
+SOCSOC - International Symposium on System-on-ChipB3
+SPASPA - Signal Processing: Algorithms, Architectures, Arrangements, and Applications ConferenceB3
+SPACESPACE - International Conference on Security, Privacy, and Applied Cryptography EngineeringB3
+SSIAISSIAI - Southwest Symposium on Image Analysis and InterpretationB3
+STAGSTAG - Eurographics Italian Chapter ConferenceB3
+STILSTIL - Brazilian Symposium in Information and Human Language TechnologyB3
+SustainITSustainIT - Conference on Sustainable Internet and ICT for SustainabilityB3
+SWQDSWQD - Conference Software Quality DaysB3
+T&DT&D - IEEE/PES Transmission and Distribution Conference and ExpositionB3
+TLCATLCA -  International Conference on Typed Lambda Calculi and ApplicationsB3
+TVXTVX - International Conference on Interactive Experiences for Television and Online VideoB3
+VNSVNS - International Conference on Variable Neighborhood SearchB3
+WCCIWCCI - IEEE World Congress on Computational IntelligenceB3
+WEIWEI - Workshop sobre Educação em ComputaçãoB3
+WF-IoTWF-IoT - IEEE World Forum on Internet of ThingsB3
+WIEWIE - Workshop de Informática na EscolaB3
+WPerformanceWPerformance - Workshop em Desempenho de Sistemas Computacionais e de ComunicaçãoB3
+WRLAWRLA - International Workshop on Rewriting Logic and its ApplicationsB3
+WSCADWSCAD - Simpósio em Sistemas Computacionais de Alto DesempenhoB3
+WSCGWSCG - International Conference in Central Europe on Computer Graphics and Visualization and Computer VisionB3
+WUWNETWUWNet - International Conference on UnderWater Networks and SystemsB3
+21CW21CW - IEEE Conference on Norbert Wiener in the 21st CenturyB4
+3DCVE3DCVE - International Workshop on Collaborative Virtual EnvironmentsB4
+3DOR3DOR - Eurographics Workshop on 3D Object RetrievalB4
+AAAI WAAAIW - Workshop on Symbiotic Cognitive SystemsB4
+AINAWAINAW - IEEE International Conference on Advanced Information Networking and Applications WorkshopsB4
+AISECAISEC - ACM Workshop on Artificial Intelligence and SecurityB4
+APCASEAPCASE - Asia-Pacific Conference on Computer Aided System EngineeringB4
+APDCMAPDCM - Workshop on Advances in Parallel and Distributed Computational ModelsB4
+ARMS-CCARMS-CC - International Workshop on Adaptive Resource Management and Scheduling for Cloud ComputingB4
+A-TESTA-TEST - International Workshop on Automating Test Case Design, Selection and EvaluationB4
+ATTATT - International Workshop on Agents in Traffic and Transportation B4
+BAIBAI - Workshop on Advances in Bioinformatics and Artificial Intelligence: bridging the GapsB4
+BeyondMRBeyondMR - Workshop on Algorithms and Systems for MapReduce and BeyondB4
+BIGDSEBIGDSE - IEEE/ACM International Workshop on Big Data Software EngineeringB4
+BigSpatialBigSpatial - ACM SIGSPATIAL International Workshop on Analytics for Big Geospatial DataB4
+BIOKDDBIOKDD - International Workshop on Biological Knowledge Discovery and Data MiningB4
+BMAWBMAW - Bayesian Modeling Applications WorkshopB4
+BPMS2BPMS2 - Workshop on Social and Human Aspects of Business Process ManagementB4
+
+BRCBRC - ISSNIP Biosignals and Biorobotics ConferenceB4
+BRESCIBRESCI - Brazilian e-Science WorkshopB4
+BWILDBWILD - International Workshop on Biometrics in the WildB4
+CARLACARLA - Latin American High-Performance Computing ConferenceB4
+CBSFCBSF - Congresso Brasileiro de Sistemas FuzzyB4
+CIMSIVPCIMSIVP - IEEE Symposium on Computational Intelligence for Multimedia, Signal and Vision ProcessingB4
+CIT/IUCC/DASC/PICOMCIT/IUCC/DASC/PICOM - CIT, IUCC, DASC, PICOMB4
+CIVTSCIVTS - IEEE Symposium on Computational Intelligence in Vehicles and Transportation SystemsB4
+CL4LCCL4LC - Workshop on Computational Linguistics for Linguistic ComplexityB4
+CLIHCCLIHC - Latin American Conference on Human Computer InteractionB4
+CLOUDTECHCLOUDTECH - International Conference on Cloud Computing Technologies and ApplicationsB4
+COGNISECOGNISE - International Workshop on Cognitive Aspects of Information Systems EngineeringB4
+COINCOIN - International Workshop on Coordination, Organisations, Institutions and NormsB4
+CONFIRMCONFIRM - International Conference on Information Resources ManagementB4
+CONTECSICONTECSI - International Conference on Information Systems and Technology ManagementB4
+CORALCORAL - International Workshop on Emerging COgnitive Radio Applications and aLgorithmsB4
+COTBCOTB - Computer on The BeachB4
+CSCCSC - SIAM Workshop on Combinatorial Scientific ComputingB4
+CSI-SECSI-SE - International Workshop on Crowdsourcing in Software EngineeringB4
+CVPRWCVPRW - IEEE Conference on Computer Vision and Pattern Recognition WorkshopsB4
+DaMNetDaMNet - Workshop on Data Mining in NetworksB4
+DCCWDCC - ACM Workshop on Distributed Cloud ComputingB4
+DeMiMoPDeMiMoP - Workshop on Decision Mining & Modeling for Business ProcessesB4
+DESWEBDESWEB - International Workshop on Data Engineering meets the Semantic WebB4
+DISNDISN - Workshop on Dependability Issues on SDN and NFVB4
+DMNPLDMNPL - Workshop on Interactions between Data Mining and Natural Language ProcessingB4
+DroNetDroNet - Workshop on Micro Aerial Vehicle Networks, Systems, and Applications for Civilian UseB4
+DSNWDSNW - IEEE International Conference on Dependable Systems and Networks WorkshopsB4
+DYNAKDYNAK - International Workshop on Dynamic Networks and Knowledge DiscoveryB4
+ECSAWECSAW - European Conference on Software Architecture WorkshopsB4
+EMASEMAS - International Workshop on Engineering Multiagent SystemsB4
+ENIACENIAC - Encontro Nacional de Inteligencia Artificial e ComputacionalB4
+ERLANGERLANG - ACM SIGPLAN Erlang WorkshopB4
+ESELAWESELAW - Workshop Latinoamericano de Ingeniería de Software ExperimentalB4
+EUROEURO - European Conference on Operational ResearchB4
+EuroParWEuroParW - Parallel Processing WorkshopsB4
+EUROPKIEuroPKI - European Public Key Infrastructure WorkshopB4
+EVLBPEVL-BP - International Workshop on Evolutionary Business ProcessesB4
+EXAMPIEXAMPI - Workshop on Exascale MPIB4
+
+FCTAFCTA - International Conference on Fuzzy Computation Theory and ApplicationsB4
+FLinAIFLinAI - Workshop on Fuzzy Logic in AIB4
+FOCIFOCI - IEEE Symposium on Foundations of Computational IntelligenceB4
+FOFAIFOFAI - International Workshop on Formal Ontologies for Artificial IntelligenceB4
+FSEWFSEW - Workhops of the SIGSOFT FSE International Symposium on Foundations of Software EngineeringB4
+FTXSFTXS - Workshop on Fault Tolerance for HPC at eXtreme ScaleB4
+GASGAS - International Workshop on Games and Software EngineeringB4
+GCCEGCCE - IEEE Global Conference on Consumer ElectronicsB4
+GeoPrivacyGeoPrivacy - Workshop on Privacy in Geographic Information Collection and AnalysisB4
+GraphQGraphQ - International Workshop on Querying Graph Structured Data (EDBT)B4
+GREENSGREENS - International Workshop on Green and Sustainable SoftwareB4
+GTVMTGT-VMT - International Workshop on Graph Transformation and Visual Modeling TechniquesB4
+HAIHAI - International Workshop on Human Aspects in Ambient IntelligenceB4
+HCI3PHCI3P - Workshop on Human Computer Interaction in Third PlacesB4
+HPCBHPCB -  International Workshop on High Performance Computing on Bioinformatics B4
+HRHR - Workshop on Hybrid ReasoningB4
+IC3KIC3K - International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge ManagementB4
+ICCCCICCCC - International Conference on Computers Communications and ControlB4
+ICCVEICCVE - International Conference on Connected Vehicles & ExpB4
+ICCWICCW - IEEE International Conference on Communications WorkshopsB4
+ICDEWKEYS - International Workshop on Keyword Search and Data Exploration on Structured DataB4
+ICERIICERI - International Conference of Education, Research and InnovationB4
+ICGSEWICGSEW - IEEE International Conference on Global Software Engineering WokshopsB4
+ICHQPICHQP - IEEE International Conference on Harmonics and Power QualityB4
+ICORESICORES - International Conference on Operations Research and Enterprise SystemsB4
+ICSEWICSEW - International Conference on Software Engineering WorkshopsB4
+IEEEIAIA - IEEE Symposium on Intelligent AgentsB4
+IMOCIMOC - SBMO/IEEE MTT-S International Microwave and Optoelectronics ConferenceB4
+INDUSCONINDUSCON - International Conference on Industry ApplicationsB4
+INFOCOMWCNTCV - IEEE Workshop on Communication & Networking Techniques for Contemporary VideoB4
+IoTAALIoTAAL - Workshop on Internet of Things for Ambient Assisted LivingB4
+IPDPSWIPDPSW - IEEE International Parallel & Distributed Processing Symposium WorkshopsB4
+ISAPISAP - International Conference on Intelligent System Applications to Power SystemsB4
+ISCRAMISCRAM - International Conference on Information Systems for Crisis Response and ManagementB4
+ISEOLEISEOLE - International Workshop on Intelligent Support in Exploratory and Open-Ended Learning EnvironmentsB4
+ISSREWISSREW - IEEE International Symposium on Software Reliability Engineering WorkshopsB4
+ISWCWIESD - Intenational Workshop on Intelligent Exploration of Semantic DataB4
+ITAITA - International Conference on Internet Technologies and ApplicationsB4
+IWPSEIWPSE - International Workshop on Principles of Software EvolutionB4
+
+IWSCIWSC - International Workshop on Smart Cities: People, Technology and DataB4
+IWSECOIWSECO - International Workshop on Software EcosystemsB4
+KnowLODKnowLOD - Workshop on Knowledge Discovery and Data Mining Meets Linked Open DataB4
+KSBTKSBT - Workshop on Knowledge, Skill, and Behavior Transfer in Autonomous RobotsB4
+LA-CCILA-CCI - Latin American Conference on Computational IntelligenceB4
+LANCOMMLANCOMM - ACM SIGCOMM Workshop on Fostering Latin-American Research in Data Communication NetworksB4
+LCDNETLCDNET - Workshop on Lowest Cost Denominator Networking for Universal AccessB4
+M4IOTM4IOT - Workshop on Middleware for Context-Aware Applications in the IoTB4
+MABSMABS - International Workshop on Multi-Agent Based SimulationB4
+MANSDNNFVManSDN/NFV - International Workshop on Management of SDN and NFV SystemsB4
+MARMIMARMI - International Workshop on Multimedia Analysis and Retrieval for Multimodal InteractionB4
+MASSMASS - Mobility Analytics from Spatial and Social DataB4
+MDMWMDMW - IEEE International Conference on Mobile Data Management WorkshopsB4
+MetaSelMetaSel - International Workshop on  Meta-Learning and Algorithm SelectionB4
+MISEMISE - Workshop on Modeling in Software EngineeringB4
+MobiArchMobiArch - Workshop on Mobility in the Evolving Internet ArchitectureB4
+MOBILEHCIWMOBILEHCIW - International Conference on Human-Computer Interaction with Mobile Devices and Services WorkshopsB4
+MOCRYSENMOCRYSEN - International Workshop on Modern Cryptography and Security EngineeringB4
+MODULARITYWMODULARITYW - International Conference on Modularity WorkshopsB4
+MPPUMPPU - Models and Paradigms for Planning under Uncertainty: a Broad Perspective WorkshopB4
+MTDMTD - International Workshop on Managing Technical DebtB4
+MUCSMUCS - IEEE Workshop on Managing Ubiquitous Communications and ServicesB4
+MULTIPROGMULTIPROG - Workshop on Programmability Issues for Heterogeneous MulticoreB4
+MWAILMWAIL - ICAIL Multi-Lingual Workshop on AI & LawB4
+MWEMWE - Workshop on Multiword ExpressionsB4
+NESY@HLAINESY@HLAI - Workshop on Neural-Symbolic Learning and ReasoningB4
+NEWSIRNEWSIR - International Workshop on Recent Trends in News Information RetrievalB4
+NFmcpNFMCP -  International Workshop on New Frontiers in Mining Complex PatternsB4
+NIDISCNIDISC - International Workshop on Nature Inspired Distributed ComputingB4
+PerColPerCol - International Workshop on Pervasive Collaboration and Social NetworkingB4
+PerComWPerComW - IEEE International Conference on Pervasive Computing and Communication WorkshopsB4
+PESOSPESOS - International Workshop on Principles of Engineering Service-Oriented and Cloud SystemsB4
+PLATEAUPLATEAU - Workshop on Evaluation and Usability of Programming Languages and ToolsB4
+PPNIVPPNIV - Workshop on Planning, Perception and Navigation for Intelligent VehiclesB4
+RAHARAHA - IEEE Internacional Conference on Robotics and Automation for Humanitarian ApplicationsB4
+RELAWRELAW - International Workshop on Requirements Engineering and LawB4
+RePaRePa - IEEE International Workshop on Requirements PatternsB4
+SBACPADWSBACPADW - International Symposium on Computer Architecture and High Performance Computing WorkshopB4
+SBCUPSBCUP - Simpósio Brasileiro de Computação Ubíqua e PervasivaB4
+
+SBMICROSBMicro - Symposium on Microelectronics Technology and DevicesB4
+SBPOSBPO - Simpósio Brasileiro de Pesquisa OperacionalB4
+SBSTSBST - International Workshop on Search-Based Software TestingB4
+SCCTSASCCTSA - International Workshop on Smart City Clouds: Technologies, Systems and ApplicationsB4
+SCGSESCGSE - Workshop on Software Support for Collaborative and Global Software EngineeringB4
+SCSSSCSS - International Symposium on Symbolic Computation in Software ScienceB4
+SDIEVSDE - IEEE Symposium on Differential EvolutionB4
+SEARISSEARIS - Workshop on Software Engineering and Architectures for Realtime Interactive SystemsB4
+SeCoGisSeCoGIS - International Workshop on Semantic and Conceptual Issues in Geographic Information SystemsB4
+SEMSEM - Joint Conference on Lexical and Computational SemanticsB4
+SEMISHSEMISH - Seminário Integrado de Software e HardwareB4
+SESCPSSESCPS - International Workshop on Software Engineering for Smart Cyber-Physical SystemsB4
+SESoSSESoS - International Workshop on Software Engineering for Systems-of-SystemsB4
+SETSET - Software Engineering TrackB4
+SHAPESSHAPES - Interdisciplinary Worshop The Shape of ThingsB4
+SmartObjectsSmartObjects - Workshop on Interacting with Smart ObjectsB4
+SNAASNAA - Workshop on Social Network Analysis in ApplicationsB4
+SOCIALEDUSOCIALEDU - International Workshop on Social Computing in Digital EducationB4
+SOCMSOCM - International Workshop on the Theory and Practice of Social MachinesB4
+SOCOSC - International Conference on Software CompositionB4
+SORTSORT - IEEE Workshop on Self-Organizing Real-Time SystemsB4
+SUGARLOAFPLOPSugarLoafPLop - Latin American Conference on Pattern Languages of ProgrammingB4
+SUMMERSIMSummerSim - Summer Simulation Multi-conferenceB4
+SWEETSWEET - Workshop on Scalable Workflow Execution Engines and TechnologiesB4
+T&DLAT&DLA - IEEE PES Transmission & Distribution Conference and Exposition Latin AmericaB4
+UbiSafeUbiSafe - IEEE International Symposium on UbiSafe ComputingB4
+UCHPCUCHPC - Workshop on UnConventional High Performance ComputingB4
+UNIFUNIF - International Workshop on UnificationB4
+URSWURSW - International Workshop on Uncertainty Reasoning for the Semantic WebB4
+WAMCAWAMCA - Workshop on Applications for Multi-Core ArchitecturesB4
+WERWER - Workshop on Requirements EngineeringB4
+WETSOMWETSOM - International Workshop on Emerging Trends in Software MetricsB4
+WIMWIM - Workshop de Informática MédicaB4
+WNUTWNUT - Workshop on Noisy User-generated TextB4
+WORKSWORKS - Workshop on Workflows in Support of Large-Scale ScienceB4
+WOSARWoSAR - International Workshop on Software Aging and RejuvenationB4
+WOSPWOSP - International Workshop on Mining Scientific PublicationsB4
+WWWWWWWW - International World Wide Web Conference WorkshopsB4
+3DIPM3DIPM - Three-Dimensional Image Processing, Measurement and ApplicationsB5
+
+AAATEAAATE - Association for the Advancement of Assistive Technology in Europe CongressB5
+ACHI-IARIAACHI - IARIA International Conference on Advances in Computer-Human InteractionsB5
+ACRAACRA - Australasian Conference on Robotics and AutomationB5
+ADVCOMP-IARIAADVCOMP -  IARIA International Conference on Advanced Engineering Computing and Applications in SciencesB5
+AICT-IARIAAICT - IARIA Advanced International Conference on TelecommunicationsB5
+ALIO/EUROALIO/EURO - Workshop on Applied Combinatorial OptimizationB5
+AMAM - Audio Mostly on Interaction With SoundB5
+AOFAAOFA - International Conference on Probabilistic, Combinatorial and Asymptotic Methods for the Analysis of AlgorithmsB5
+ARGMASArgMAS - International Workshop on Argumentation in Multiagent SystemsB5
+BIGDATASECURITYBIGDATASECURITY - IEEE International Conference on Big Data Security on CloudB5
+BioCOMP-WCBioCOMP - International Conference on Bioinformatics & Computational BiologyB5
+BNAICBNAIC - Benelux Conference on Artificial IntelligenceB5
+BRASNAMBrasNAM - Brazilian Workshop on Social Network Analysis and MiningB5
+C4BIEC4BIE - International Workshop on Cloud for Business, Industry and EnterprisesB5
+CAADCAAD - Computer-Aided Architectural Design Futures ConferenceB5
+CADCAD - International CAD ConferenceB5
+CARECARE - Workshop on Collaborative Agents Research and DevelopmentB5
+CGIMCGIM - International Conference on Computer Graphics and ImagingB5
+CLAIOCLAIO - Latin-Ibero-American Conference on Operations ResearchB5
+CLOUDCOMPUTING-IARIACLOUDCOMPUTING - IARIA International Conference on Cloud Computing, GRIDs, and VirtualizationB5
+CMCCMC - International Conference on Concept MappingB5
+CobRACobRA - International Workshop on Exploring Component-based Techniques for Constructing Reference ArchitecturesB5
+COGNITIVE-IARIACOGNITIVE - IARIA International Conference on Advanced Cognitive Technologies and ApplicationsB5
+COMSOCCOMSOC - International Workshop on Computational Social ChoiceB5
+CONTEXT-BPMCONTEXT-BPM - International Workshop on Context for Business Process ManagementB5
+CPACPA - Communicating Process ArchitecturesB5
+CSCLCSCL - International Conference on Computer Supported Collaborative LearningB5
+CSCWCCSC -  International Conference on Scientific ComputingB5
+DATAANALYTICS-IARIADATAANALYTICS - IARIA International Conference on Data AnalyticsB5
+DBKD-AIARIADBKDA - IARIA International Conference on Advances in Databases, Knowledge, and Data ApplicationsB5
+DCMDCM - International Workshop on Developments in Computational ModelsB5
+DESAFIEDesafIE - Workshop de Desafios da Computação Aplicada à EducaçãoB5
+EAEA - International Conference on Artificial EvolutionB5
+ECTAECTA - International Conference on Evolutionary Computation Theory and ApplicationsB5
+EEEWCEEE - International Conference on e-Learning, e-Business, Enterprise Information Systems, and e-GovernmentB5
+EISEIS - SPIE Human Vision and Electronic ImagingB5
+eKNOWeKNOW-IARIA - IARIA International Conference on Information, Process, and Knowledge ManagementB5
+EnDMEnDM - Workshop on Energy Data ManagementB5
+ENERGY-IARIAENERGY - IARIA International Conference on Smart Grids, Green Communications and IT Energy-aware TechnologiesB5
+
+EPAMUSEPAMUS - International Workshop on Engineering Parallel and Multi-core SystemsB5
+ETELEMED-IARIAE-Telemed - IARIA International Conference on eHealth, Telemedicine, and Social MedicineB5
+EUROCGEUROCG - European Workshop on Computational GeometryB5
+EUROCOMBEuroComb - European Conference on Combinatorics, Graph Theory and ApplicationsB5
+EUROSIMEUROSIM - Congress on Modelling and SimulationB5
+EuroVISWEuroVAW - EuroVis Workshop on Visual Analytics (EuroVA)B5
+FCA4AIFCA4AI - Workshop What can FCA do for Artificial IntelligenceB5
+FECS-WSFECS - WS International Conference on Frontiers in Education: Computer  Science and Computer EngineeringB5
+FINSFINS - International Workshop on Future Internet and Smart NetworksB5
+FLINSFLINS - International FLINS Conference on Decision Making and Soft ComputingB5
+GeoPROCESSING-IARIAGeoProcessing - IARIA International Conference on Advanced Geographic Information Systems, Applications, and ServicesB5
+GLOBALDEVGLOBALDEV - Workshop of the AIS Special Interest Group for ICT in Global DevelopmentB5
+HEALTHINFHEALTHINF - International Conference on Health InformaticsB5
+HPGHPG - High-Performance GraphicsB5
+HPPNHPPN - Workshop on High Performance and Programmable NetworkingB5
+HUMANCOMHUMANCOM - International Conference on Human-centric Ubiquitous Computing and ApplicationsB5
+ICAIWCICAI - International Conference on Artificial IntelligenceB5
+ICARSCICARSC - IEEE International Conference on Autonomous Robot Systems and CompetitionsB5
+ICAS-IARIAICAS - IARIA International Conference on Autonomic and Autonomous SystemsB5
+ICCDCSICCDCS - International Caribbean Conference on Devices, Circuits and SystemsB5
+ICCETaiwanICCETW - IEEE International Conference on Consumer Electronics TaiwanB5
+ICCRTSICCRTS - International Command and Control Research and Technology SymposiumB5
+ICDPICDP - International Conference on Imaging for Crime Detection and PreventionB5
+ICDS-IARIAICDS - IARIA International Conference on Digital SocietyB5
+ICEDICED - International Conference on Engineering DesignB5
+ICIEOMICIEOM - International Conference on Industrial Engineering and Operations ManagementB5
+ICIQICIQ - International Conference on Information QualityB5
+ICIW-IARIAICIW - IARIA International Conference on Internet and Web Applications and ServicesB5
+ICN-IARIAICN - IARIA International Conference on NetworksB5
+ICNS-IARIAICNS - IARIA International Conference on Networking and ServicesB5
+ICOMPWCICOMP - International Conference on Internet Computing and Internet of ThingsB5
+ICONS-IARIAICONS - IARIA International Conference on SystemsB5
+ICSEA-IARIAICSEA - IARIA International Conference on Software Engineering AdvancesB5
+ICSNC-IARIAICSNC - IARIA International Conference on Systems and Networks CommunicationsB5
+ICWMC-IARIAICWMC - IARIA International Conference on Wireless and Mobile CommunicationsB5
+ICWNWCICWN - International Conference on Wireless NetworksB5
+IEMSSiEMSs - International Congress on Environmental Modelling & SoftwareB5
+INNOV-IARIAINNOV - IARIA International Conference on Communications, Computation, Networks and TechnologiesB5
+INOCINOC - International Network Optimization ConferenceB5
+
+INTELLI-IARIAINTELLI - IARIA International Conference on Intelligent Systems and ApplicationsB5
+INTELLISYSINTELLISYS - SAI Intelligent Systems ConferenceB5
+INTERACCIONINTERACCION - International Conference on Human Computer InteractionB5
+IPCVWCIPCV - International Conference on Image Processing, Computer Vision, and Pattern RecognitionB5
+ISCAWISCAW - Image-Based Smart City Application Workshop B5
+ISWPCISWPC - International Symposium on Wireless and Pervasive ComputingB5
+IWCIWC - International Workshop on ConfluenceB5
+IWSIWS - Iberchip WorkshopB5
+IWSGIWSG - International Workshop on Science GatewaysB5
+KDMILEKDMiLe - Symposium on Knowledge Discovery, Mining and LearningB5
+LACLAC - Linux Audio ConferenceB5
+LAFMLAFM - Latin American Workshop on Formal MethodsB5
+LANMRLANMR - Latin American Workshop on Logic/Languages, Algorithms and New Methods of ReasoningB5
+LATINCLOUDLATINCLOUD - IEEE Latin America Conference on Cloud Computing and CommunicationsB5
+LAWCGLAWGC - Latin American Workshop on Cliques in GraphsB5
+LISSLISS - International Conference on Logistics, Informatics and Services SciencesB5
+LRCLRC - Workshop on Logical Reasoning and ComputationB5
+MASLEMASLE - Workshop in Multiagent System Based Learning EnvironmentsB5
+MatheuristicsMatheuristics - International Workshop on Model-based metaheuristicsB5
+MCDMMCDM - International Conference on Multiple Criteria Decision MakingB5
+MEDIANMEDIAN - Workshop On Manufacturable and Dependable Multicore Architectures at NanoscaleB5
+MICMIC - Metaheuristics International ConferenceB5
+MIKONMIKON - International Conference on Microwave, Radar and Wireless CommunicationsB5
+MMEDIA-IARIAMMEDIA - International Conferences on Advances in MultimediaB5
+MoWNeTMoWNeT - International Conference on Selected Topics in Mobile and Wireless NetworkingB5
+MSIMSI - International Conference on Modelling, Simulation and IdentificationB5
+MS-STMSSUW - IEEE MS Special Track on Services for the Ubiquitous WebB5
+MSVWCMSV - International Conference on Modeling, Simulation and Visualization MethodsB5
+NLPCSNLPCS - International Workshop on Natural Language Processing and Cognitive ScienceB5
+NRWNRW - Asia Pacific Advanced Network Research WorkshopB5
+PAAMSWPAAMSW - International Workshops of Practical Applications of Agents, Multi-Agent Systems, and SustainabilityB5
+PATATPATAT - International Conference on the Practice and Theory of Automated TimetablingB5
+PATTERNSPATTERNS - International Conferences on Pervasive Patterns and ApplicationsB5
+PDPTAWCPDPTA - International Conference on Parallel and Distributed Processing Techniques and ApplicationsB5
+PLPPLP - International Workshop on Probabilistic ProgrammingB5
+PoEMPoEM - IFIP WG 8.1 Working Conference on the Practice of Enterprise ModellingB5
+QMMQQMMQ - Quality of Models and Models of Quality WorkshopB5
+QRSWQRSW - IEEE International Conference on Software Quality, Reliability and Security CompanionB5
+REMREM - Workshop on Reactivity, Events and ModularityB5
+
+RESERRESER - International Workshop on Replication in Empirical Software Engineering ResearchB5
+SACCONETSACCONET - International Conference on Smart Communications in Network TechnologiesB5
+SAMWCSAM - International Conference on Security and ManagementB5
+SASTSAST - Brazilian Workshop on Systematic and Automated Software TestingB5
+SBAISBAI - Simpósio Brasileiro de Automação InteligenteB5
+SBIAGROSBIAGRO - Congresso Brasileiro de AgroinformáticaB5
+ScrowdScrowd - Workshop de Sistemas de CrowdsourcingB5
+SCSCSCSC - Summer Computer Simulation ConferenceB5
+SDHSDH - International Symposium on Spatial Data HandlingB5
+SEAWAVESEAWAVE - Workshop on Seamless Adaptive Multi-cloud Management of Service-based ApplicationsB5
+SECURWARE-IARIASECURWARE - IARIA International Conference on Emerging Security Information, Systems and TechnologiesB5
+SEMAPROIARIASEMAPRO - IARIA International Conference on Advances in Semantic ProcessingB5
+SEMEVALSemEval - International Workshop on Semantic EvaluationB5
+SERPWCSERP - International Conference on Software Engineering Research and PracticeB5
+SESENASESENA - International Workshop on Software Engineering for Sensor Network ApplicationsB5
+SIGGRAPH-AsiaSIGGRAPH-Asia - Conference on Computer Graphics and Interactive TechniquesB5
+SLISWSLISW - Simposio Latinoamericano de Ingeniería de SoftwareB5
+SMusCSMC - Sound and Music Computing ConferenceB5
+SOFTENG-IARIASOFTENG - IARIA International Conference on Advances and Trends in Software EngineeringB5
+SoWeMiSoWeMi - International Workshop on Mining the Social WebB5
+SPECTSSPECTS - International Symposium on Performance Evaluation of Computer and Telecommunications SystemsB5
+SSCSSC - Social Simulation ConferenceB5
+SWWSWCSWWS - International Conference on Semantic Web and Web ServicesB5
+TaPPTaPP - International Workshop on Theory and Practice of ProvenanceB5
+TISETISE - Congreso Internacional de Informática EducativaB5
+ToRPorEspToRPorEsp - Workshop on Tools and Resources for Automatically Processing Portuguese and SpanishB5
+UBICOMM-IARIAUBICOMM - IARIA International Conference on Mobile Ubiquitous Computing, Systems, Services and TechnologiesB5
+UNETUNET - International Symposium on Ubiquitous NetworkingB5
+VEMVEM - Workshop on Software Visualization, Evolution and MaintenanceB5
+VPQMVPQM - International Workshop on Video Processing and Quality Metrics for Consumer ElectronicsB5
+WAPCOWAPCO - Workshop on Approximate ComputingB5
+WCAMAWCAMA - Workshop de Computação Aplicada à Gestão do Meio Ambiente e Recursos NaturaisB5
+WCASWCAS - Workshop on Circuits and Systems DesignB5
+WCGEWCGE - Workshop de Computação Aplicada ao Governo EletrônicoB5
+WDESWDES - Workshop de Desenvolvimento Distribuído de SoftwareB5
+WEACWEAC - Workshop sobre Educação em Arquitetura de ComputadoresB5
+WEIHCWEIHC - Workshop sobre Ensino de IHCB5
+WESBWESB - Workshop de Engenharia de Software Baseada em BuscaB5
+WFAWFA - Workshop de Ferramentas e AplicaçõesB5
+
+WISMWISM - Workshop on Web Information Systems ModelingB5
+WMODWMOD - Workshop on Software Modularity B5
+WOCCESWOCCES - Workshop de Comunicação em Sistemas Embarcados CríticoB5
+WoMOWoMO - International Workshop on Modular Ontologies B5
+WP2P+WP2P+ - Workshop de Redes P2P, Dinâmicas, Sociais e Orientadas a ConteúdoB5
+WPEIFWPEIF - Workshop de Pesquisa Experimental da Internet do FuturoB5
+WREWRE - Workshop of Robotics in EducationB5
+WRVAWRVA - Workshop de Realidade Virtual e AumentadaB5
+WSLWSL - Workshop de Software LivreB5
+WTFWTF - Workshop de Testes e Tolerância a FalhasB5
+WTranSWTRANS - Workshop de Transparência de SistemaB5
+WTTMWTTM - Workshop on the Theory of Transactional MemoryB5
+WVCWVC - Workshop de Visão ComputacionalB5
+
+ 
