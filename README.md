@@ -1,6 +1,6 @@
 # Avaliação Qualis
 
-Um pacote npm para avaliação de publicações e conferências.
+Um pacote npm para avaliação de publicações e conferências do currículo Lattes.
 
 ### Install on npm
 
@@ -8,7 +8,7 @@ Um pacote npm para avaliação de publicações e conferências.
 
 ## Avaliação de publicações
 
-Para a avaliação de publicações, ao final, será gerado um arquivo json com as publicações no intervalo escolhido e seus respectivos conceitos (Qualis).
+Para obter a avaliação de publicações será gerado ao final da execução um arquivo json contendo as publicações no intervalo determinado com seus respectivos conceitos (Qualis).
 
 ```js
 const avaliacaoQualis = require('avaliacao-qualis');
@@ -31,14 +31,14 @@ function(err, result) {
 
 ## Avaliação de Conferências
 
-Para a avaliação de conferências, ao final, será gerado um arquivo em texto com as conferências e seus respectivos conceitos (Qualis) e um arquivo com as conferências não encontradas na base do Qualis.
+Para obter a avaliação de conferências será gerado ao final da execução um arquivo em texto contendo as conferências e seus respectivos conceitos (Qualis) e um arquivo com as conferências não encontradas na base do Qualis.
+Obs: Avaliação disponível apenas para as conferências da área de Ciência da Computação - Qualis 2016
 
 ```js
 const avaliacaoQualis = require('avaliacao-qualis');
 
 avaliacaoQualis.conferencias({
-    arquivoLattes: './caminho/para/curriculo.xml',
-    arquivoConferencias: './caminho/para/Qualis_conferencia.pdf'
+    arquivoLattes: './caminho/para/curriculo.xml'
 },
 
 function(err, result) {
