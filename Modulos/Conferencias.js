@@ -1,8 +1,11 @@
 const fs = require('fs'),
       pdf = require('pdf-parse'),
+      convert = require('xml-js'),
       jsonfile = require('jsonfile'),
       stringSimilarity = require('string-similarity');
-let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [], flag, cont;
+let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [], flag, cont,
+      lattesJson = "./curriculo_lattes.json",
+      conferenciasTxt = "./conferencias.txt";
 
 
 exports = module.exports.AvaliacaoConferencia = AvaliacaoConferencia
@@ -19,59 +22,62 @@ function Conferencia(config, callback) {
     this.parsePdfToTxt(config.arquivoConferencias, callback);
     this.parseXmlToJson(config.arquivoLattes);
     this.salvaConferencias();
+    this.verificaArquivosCriados();
 }
 
 
 Conferencia.prototype.parsePdfToTxt = function(arquivoConferencias) {
 
-    pdf(fs.readFileSync(arquivoConferencias)).then(function(data) {
-        fs.writeFileSync(
-            "./conferencias.txt", 
-            data.text, 
-            function(err) {
-                if(err) {
-                    return console.log("Erro na escrita do arquivo: " + err);
-                }
-            }  
-        ); 
+    let file = fs.readFileSync(arquivoConferencias, { encoding: 'utf8' });
+    
+    pdf(file).then(function(data) {
+        try {
+            fs.writeFileSync(
+                conferenciasTxt, 
+                data.text
+            );
+        } catch(e) {
+            console.log("Erro na conversão de pdf para txt: " + err);
+        }
     });
 }
 
 
 Conferencia.prototype.parseXmlToJson = function(arquivoLattes) {
     
-    var convert = require('xml-js'),
-        xml = fs.readFileSync(arquivoLattes, 'utf8'),
+    var xml = fs.readFileSync(arquivoLattes, 'utf8'),
         options = {
             ignoreComment: true, alwaysChildren: true, compact: true, addParent: true, spaces: 2
         },
-        result = convert.xml2json(xml, options); 
+        result = convert.xml2json(xml, options);
 
-    fs.writeFile(
-        "./curriculo-lattes.json", 
-        result, 
-        function(err) {
-          if(err) {
-            return console.log(err);
-          }
-        }  
-    );     
+        fs.writeFileSync(lattesJson, result, (err) => {
+            if(err) return console.log("Erro na criação de curriculo em json: " + err);
+        });     
 }
 
 
 Conferencia.prototype.salvaConferencias = function() {
     
-    jsonfile.readFile("./curriculo-lattes.json", function (err, obj) {
-        if (err) console.error(err)
+    jsonfile.readFile(lattesJson, function (err, obj) {
+        if (err) console.error("Erro na leitura de currículo em json: " + err)
         conferenciasLattes = obj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
         salvaConferenciaQualis();
     });
 }
 
 
+Conferencia.prototype.verificaArquivosCriados = function() {
+
+    if (fs.existsSync("./resultado_conferencias_encontradas.txt")) {
+        console.log("Arquivo com resultados criado com sucesso."); 
+    }
+}
+
+
 function salvaConferenciaQualis() {
     
-    fs.readFile("./conferencias.txt", 'utf8', function(err, data) {
+    fs.readFileSync(conferenciasTxt, 'utf8', function(err, data) {
         if (err) throw err;        
         conferenciasQualis = data.toString().split("\n");
         comparaConferencias(conferenciasLattes, conferenciasQualis);
@@ -127,7 +133,7 @@ function checaSimilaridade(similarity) {
             "\n________________________________________________________________________________________________"
         );
 
-        salvaInfosEmArquivo("./conferencias-resultado.txt", conferenciasEncontradas);
+        salvaInfosEmArquivo("./resultado_conferencias_encontradas.txt", conferenciasEncontradas);
         
         flag = true;
     } 
@@ -145,14 +151,15 @@ function salvaConferenciasNaoEncontradas(cont, flag) {
             "\n________________________________________________________________________________________________"
         );
 
-        salvaInfosEmArquivo("./conferencias-nao-encontradas-resultado.txt", conferenciasNaoEncontradas);
+        salvaInfosEmArquivo("./resultado_conferencias_nao_encontradas.txt", conferenciasNaoEncontradas);
     }   
 }
 
 
 function salvaInfosEmArquivo(caminhoArquivo, data) {
 
-    fs.writeFile(caminhoArquivo, data, function(err, data) {
-        if (err) console.log(err);
-    });
+    fs.writeFile(caminhoArquivo, data, function(err) {
+        
+        if(err) return console.log("Erro na criação de arquivo com resultado final: " + err);
+    })  
 }
