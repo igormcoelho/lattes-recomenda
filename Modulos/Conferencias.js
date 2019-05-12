@@ -21,7 +21,7 @@ function Conferencia(config, callback) {
 
     //this.parsePdfToTxt(config.arquivoConferencias, callback);
     this.parseXmlToJson(config.arquivoLattes);
-    this.salvaConferencias();
+    this.obtemConferencias();
     this.verificaArquivosCriados();
 }
 
@@ -51,18 +51,20 @@ Conferencia.prototype.parseXmlToJson = function(arquivoLattes) {
         },
         result = convert.xml2json(xml, options);
 
-        fs.writeFileSync(lattesJson, result, (err) => {
-            if(err) return console.log("Erro na criação de curriculo em json: " + err);
-        });     
+    fs.writeFileSync(lattesJson, result, (err) => {
+
+        if(err) return console.log("Erro na criação de curriculo em json: " + err);
+    });     
 }
 
 
-Conferencia.prototype.salvaConferencias = function() {
+Conferencia.prototype.obtemConferencias = function() {
     
     jsonfile.readFile(lattesJson, function (err, obj) {
+
         if (err) console.error("Erro na leitura de currículo em json: " + err)
         conferenciasLattes = obj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
-        salvaConferenciaQualis();
+        obtemConferenciaQualis();
     });
 }
 
@@ -75,17 +77,18 @@ Conferencia.prototype.verificaArquivosCriados = function() {
 }
 
 
-function salvaConferenciaQualis() {
-    
+function obtemConferenciaQualis() {
+
     fs.readFile(conferenciasTxt, 'utf8', function(err, data) {
+
         if (err) throw err;        
         conferenciasQualis = data.toString().split("\n");
-        comparaConferencias(conferenciasLattes, conferenciasQualis);
+        comparaConferencias();
     });
-}
+}    
 
 
-function comparaConferencias(conferenciasLattes, conferenciasQualis) {
+function comparaConferencias() {
 
     for (var i in conferenciasLattes) {   
 
@@ -95,7 +98,7 @@ function comparaConferencias(conferenciasLattes, conferenciasQualis) {
             getInfosConferenciaLattes(conferenciasLattes[i]);
             getInfosConferenciaQualis(conferenciasQualis[j]);
             var similarity = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
-            checaSimilaridade(similarity);
+            salvaConferenciasEncontradas(similarity);
             cont++;
             salvaConferenciasNaoEncontradas(cont, flag);
         }    
@@ -120,7 +123,7 @@ function getInfosConferenciaQualis(linha) {
 }
 
 
-function checaSimilaridade(similarity) {
+function salvaConferenciasEncontradas(similarity) {
 
     if ( similarity >= 0.8 ) {
 
