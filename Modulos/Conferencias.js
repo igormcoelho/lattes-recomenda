@@ -1,11 +1,11 @@
 const fs = require('fs'),
-      pdf = require('pdf-parse'),
-      convert = require('xml-js'),
-      jsonfile = require('jsonfile'),
       stringSimilarity = require('string-similarity');
-let   conferenciasQualis = [], conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [], flag, cont,
-      lattesJson = "./curriculo_lattes.json",
+let   conferenciasQualis, conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [], 
+      flag, cont, jsonLattesObj,
       conferenciasTxt = "./conferencias.txt";
+
+
+const Parse = require('./ParseData');
 
 
 exports = module.exports.AvaliacaoConferencia = AvaliacaoConferencia
@@ -20,70 +20,47 @@ function AvaliacaoConferencia(config, callback) {
 function Conferencia(config, callback) {
 
     //this.parsePdfToTxt(config.arquivoConferencias, callback);
-    this.parseXmlToJson(config.arquivoLattes);
-    this.obtemConferencias();
+    let parse = new Parse();
+
+    jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
+        
+    this.informaProducao(jsonLattesObj);
     this.verificaArquivosCriados();
 }
 
 
-Conferencia.prototype.parsePdfToTxt = function(arquivoConferencias) {
+Conferencia.prototype.informaProducao = function () {
 
-    let file = fs.readFileSync(arquivoConferencias, { encoding: 'utf8' });
-    
-    pdf(file).then(function(data) {
-        try {
-            fs.writeFileSync(
-                conferenciasTxt, 
-                data.text
-            );
-        } catch(e) {
-            console.log("Erro na conversão de pdf para txt: " + err);
-        }
-    });
-}
-
-
-Conferencia.prototype.parseXmlToJson = function(arquivoLattes) {
-    
-    var xml = fs.readFileSync(arquivoLattes, 'utf8'),
-        options = {
-            ignoreComment: true, alwaysChildren: true, compact: true, addParent: true, spaces: 2
-        },
-        result = convert.xml2json(xml, options);
-
-    fs.writeFileSync(lattesJson, result, (err) => {
-
-        if(err) return console.log("Erro na criação de curriculo em json: " + err);
-    });     
-}
-
-
-Conferencia.prototype.obtemConferencias = function() {
-    
-    jsonfile.readFile(lattesJson, function (err, obj) {
-
-        if (err) console.error("Erro na leitura de currículo em json: " + err)
-        conferenciasLattes = obj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
-        obtemConferenciaQualis();
-    });
+    conferenciasLattes = obtemConferenciasLattes(jsonLattesObj);
+    obtemConferenciasQualis();
 }
 
 
 Conferencia.prototype.verificaArquivosCriados = function() {
 
     if (fs.existsSync("./resultado_conferencias_encontradas.txt")) {
-        console.log("Arquivo com resultados criado com sucesso."); 
+        console.log("Arquivo com conferências encontradas criado."); 
+    }
+
+    if (fs.existsSync("./resultado_conferencias_nao_encontradas.txt")) {
+        console.log("Arquivo com conferências não encontradas criado."); 
     }
 }
 
 
-function obtemConferenciaQualis() {
+obtemConferenciasLattes = function(jsonLattesObj) {
+    
+    return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
+}
+
+
+obtemConferenciasQualis = function () {
 
     fs.readFile(conferenciasTxt, 'utf8', function(err, data) {
 
         if (err) throw err;        
         conferenciasQualis = data.toString().split("\n");
-        comparaConferencias();
+        comparaConferencias(conferenciasLattes, conferenciasQualis);
     });
 }    
 
@@ -164,5 +141,6 @@ function salvaInfosEmArquivo(caminhoArquivo, data) {
     fs.writeFileSync(caminhoArquivo, data, function(err) {
         
         if(err) return console.log("Erro na criação de arquivo com resultado final: " + err);
+        console.log('Arquivo gerado com sucesso.');
     })  
 }
