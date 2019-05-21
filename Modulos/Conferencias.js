@@ -24,15 +24,15 @@ function Conferencia(config, callback) {
 
     jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
         
-    this.informaProducao(jsonLattesObj);
+    this.informaProducao(jsonLattesObj, config.anoInicial, config.anoFinal);
     this.verificaArquivosCriados();
 }
 
 
-Conferencia.prototype.informaProducao = function () {
+Conferencia.prototype.informaProducao = function (jsonLattesObj, anoInicial, anoFinal) {
 
     conferenciasLattes = obtemConferenciasLattes(jsonLattesObj);
-    obtemConferenciasQualis();
+    obtemConferenciasQualis(anoInicial, anoFinal);
 }
 
 
@@ -54,31 +54,35 @@ obtemConferenciasLattes = function(jsonLattesObj) {
 }
 
 
-obtemConferenciasQualis = function () {
+obtemConferenciasQualis = function (anoInicial, anoFinal) {
 
     fs.readFile(conferenciasTxt, 'utf8', function(err, data) {
 
         if (err) throw err;        
         conferenciasQualis = data.toString().split("\n");
-        comparaConferencias(conferenciasLattes, conferenciasQualis);
+        comparaConferencias(conferenciasLattes, conferenciasQualis, anoInicial, anoFinal);
     });
 }    
 
 
-function comparaConferencias() {
+function comparaConferencias(conferenciasLattes, conferenciasQualis, anoInicial, anoFinal) {
 
-    for (var i in conferenciasLattes) {   
+    for (var i in conferenciasLattes) {  
+        
+        getInfosConferenciaLattes(conferenciasLattes[i]);
 
-        cont = 0; flag = false;        
-        for (var j in conferenciasQualis) {
+        if (conferenciaLattes.anoTrabalho >= anoInicial && conferenciaLattes.anoTrabalho <= anoFinal) {
 
-            getInfosConferenciaLattes(conferenciasLattes[i]);
-            getInfosConferenciaQualis(conferenciasQualis[j]);
-            var similarity = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
-            salvaConferenciasEncontradas(similarity);
-            cont++;
-            salvaConferenciasNaoEncontradas(cont, flag);
-        }    
+            cont = 0; flag = false;        
+            for (var j in conferenciasQualis) {
+
+                getInfosConferenciaQualis(conferenciasQualis[j]);
+                var similarity = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
+                salvaConferenciasEncontradas(similarity);
+                cont++;
+                salvaConferenciasNaoEncontradas(cont, flag);
+            }    
+        }
     }
 }
 
@@ -87,6 +91,7 @@ function getInfosConferenciaLattes(eventoLattes) {
 
     conferenciaLattes.nome = eventoLattes['DETALHAMENTO-DO-TRABALHO']['_attributes']['NOME-DO-EVENTO'].toUpperCase();
     conferenciaLattes.tituloTrabalho = eventoLattes['DADOS-BASICOS-DO-TRABALHO']['_attributes']['TITULO-DO-TRABALHO'];
+    conferenciaLattes.anoTrabalho = eventoLattes['DADOS-BASICOS-DO-TRABALHO']['_attributes']['ANO-DO-TRABALHO'];
 }
 
 
@@ -108,6 +113,7 @@ function salvaConferenciasEncontradas(similarity) {
             "\nEvento no Lattes: " + conferenciaLattes.nome, 
             "\nEvento no Qualis: " + conferenciaQualis.nome, 
             "\nNome do Trabalho: " + conferenciaLattes.tituloTrabalho, 
+            "\nAno do Trabalho: " + conferenciaLattes.anoTrabalho,
             "\nQualis do Evento: " + conferenciaQualis.conceito, 
             "\nGrau Similaridade: " + similarity + 
             "\n________________________________________________________________________________________________"
@@ -127,7 +133,8 @@ function salvaConferenciasNaoEncontradas(cont, flag) {
         conferenciasNaoEncontradas.push(
             "\nConferência não encontrada na base do Qualis", 
             "\nNome da Conferência: " + conferenciaLattes.nome, 
-            "\nNome do Trabalho: " + conferenciaLattes.tituloTrabalho + 
+            "\nNome do Trabalho: " + conferenciaLattes.tituloTrabalho,
+            "\nAno do Trabalho: " + conferenciaLattes.anoTrabalho + 
             "\n________________________________________________________________________________________________"
         );
 
