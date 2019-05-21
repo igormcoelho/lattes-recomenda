@@ -24,15 +24,15 @@ function Conferencia(config, callback) {
 
     jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
         
-    this.informaProducao(jsonLattesObj, config.anoInicial, config.anoFinal);
+    this.informaProducao(jsonLattesObj, config.anoInicial, config.anoFinal, config.similaridade);
     this.verificaArquivosCriados();
 }
 
 
-Conferencia.prototype.informaProducao = function (jsonLattesObj, anoInicial, anoFinal) {
+Conferencia.prototype.informaProducao = function (jsonLattesObj, anoInicial, anoFinal, similaridade) {
 
     conferenciasLattes = obtemConferenciasLattes(jsonLattesObj);
-    obtemConferenciasQualis(anoInicial, anoFinal);
+    obtemConferenciasQualis(anoInicial, anoFinal, similaridade);
 }
 
 
@@ -48,24 +48,24 @@ Conferencia.prototype.verificaArquivosCriados = function() {
 }
 
 
-obtemConferenciasLattes = function(jsonLattesObj) {
+function obtemConferenciasLattes(jsonLattesObj) {
     
     return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
 }
 
 
-obtemConferenciasQualis = function (anoInicial, anoFinal) {
+function obtemConferenciasQualis(anoInicial, anoFinal, similaridade) {
 
     fs.readFile(conferenciasTxt, 'utf8', function(err, data) {
 
         if (err) throw err;        
         conferenciasQualis = data.toString().split("\n");
-        comparaConferencias(conferenciasLattes, conferenciasQualis, anoInicial, anoFinal);
+        comparaConferencias(conferenciasLattes, conferenciasQualis, anoInicial, anoFinal, similaridade);
     });
 }    
 
 
-function comparaConferencias(conferenciasLattes, conferenciasQualis, anoInicial, anoFinal) {
+function comparaConferencias(conferenciasLattes, conferenciasQualis, anoInicial, anoFinal, similaridade) {
 
     for (var i in conferenciasLattes) {  
         
@@ -78,9 +78,9 @@ function comparaConferencias(conferenciasLattes, conferenciasQualis, anoInicial,
 
                 getInfosConferenciaQualis(conferenciasQualis[j]);
                 var similarity = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
-                salvaConferenciasEncontradas(similarity);
+                salvaConferenciasEncontradas(similarity, similaridade);
                 cont++;
-                salvaConferenciasNaoEncontradas(cont, flag);
+                salvaConferenciasNaoEncontradas(cont, flag, similarity);
             }    
         }
     }
@@ -105,9 +105,9 @@ function getInfosConferenciaQualis(linha) {
 }
 
 
-function salvaConferenciasEncontradas(similarity) {
+function salvaConferenciasEncontradas(similarity, similaridadeUsuario) {
 
-    if ( similarity >= 0.8 ) {
+    if ( similarity >= similaridadeUsuario ) {
 
         conferenciasEncontradas.push(
             "\nEvento no Lattes: " + conferenciaLattes.nome, 
@@ -126,7 +126,7 @@ function salvaConferenciasEncontradas(similarity) {
 }
 
 
-function salvaConferenciasNaoEncontradas(cont, flag) {
+function salvaConferenciasNaoEncontradas(cont, flag, similarity) {
 
     if ( cont === conferenciasQualis.length && flag === false ) {
         
@@ -134,7 +134,8 @@ function salvaConferenciasNaoEncontradas(cont, flag) {
             "\nConferência não encontrada na base do Qualis", 
             "\nNome da Conferência: " + conferenciaLattes.nome, 
             "\nNome do Trabalho: " + conferenciaLattes.tituloTrabalho,
-            "\nAno do Trabalho: " + conferenciaLattes.anoTrabalho + 
+            "\nAno do Trabalho: " + conferenciaLattes.anoTrabalho/*, 
+            "\nGrau Similaridade: " + similarity*/ + 
             "\n________________________________________________________________________________________________"
         );
 
