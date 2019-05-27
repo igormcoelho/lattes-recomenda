@@ -1,8 +1,6 @@
 const fs = require('fs'),
-      stringSimilarity = require('string-similarity');
-let   conferenciasQualis, conferenciasLattes, conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [], 
-      flag, cont, jsonLattesObj,
-      conferenciasTxt = "./conferencias.txt";
+      path = require('path');
+let   flag, cont;
 
 
 const Parse = require('./ParseData');
@@ -19,20 +17,83 @@ function AvaliacaoConferencia(config, callback) {
 
 function Conferencia(config, callback) {
 
-    //this.parsePdfToTxt(config.arquivoConferencias, callback);
     let parse = new Parse();
 
-    jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
+    let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
         
-    this.informaProducao(jsonLattesObj, config.anoInicial, config.anoFinal, config.similaridade);
-    this.verificaArquivosCriados();
+    let conferenciasLattes = this.getConferenciasLattes(jsonLattesObj);
+    
+    let conferenciasQualis = this.getConferenciasQualis();
+
+    this.comparaConferencias(conferenciasLattes, conferenciasQualis.eventos, config.anoInicial, config.anoFinal, config.similaridade)
+    
+    // this.verificaArquivosCriados();
 }
 
 
-Conferencia.prototype.informaProducao = function (jsonLattesObj, anoInicial, anoFinal, similaridade) {
+Conferencia.prototype.getConferenciasLattes = function (jsonLattesObj) {
 
-    conferenciasLattes = obtemConferenciasLattes(jsonLattesObj);
-    obtemConferenciasQualis(anoInicial, anoFinal, similaridade);
+    return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
+}
+
+
+Conferencia.prototype.getConferenciasQualis = function () { 
+
+    let arquivoConferencias = path.join(__dirname, "../Arquivos/conferencias.json");
+    
+    let conferencias = fs.readFileSync(arquivoConferencias, 'utf8', function(err, data) {
+
+        if (err) throw err;               
+    });
+
+    return JSON.parse(conferencias);
+}    
+
+
+Conferencia.prototype.comparaConferencias = function (conferenciasLattes, conferenciasQualis, anoInicial, anoFinal, similaridade) { 
+    
+    
+    let stringSimilarity = require('string-similarity'),
+        conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [];
+    
+    for (var i in conferenciasLattes) {  
+        
+        getInfosConferenciaLattes(conferenciaLattes, conferenciasLattes[i]);
+
+        if (conferenciaLattes.anoTrabalho >= anoInicial && conferenciaLattes.anoTrabalho <= anoFinal) {
+
+            cont = 0; flag = false;     
+
+            for (var j in conferenciasQualis) {
+
+                getInfosConferenciaQualis(conferenciaQualis, conferenciasQualis[j]);
+                
+                var resultadoSimilaridade = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
+                
+                salvaConferenciasEncontradas(conferenciasEncontradas, conferenciaLattes, conferenciaQualis, resultadoSimilaridade, similaridade);
+                
+                cont++;
+                
+                salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciasQualis, cont, flag, resultadoSimilaridade);
+            }    
+        }
+    }
+}
+
+
+function getInfosConferenciaLattes(conferenciaLattes, indice) {
+
+    conferenciaLattes.nome = indice['DETALHAMENTO-DO-TRABALHO']['_attributes']['NOME-DO-EVENTO'].toUpperCase();
+    conferenciaLattes.tituloTrabalho = indice['DADOS-BASICOS-DO-TRABALHO']['_attributes']['TITULO-DO-TRABALHO'];
+    conferenciaLattes.anoTrabalho = indice['DADOS-BASICOS-DO-TRABALHO']['_attributes']['ANO-DO-TRABALHO'];
+}
+
+
+function getInfosConferenciaQualis(conferenciaQualis, indice) {
+
+    conferenciaQualis.nome = indice.conferenciaNome.toUpperCase();
+    conferenciaQualis.sigla = indice.conferenciaSigla;
+    conferenciaQualis.conceito = indice.conferenciaQualis;
 }
 
 
@@ -48,66 +109,9 @@ Conferencia.prototype.verificaArquivosCriados = function() {
 }
 
 
-function obtemConferenciasLattes(jsonLattesObj) {
-    
-    return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
-}
+function salvaConferenciasEncontradas(conferenciasEncontradas, conferenciaLattes, conferenciaQualis, resultadoSimilaridade, similaridadeUsuario) {
 
-
-function obtemConferenciasQualis(anoInicial, anoFinal, similaridade) {
-
-    fs.readFile(conferenciasTxt, 'utf8', function(err, data) {
-
-        if (err) throw err;        
-        conferenciasQualis = data.toString().split("\n");
-        comparaConferencias(conferenciasLattes, conferenciasQualis, anoInicial, anoFinal, similaridade);
-    });
-}    
-
-
-function comparaConferencias(conferenciasLattes, conferenciasQualis, anoInicial, anoFinal, similaridade) {
-
-    for (var i in conferenciasLattes) {  
-        
-        getInfosConferenciaLattes(conferenciasLattes[i]);
-
-        if (conferenciaLattes.anoTrabalho >= anoInicial && conferenciaLattes.anoTrabalho <= anoFinal) {
-
-            cont = 0; flag = false;        
-            for (var j in conferenciasQualis) {
-
-                getInfosConferenciaQualis(conferenciasQualis[j]);
-                var similarity = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
-                salvaConferenciasEncontradas(similarity, similaridade);
-                cont++;
-                salvaConferenciasNaoEncontradas(cont, flag, similarity);
-            }    
-        }
-    }
-}
-
-
-function getInfosConferenciaLattes(eventoLattes) {
-
-    conferenciaLattes.nome = eventoLattes['DETALHAMENTO-DO-TRABALHO']['_attributes']['NOME-DO-EVENTO'].toUpperCase();
-    conferenciaLattes.tituloTrabalho = eventoLattes['DADOS-BASICOS-DO-TRABALHO']['_attributes']['TITULO-DO-TRABALHO'];
-    conferenciaLattes.anoTrabalho = eventoLattes['DADOS-BASICOS-DO-TRABALHO']['_attributes']['ANO-DO-TRABALHO'];
-}
-
-
-function getInfosConferenciaQualis(linha) {
-
-    // Remove os ultimos 2 caracteres da string. ex: B1
-    conferenciaQualis.nome = linha.slice(0, linha.length-2).toUpperCase();
-    conferenciaQualis.conceito = linha.slice(-2);
-    var n = conferenciaQualis.nome.indexOf(" -");
-    conferenciaQualis.nome = conferenciaQualis.nome.substring(n/2);
-}
-
-
-function salvaConferenciasEncontradas(similarity, similaridadeUsuario) {
-
-    if ( similarity >= similaridadeUsuario ) {
+    if ( resultadoSimilaridade >= similaridadeUsuario ) {
 
         conferenciasEncontradas.push(
             "\nEvento no Lattes: " + conferenciaLattes.nome, 
@@ -115,7 +119,7 @@ function salvaConferenciasEncontradas(similarity, similaridadeUsuario) {
             "\nNome do Trabalho: " + conferenciaLattes.tituloTrabalho, 
             "\nAno do Trabalho: " + conferenciaLattes.anoTrabalho,
             "\nQualis do Evento: " + conferenciaQualis.conceito, 
-            "\nGrau Similaridade: " + similarity + 
+            "\nGrau Similaridade: " + resultadoSimilaridade + 
             "\n________________________________________________________________________________________________"
         );
 
@@ -126,16 +130,16 @@ function salvaConferenciasEncontradas(similarity, similaridadeUsuario) {
 }
 
 
-function salvaConferenciasNaoEncontradas(cont, flag, similarity) {
+function salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciasQualis, cont, flag, similarity) {
 
-    if ( cont === conferenciasQualis.length && flag === false ) {
+    if ( cont == conferenciasQualis.length && flag == false ) {
         
         conferenciasNaoEncontradas.push(
             "\nConferência não encontrada na base do Qualis", 
             "\nNome da Conferência: " + conferenciaLattes.nome, 
             "\nNome do Trabalho: " + conferenciaLattes.tituloTrabalho,
-            "\nAno do Trabalho: " + conferenciaLattes.anoTrabalho/*, 
-            "\nGrau Similaridade: " + similarity*/ + 
+            "\nAno do Trabalho: " + conferenciaLattes.anoTrabalho, 
+            "\nGrau Similaridade: " + similarity + 
             "\n________________________________________________________________________________________________"
         );
 
