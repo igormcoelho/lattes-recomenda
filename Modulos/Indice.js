@@ -19,11 +19,11 @@ function Indice(config, callback) {
 
     let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
 
-    let dadosLattes = retornaDadosLattes(jsonLattesObj);
+    let dadosArtigos = retornaDadosArtigos(jsonLattesObj);
     
     let dadosQualis = retornaDadosQualis();
 
-    let artigosComQualis = cruzaDados(dadosLattes, dadosQualis);    
+    let artigosComQualis = cruzaDados(dadosArtigos, dadosQualis);    
 
     let categorias = filtraArtigosPorAno(artigosComQualis);
 
@@ -34,7 +34,7 @@ function Indice(config, callback) {
 }
 
 
-function retornaDadosLattes(jsonLattesObj) {
+function retornaDadosArtigos(jsonLattesObj) {
 
     return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['ARTIGOS-PUBLICADOS']['ARTIGO-PUBLICADO'];
 }
