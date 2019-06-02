@@ -2,6 +2,7 @@ const path = require('path');
 const fs = require('fs');
 
 const Parse = require('./ParseData');
+const Arquivos = require('./Arquivos');
 
 
 exports = module.exports.CalculoIndice = CalculoIndice
@@ -16,48 +17,35 @@ function CalculoIndice(config, callback) {
 function Indice(config, callback) {
 
     let parse = new Parse();
+    let arquivos = new Arquivos();
 
     let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
 
-    let dadosArtigos = retornaDadosArtigos(jsonLattesObj);
-
-    let dadosEventos = retornaDadosEventos(jsonLattesObj);
+    let lattesArtigos = retornaLattesArtigos(jsonLattesObj);
     
-    let dadosQualis = retornaDadosQualis();
+    let qualisPeriodicos = arquivos.retornaJsonObj("../Arquivos/qualis_periodicos_interdisciplinar_2016.json");
 
-    let artigosComQualis = cruzaDados(dadosArtigos, dadosQualis);    
+    let artigosComQualis = cruzaDados(lattesArtigos, qualisPeriodicos);    
 
     let categorias = filtraArtigosPorAno(artigosComQualis);
 
     let indiceArtigos = calculaIndiceArtigos(categorias);
 
     console.log(indiceArtigos);
-    
+
+    let lattesEventos = retornaLattesEventos(jsonLattesObj);    
 }
 
 
-function retornaDadosArtigos(jsonLattesObj) {
+function retornaLattesArtigos(jsonLattesObj) {
 
     return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['ARTIGOS-PUBLICADOS']['ARTIGO-PUBLICADO'];
 }
 
 
-function retornaDadosEventos(jsonLattesObj) {
+function retornaLattesEventos(jsonLattesObj) {
 
     return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
-}
-
-
-function retornaDadosQualis() {
-
-    let arquivoConceitosQualis = path.join(__dirname, "../Arquivos/conceitos_periodicos_interdisciplinar.json");
-    
-    let conceitos = fs.readFileSync(arquivoConceitosQualis, 'utf8', function(err, data) {
-
-        if (err) throw err;               
-    });
-
-    return JSON.parse(conceitos);    
 }
 
 
