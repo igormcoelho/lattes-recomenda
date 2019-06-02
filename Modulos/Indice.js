@@ -67,9 +67,9 @@ function cruzaDados(dadosLattes, dadosQualis) {
 
         for (var j in dadosQualis) {
 
-            periodico.issn = dadosQualis[j]['ISSN'];
+            periodico.issn = dadosQualis[j]['ISSN'].trim();
             periodico.issn = periodico.issn.split('-').join('');
-            periodico.conceito = dadosQualis[j]['Estrato'];
+            periodico.conceito = dadosQualis[j]['Estrato'].trim();
 
             if (artigo.issn == periodico.issn) {
 
