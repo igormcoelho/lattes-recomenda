@@ -5,15 +5,15 @@ const path = require('path');
 module.exports = function () {
 
 
-    this.retornaQualisEventos = function () { 
+    this.retornaJsonObj = function (filepath) { 
 
-        let arquivoEventos = path.join(__dirname, "../Arquivos/qualis_eventos_cc_2016.json");
+        let file = path.join(__dirname, filepath);
     
-        let eventos = fs.readFileSync(arquivoEventos, 'utf8', function(err, data) {
+        let data = fs.readFileSync(file, 'utf8', function(err, data) {
     
             if (err) throw err;               
         });
     
-        return JSON.parse(eventos);
+        return JSON.parse(data);
     }
 }

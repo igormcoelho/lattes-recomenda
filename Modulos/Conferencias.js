@@ -23,7 +23,7 @@ function Conferencia(config, callback) {
     let conferenciasLattes = this.getConferenciasLattes(jsonLattesObj);
     
     let arquivos = new Arquivos();
-    let conferenciasQualis = arquivos.retornaQualisEventos();
+    let conferenciasQualis = arquivos.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
 
     this.comparaConferencias(conferenciasLattes, conferenciasQualis.eventos, config.anoInicial, config.anoFinal, config.similaridade)
     
