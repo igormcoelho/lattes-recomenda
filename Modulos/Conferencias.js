@@ -1,9 +1,9 @@
-const fs = require('fs'),
-      path = require('path');
-let   flag, cont;
+const fs = require('fs');
+let flag, cont;
 
 
 const Parse = require('./ParseData');
+const Arquivos = require('./Arquivos');
 
 
 exports = module.exports.AvaliacaoConferencia = AvaliacaoConferencia
@@ -18,12 +18,12 @@ function AvaliacaoConferencia(config, callback) {
 function Conferencia(config, callback) {
 
     let parse = new Parse();
-
     let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
         
     let conferenciasLattes = this.getConferenciasLattes(jsonLattesObj);
     
-    let conferenciasQualis = this.getConferenciasQualis();
+    let arquivos = new Arquivos();
+    let conferenciasQualis = arquivos.retornaQualisEventos();
 
     this.comparaConferencias(conferenciasLattes, conferenciasQualis.eventos, config.anoInicial, config.anoFinal, config.similaridade)
     
@@ -35,19 +35,6 @@ Conferencia.prototype.getConferenciasLattes = function (jsonLattesObj) {
 
     return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
 }
-
-
-Conferencia.prototype.getConferenciasQualis = function () { 
-
-    let arquivoConferencias = path.join(__dirname, "../Arquivos/conferencias.json");
-    
-    let conferencias = fs.readFileSync(arquivoConferencias, 'utf8', function(err, data) {
-
-        if (err) throw err;               
-    });
-
-    return JSON.parse(conferencias);
-}    
 
 
 Conferencia.prototype.comparaConferencias = function (conferenciasLattes, conferenciasQualis, anoInicial, anoFinal, similaridade) { 
