@@ -16,4 +16,14 @@ module.exports = function () {
     
         return JSON.parse(data);
     }
+
+    this.retornaLattesArtigos = function(jsonLattesObj) {
+
+        return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['ARTIGOS-PUBLICADOS']['ARTIGO-PUBLICADO'];
+    }
+
+    this.retornaLattesEventos = function (jsonLattesObj) {
+
+        return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
+    }
 }

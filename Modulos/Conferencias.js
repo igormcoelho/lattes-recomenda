@@ -3,7 +3,7 @@ let flag, cont;
 
 
 const Parse = require('./ParseData');
-const Arquivos = require('./Arquivos');
+const Dados = require('./Dados');
 
 
 exports = module.exports.AvaliacaoConferencia = AvaliacaoConferencia
@@ -18,22 +18,17 @@ function AvaliacaoConferencia(config, callback) {
 function Conferencia(config, callback) {
 
     let parse = new Parse();
+    let dados = new Dados();
+
     let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
         
-    let conferenciasLattes = this.getConferenciasLattes(jsonLattesObj);
+    let conferenciasLattes = dados.retornaLattesEventos(jsonLattesObj);
     
-    let arquivos = new Arquivos();
-    let conferenciasQualis = arquivos.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
+    let conferenciasQualis = dados.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
 
-    this.comparaConferencias(conferenciasLattes, conferenciasQualis.eventos, config.anoInicial, config.anoFinal, config.similaridade)
+    this.comparaConferencias(conferenciasLattes, conferenciasQualis, config.anoInicial, config.anoFinal, config.similaridade)
     
     // this.verificaArquivosCriados();
-}
-
-
-Conferencia.prototype.getConferenciasLattes = function (jsonLattesObj) {
-
-    return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
 }
 
 
@@ -78,9 +73,9 @@ function getInfosConferenciaLattes(conferenciaLattes, indice) {
 
 function getInfosConferenciaQualis(conferenciaQualis, indice) {
 
-    conferenciaQualis.nome = indice.conferenciaNome.toUpperCase();
-    conferenciaQualis.sigla = indice.conferenciaSigla;
-    conferenciaQualis.conceito = indice.conferenciaQualis;
+    conferenciaQualis.nome = indice.nome.toUpperCase();
+    conferenciaQualis.sigla = indice.sigla;
+    conferenciaQualis.conceito = indice.qualis;
 }
 
 

@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 
 const Parse = require('./ParseData');
-const Arquivos = require('./Arquivos');
+const Dados = require('./Dados');
 
 
 exports = module.exports.CalculoIndice = CalculoIndice
@@ -17,13 +17,13 @@ function CalculoIndice(config, callback) {
 function Indice(config, callback) {
 
     let parse = new Parse();
-    let arquivos = new Arquivos();
+    let dados = new Dados();
 
     let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
 
-    let lattesArtigos = retornaLattesArtigos(jsonLattesObj);
+    let lattesArtigos = dados.retornaLattesArtigos(jsonLattesObj);
     
-    let qualisPeriodicos = arquivos.retornaJsonObj("../Arquivos/qualis_periodicos_interdisciplinar_2016.json");
+    let qualisPeriodicos = dados.retornaJsonObj("../Arquivos/qualis_periodicos_interdisciplinar_2016.json");
 
     let artigosComQualis = cruzaDados(lattesArtigos, qualisPeriodicos);    
 
@@ -33,19 +33,7 @@ function Indice(config, callback) {
 
     console.log(indiceArtigos);
 
-    let lattesEventos = retornaLattesEventos(jsonLattesObj);    
-}
-
-
-function retornaLattesArtigos(jsonLattesObj) {
-
-    return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['ARTIGOS-PUBLICADOS']['ARTIGO-PUBLICADO'];
-}
-
-
-function retornaLattesEventos(jsonLattesObj) {
-
-    return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
+    let lattesEventos = dados.retornaLattesEventos(jsonLattesObj);    
 }
 
 

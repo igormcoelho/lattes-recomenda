@@ -4,6 +4,7 @@ var fs = require('fs'),
 
 
 const Parse = require('./ParseData');
+const Dados = require('./Dados');
 
 
 exports = module.exports.AvaliacaoPublicacao = AvaliacaoPublicacao
@@ -27,19 +28,20 @@ function AvaliacaoPublicacao(config, callback) {
 
 function Publicacao(config, callback) { 
 
+    let dados = new Dados();
     let parse = new Parse();
 
     jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
     jsonQualisObj = parse.parseXlsToJson(config.classificacoesPublicadas, callback);
     
-    this.informaProducao(jsonLattesObj, config.anoInicial, config.anoFinal);
+    this.informaProducao(dados, jsonLattesObj, config.anoInicial, config.anoFinal);
     this.salvaProducao();
 }
 
 
-Publicacao.prototype.informaProducao = function (jsonLattesObj, anoInicial, anoFinal) {
+Publicacao.prototype.informaProducao = function (dados, jsonLattesObj, anoInicial, anoFinal) {
     
-    artigos = obtemArtigosLattes(jsonLattesObj);
+    artigos = dados.retornaLattesArtigos(jsonLattesObj);
     obtemArtigosNoIntervalo(artigos, anoInicial, anoFinal);
     // return ... lista de produções
 }
@@ -49,12 +51,6 @@ Publicacao.prototype.salvaProducao = function() {
 
     verificaISSN(jsonQualisObj);
     verificaSeArquivoFoiCriado();
-}
-
-
-obtemArtigosLattes = function(jsonLattesObj) {
-
-    return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['ARTIGOS-PUBLICADOS']['ARTIGO-PUBLICADO'];
 }
 
 
