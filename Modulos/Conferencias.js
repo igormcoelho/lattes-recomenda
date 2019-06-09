@@ -56,8 +56,8 @@ Conferencia.prototype.comparaConferencias = function (conferenciasLattes, confer
                 
                 cont++;
                 
-                salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciasQualis, cont, flag, resultadoSimilaridade);
-            }    
+                salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciaQualis, conferenciasQualis, cont, flag, resultadoSimilaridade);
+            }      
         }
     }
 }
@@ -93,44 +93,46 @@ Conferencia.prototype.verificaArquivosCriados = function() {
 
 function salvaConferenciasEncontradas(conferenciasEncontradas, conferenciaLattes, conferenciaQualis, resultadoSimilaridade, similaridadeUsuario) {
 
+    let conferencia = {};
+
     if ( resultadoSimilaridade >= similaridadeUsuario ) {
 
-        conferenciasEncontradas.push(
-            "\nEvento no Lattes: " + conferenciaLattes.nome, 
-            "\nEvento no Qualis: " + conferenciaQualis.nome, 
-            "\nNome do Trabalho: " + conferenciaLattes.tituloTrabalho, 
-            "\nAno do Trabalho: " + conferenciaLattes.anoTrabalho,
-            "\nQualis do Evento: " + conferenciaQualis.conceito, 
-            "\nGrau Similaridade: " + resultadoSimilaridade + 
-            "\n________________________________________________________________________________________________"
-        );
+        conferencia.nomeTrabalho = conferenciaLattes.tituloTrabalho; 
+        conferencia.eventoLattes = conferenciaLattes.nome; 
+        conferencia.eventoQualis = conferenciaQualis.nome; 
+        conferencia.ano = conferenciaLattes.anoTrabalho;
+        conferencia.qualis = conferenciaQualis.conceito; 
+        conferencia.similaridade = parseFloat(resultadoSimilaridade);
 
-        salvaInfosEmArquivo("./resultado_conferencias_encontradas.txt", conferenciasEncontradas);
+        conferenciasEncontradas.push(conferencia);
+        
+        salvaInfosEmArquivo("./resultado_conferencias_encontradas.json", conferenciasEncontradas);
         
         flag = true;
     } 
 }
 
 
-function salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciasQualis, cont, flag, similarity) {
+function salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciaQualis, conferenciasQualis, cont, flag, resultadoSimilaridade) {
+
+    let conferencia = {};
 
     if ( cont == conferenciasQualis.length && flag == false ) {
         
-        conferenciasNaoEncontradas.push(
-            "\nConferência não encontrada na base do Qualis", 
-            "\nNome da Conferência: " + conferenciaLattes.nome, 
-            "\nNome do Trabalho: " + conferenciaLattes.tituloTrabalho,
-            "\nAno do Trabalho: " + conferenciaLattes.anoTrabalho, 
-            "\nGrau Similaridade: " + similarity + 
-            "\n________________________________________________________________________________________________"
-        );
+        conferencia.nomeTrabalho = conferenciaLattes.tituloTrabalho; 
+        conferencia.eventoLattes = conferenciaLattes.nome; 
+        conferencia.ano = conferenciaLattes.anoTrabalho;
+        // conferencia.similaridade = String(resultadoSimilaridade);
 
-        salvaInfosEmArquivo("./resultado_conferencias_nao_encontradas.txt", conferenciasNaoEncontradas);
+        conferenciasNaoEncontradas.push(conferencia);
+        salvaInfosEmArquivo("./resultado_conferencias_nao_encontradas.json", conferenciasNaoEncontradas);
     }   
 }
 
 
 function salvaInfosEmArquivo(caminhoArquivo, data) {
+
+    var data = JSON.stringify(data, null, " ");
 
     fs.writeFileSync(caminhoArquivo, data, function(err) {
         
