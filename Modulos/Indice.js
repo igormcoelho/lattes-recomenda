@@ -2,7 +2,7 @@ const path = require('path');
 const fs = require('fs');
 
 const Parse = require('./ParseData');
-const Dados = require('./Dados');
+const dados = require('./Dados');
 
 
 exports = module.exports.CalculoIndice = CalculoIndice
@@ -16,8 +16,10 @@ function CalculoIndice(config, callback) {
 
 function Indice(config, callback) {
 
+    var anoAtual = new Date().getFullYear();
+    var anoInicial = anoAtual - 4;    
+
     let parse = new Parse();
-    let dados = new Dados();
 
     let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
 
@@ -25,19 +27,21 @@ function Indice(config, callback) {
     
     let qualisPeriodicos = dados.retornaJsonObj("../Arquivos/qualis_periodicos_interdisciplinar_2016.json");
 
-    let artigosComQualis = cruzaDados(lattesArtigos, qualisPeriodicos);    
+    let artigosComQualis = cruzaDadosArt(lattesArtigos, qualisPeriodicos);    
 
-    let categorias = filtraArtigosPorAno(artigosComQualis);
+    let categorias = filtraArtigosPorAno(artigosComQualis, anoInicial, anoAtual);
 
     let indiceArtigos = calculaIndiceArtigos(categorias);
 
-    console.log(indiceArtigos);
-
     let lattesEventos = dados.retornaLattesEventos(jsonLattesObj);    
+
+    let qualisEventos = dados.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
+
+    let eventosComQualis = dados.cruzaDadosEve(lattesEventos, qualisEventos, anoInicial, anoAtual, 0.7, 'indice');    
 }
 
 
-function cruzaDados(dadosLattes, dadosQualis) {
+function cruzaDadosArt(dadosLattes, dadosQualis) {
 
     let artigos = []; 
 
@@ -69,10 +73,8 @@ function cruzaDados(dadosLattes, dadosQualis) {
 }
 
 
-function filtraArtigosPorAno(artigos) {
+function filtraArtigosPorAno(artigos, anoInicial, anoAtual) {
 
-    var anoAtual = new Date().getFullYear();
-    var anoInicial = anoAtual - 4;    
     var categorias = [];    
 
     for (var i in artigos) {
