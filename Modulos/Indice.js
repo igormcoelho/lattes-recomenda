@@ -37,7 +37,9 @@ function Indice(config, callback) {
 
     let qualisEventos = dados.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
 
-    let eventosComQualis = dados.cruzaDadosEve(lattesEventos, qualisEventos, anoInicial, anoAtual, 0.7, 'indice');    
+    let qualis = dados.cruzaDadosEve(lattesEventos, qualisEventos, anoInicial, anoAtual, 0.7, 'indice');    
+
+    let indiceEventos = calculaIndiceEventos(qualis);        
 }
 
 
@@ -95,7 +97,7 @@ function calculaIndiceArtigos(categorias) {
 
     var counts = {};
 
-    for (var i in categorias) {
+    for ( var i in categorias ) {
 
         var conceito = categorias[i];
         counts[conceito] = counts[conceito] ? counts[conceito] + 1 : 1;
@@ -109,7 +111,7 @@ function calculaIndiceArtigos(categorias) {
     var B4 = counts['B4'] ? counts['B4'] * 0.25 : 0;
     var B5 = counts['B5'] ? counts['B5'] * 0.1 : 0;
 
-    var indArt = (A1 + A2 + B1 + B2 + B3 + B4 + B5) / 4;
+    var indArt = ( A1 + A2 + B1 + B2 + B3 + B4 + B5 ) / 4;
 
     return indArt;
 
@@ -128,4 +130,28 @@ function calculaIndiceArtigos(categorias) {
     // console.log('Quant. B3: ' + counts['B3']);
     // console.log('Quant. B4: ' + counts['B4']);
     // console.log('Quant. B5: ' + counts['B5']);    
+}
+
+
+function calculaIndiceEventos(qualis) {
+
+    var counts = {};
+
+    for ( var i in qualis ) {
+
+        var conceito = qualis[i];
+        counts[conceito] = counts[conceito] ? counts[conceito] + 1 : 1;
+    } 
+    
+    var A1 = counts['A1'] ? counts['A1'] : 0;
+    var A2 = counts['A2'] ? counts['A2'] * 0.85 : 0;
+    var B1 = counts['B1'] ? counts['B1'] * 0.7 : 0;
+    var B2 = counts['B2'] ? counts['B2'] * 0.55 : 0;
+    var B3 = counts['B3'] ? counts['B3'] * 0.4 : 0;
+    var B4 = counts['B4'] ? counts['B4'] * 0.25 : 0;
+    var B5 = counts['B5'] ? counts['B5'] * 0.1 : 0;
+
+    var indEve = ( (A1 + A2 + B1 + B2 + B3 + B4 + B5) * 0.8 ) / 4;
+
+    return indEve;
 }

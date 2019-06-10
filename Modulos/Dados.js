@@ -30,7 +30,7 @@ var self = module.exports = {
     cruzaDadosEve : function (conferenciasLattes, conferenciasQualis, anoInicial, anoFinal, similaridade, origem) {
 
         let stringSimilarity = require('string-similarity');
-        let conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [];
+        let conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [], qualis = [];
     
         for ( var i in conferenciasLattes ) {  
             
@@ -63,11 +63,12 @@ var self = module.exports = {
                 if ( conferencia.similaridade ) {
 
                     conferenciasEncontradas.push(conferencia);
+                    qualis.push(conferencia.qualis);
                     if ( origem == 'conferencia' ) salvaInfosEmArquivo("./resultado_conferencias_encontradas.json", conferenciasEncontradas);
                 }
             }
         }
-        if ( origem == 'indice' ) return conferenciasEncontradas;
+        if ( origem == 'indice' ) return qualis;
     },
 
     getInfosConferenciaLattes : function (conferenciaLattes, indice) {
