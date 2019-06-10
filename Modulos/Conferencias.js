@@ -44,7 +44,8 @@ Conferencia.prototype.comparaConferencias = function (conferenciasLattes, confer
 
         if (conferenciaLattes.anoTrabalho >= anoInicial && conferenciaLattes.anoTrabalho <= anoFinal) {
 
-            cont = 0; flag = false;     
+            cont = 0; flag = false; 
+            var maiorSimilaridade = 0, conferencia = {};
 
             for (var j in conferenciasQualis) {
 
@@ -52,12 +53,26 @@ Conferencia.prototype.comparaConferencias = function (conferenciasLattes, confer
                 
                 var resultadoSimilaridade = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
                 
-                salvaConferenciasEncontradas(conferenciasEncontradas, conferenciaLattes, conferenciaQualis, resultadoSimilaridade, similaridade);
+                if ( resultadoSimilaridade >= similaridade ) {
+
+                    if ( resultadoSimilaridade > maiorSimilaridade ) {
+                        maiorSimilaridade = resultadoSimilaridade;
+                    }
+
+                    preencheObjConferencia(conferencia, conferenciaLattes, conferenciaQualis, maiorSimilaridade);
+                    
+                    flag = true;
+                } 
                 
                 cont++;
                 
                 salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciaQualis, conferenciasQualis, cont, flag, resultadoSimilaridade);
             }      
+
+            if ( conferencia.similaridade ) {
+                conferenciasEncontradas.push(conferencia);
+                salvaInfosEmArquivo("./resultado_conferencias_encontradas.json", conferenciasEncontradas);
+            }
         }
     }
 }
@@ -91,25 +106,14 @@ Conferencia.prototype.verificaArquivosCriados = function() {
 }
 
 
-function salvaConferenciasEncontradas(conferenciasEncontradas, conferenciaLattes, conferenciaQualis, resultadoSimilaridade, similaridadeUsuario) {
+function preencheObjConferencia(conferencia, conferenciaLattes, conferenciaQualis, maiorSimilaridade) {
 
-    let conferencia = {};
-
-    if ( resultadoSimilaridade >= similaridadeUsuario ) {
-
-        conferencia.nomeTrabalho = conferenciaLattes.tituloTrabalho; 
-        conferencia.eventoLattes = conferenciaLattes.nome; 
-        conferencia.eventoQualis = conferenciaQualis.nome; 
-        conferencia.ano = conferenciaLattes.anoTrabalho;
-        conferencia.qualis = conferenciaQualis.conceito; 
-        conferencia.similaridade = parseFloat(resultadoSimilaridade);
-
-        conferenciasEncontradas.push(conferencia);
-        
-        salvaInfosEmArquivo("./resultado_conferencias_encontradas.json", conferenciasEncontradas);
-        
-        flag = true;
-    } 
+    conferencia.nomeTrabalho = conferenciaLattes.tituloTrabalho; 
+    conferencia.eventoLattes = conferenciaLattes.nome; 
+    conferencia.eventoQualis = conferenciaQualis.nome; 
+    conferencia.ano = conferenciaLattes.anoTrabalho;
+    conferencia.qualis = conferenciaQualis.conceito; 
+    conferencia.similaridade = maiorSimilaridade; 
 }
 
 
