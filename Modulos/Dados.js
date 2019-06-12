@@ -31,6 +31,7 @@ var self = module.exports = {
 
         let stringSimilarity = require('string-similarity');
         let conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [], qualis = [];
+        let flag, cont;
     
         for ( var i in conferenciasLattes ) {  
             
@@ -57,14 +58,14 @@ var self = module.exports = {
                     
                     cont++;
                     
-                    if ( origem == 'conferencia' ) salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciaQualis, conferenciasQualis, cont, flag, resultadoSimilaridade);
+                    if ( origem == 'conferencia' ) self.salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciasQualis, cont, flag, resultadoSimilaridade);
                 }      
     
                 if ( conferencia.similaridade ) {
 
                     conferenciasEncontradas.push(conferencia);
                     qualis.push(conferencia.qualis);
-                    if ( origem == 'conferencia' ) salvaInfosEmArquivo("./resultado_conferencias_encontradas.json", conferenciasEncontradas);
+                    if ( origem == 'conferencia' ) self.escreveJsonObj("./resultado_conferencias_encontradas.json", conferenciasEncontradas);
                 }
             }
         }
@@ -93,5 +94,32 @@ var self = module.exports = {
         conferencia.ano = conferenciaLattes.anoTrabalho;
         conferencia.qualis = conferenciaQualis.conceito; 
         conferencia.similaridade = maiorSimilaridade; 
+    },
+
+    salvaConferenciasNaoEncontradas : function (conferenciasNaoEncontradas, conferenciaLattes, conferenciasQualis, cont, flag, resultadoSimilaridade) {
+
+        let conferencia = {};
+    
+        if ( cont == conferenciasQualis.length && flag == false ) {
+            
+            conferencia.nomeTrabalho = conferenciaLattes.tituloTrabalho; 
+            conferencia.eventoLattes = conferenciaLattes.nome; 
+            conferencia.ano = conferenciaLattes.anoTrabalho;
+            // conferencia.similaridade = String(resultadoSimilaridade);
+    
+            conferenciasNaoEncontradas.push(conferencia);
+            self.escreveJsonObj("./resultado_conferencias_nao_encontradas.json", conferenciasNaoEncontradas);
+        }   
+    },
+        
+    escreveJsonObj : function (filePath, data) {
+    
+        var json = JSON.stringify(data, null, " ");
+    
+        fs.writeFileSync(filePath, json, function(err) {
+            
+            if (err) return console.log("Erro na criação de arquivo com resultado final: " + err);
+            console.log('Arquivo gerado com sucesso.');
+        })  
     }
 }

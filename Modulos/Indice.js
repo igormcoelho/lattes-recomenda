@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 
+
 const Parse = require('./ParseData');
 const dados = require('./Dados');
 
@@ -40,6 +41,11 @@ function Indice(config, callback) {
     let qualis = dados.cruzaDadosEve(lattesEventos, qualisEventos, anoInicial, anoAtual, 0.7, 'indice');    
 
     let indiceEventos = calculaIndiceEventos(qualis);        
+
+    let indiceFinal = indiceArtigos + indiceEventos;
+
+    console.log(indiceFinal);
+    
 }
 
 
@@ -103,7 +109,7 @@ function calculaIndiceArtigos(categorias) {
         counts[conceito] = counts[conceito] ? counts[conceito] + 1 : 1;
     } 
     
-    var A1 = counts['A1'] ? counts['A1'] : 0;
+    var A1 = counts['A1'] ? counts['A1'] * 1.0 : 0;
     var A2 = counts['A2'] ? counts['A2'] * 0.85 : 0;
     var B1 = counts['B1'] ? counts['B1'] * 0.7 : 0;
     var B2 = counts['B2'] ? counts['B2'] * 0.55 : 0;
@@ -112,8 +118,6 @@ function calculaIndiceArtigos(categorias) {
     var B5 = counts['B5'] ? counts['B5'] * 0.1 : 0;
 
     var indArt = ( A1 + A2 + B1 + B2 + B3 + B4 + B5 ) / 4;
-
-    return indArt;
 
     // console.log('Result A1: ' + A1);   
     // console.log('Result A2: ' + A2);  
@@ -130,6 +134,8 @@ function calculaIndiceArtigos(categorias) {
     // console.log('Quant. B3: ' + counts['B3']);
     // console.log('Quant. B4: ' + counts['B4']);
     // console.log('Quant. B5: ' + counts['B5']);    
+
+    return indArt;
 }
 
 
@@ -143,7 +149,7 @@ function calculaIndiceEventos(qualis) {
         counts[conceito] = counts[conceito] ? counts[conceito] + 1 : 1;
     } 
     
-    var A1 = counts['A1'] ? counts['A1'] : 0;
+    var A1 = counts['A1'] ? counts['A1'] * 1.0 : 0;
     var A2 = counts['A2'] ? counts['A2'] * 0.85 : 0;
     var B1 = counts['B1'] ? counts['B1'] * 0.7 : 0;
     var B2 = counts['B2'] ? counts['B2'] * 0.55 : 0;

@@ -4,7 +4,7 @@ var fs = require('fs'),
 
 
 const Parse = require('./ParseData');
-const Dados = require('./Dados');
+const dados = require('./Dados');
 
 
 exports = module.exports.AvaliacaoPublicacao = AvaliacaoPublicacao
@@ -28,7 +28,6 @@ function AvaliacaoPublicacao(config, callback) {
 
 function Publicacao(config, callback) { 
 
-    let dados = new Dados();
     let parse = new Parse();
 
     jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
@@ -115,23 +114,11 @@ verificaISSN = function (dadosQualis) {
                 }
 
                 data.artigos.push(objArtigo);
-                salvaDadosdaProducaoemArquivo(data);
+                dados.escreveJsonObj("./resultado_artigos_com_conceito.json", data);
                 break;
             }
         }
     }
-}
-
-
-function salvaDadosdaProducaoemArquivo(data) {
-
-    var json = JSON.stringify(data, null, " ");
-
-    fs.writeFileSync("./resultado_artigos_com_conceito.json", json, (err) => {
-        if(err) {
-            return console.log("Erro na criação de arquivo de avaliação de publicações: " + err);
-        }
-    }); 
 }
 
 
