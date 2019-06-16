@@ -1,5897 +1,5899 @@
-[
-	{
+{ 
+	"conferencias": [
+	 {
 		"nome": "AAAI - Conference on Artificial Intelligence",
 		"sigla": "AAAI",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "AAMAS - International Conference on Autonomous Agents and Multiagent Systems",
 		"sigla": "AAMAS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ACL - Annual Meeting of the Association for Computational Linguistics",
 		"sigla": "ACL",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SoCC - ACM Symposium on Cloud Computing",
 		"sigla": "ACMSOCC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ALLERTON - Allerton Conference on Communication, Control, and Computing",
 		"sigla": "ALLERTON",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ASE - IEEE/ACM International Conference on Automated Software Engineering",
 		"sigla": "ASE",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ASIACRYPT - Annual International Conference on the Theory and Applications of Cryptology and Information Security",
 		"sigla": "ASIACRYPT",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ASPLOS - International Conference on Architectural Support for Programming Languages and Operating Systems",
 		"sigla": "ASPLOS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "BMVC - British Machine Vision Conference",
 		"sigla": "BMVC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "CCGrid - IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing",
 		"sigla": "CCGRID",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "CCS/ASIACCS - ACM Symposium on Information, Computer and Communications Security",
 		"sigla": "CCS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "CEC - IEEE Congress on Evolutionary Computation",
 		"sigla": "CEC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "CHES - Conference on Cryptographic Hardware and Embedded Systems",
 		"sigla": "CHES",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "CHI - ACM Conference on Human Factors in Computing Systems",
 		"sigla": "CHI",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "CIKM - ACM International Conference on Information and Knowledge Management",
 		"sigla": "CIKM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "CloudCom - IEEE International Conference on Cloud Computing Technology and Science",
 		"sigla": "CloudCom",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "CONEXT - Conference on Emerging Network Experiment and Technology",
 		"sigla": "CONEXT",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "CSCW - ACM Conference on Computer Supported Cooperative Work & Social Computing",
 		"sigla": "CSCW",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "CVPR - IEEE Conference on Computer Vision and Pattern Recognition",
 		"sigla": "CVPR",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "DAC - Design Automation Conference",
 		"sigla": "DAC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "DATE - Design, Automation and Test in Europe Conference and Exhibition",
 		"sigla": "DATE",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "DSN - Annual IEEE/IFIP International Conference on Dependable Systems and Networks",
 		"sigla": "DSN",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ECCV - European Conference on Computer Vision",
 		"sigla": "ECCV",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ECML/PKDD - European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases",
 		"sigla": "ECML",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ECRTS - Euromicro Conference on Real-Time Systems",
 		"sigla": "ECRTS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "EDBT - International Conference on Extending Database Technology",
 		"sigla": "EDBT",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "EMNLP - Conference on Empirical Methods in Natural Language Processing",
 		"sigla": "EMNLP",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ESWC - European Semantic Web Conference",
 		"sigla": "ESWS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "EUROPAR - European Conference on Parallel Computing",
 		"sigla": "EUROPAR",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "EUROSYS - European Conference on Computer Systems",
 		"sigla": "EUROSYS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "FGR - IEEE International Conference on Automatic Face and Gesture Recognition",
 		"sigla": "FGR",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "FSE/ESEC -  Joint Meeting on European Software Engineering Conference and Foundations of Software Engineering",
 		"sigla": "FSE/ESEC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "FUSION - International Conference on Information Fusion",
 		"sigla": "FUSION",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "GECCO - Genetic and Evolutionary Computation Conference",
 		"sigla": "GECCO",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SIGSPATIAL/GIS - ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems",
 		"sigla": "GIS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "GLOBECOM - IEEE Global Communications Conference",
 		"sigla": "GLOBECOM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "HICSS - Hawaii International Conference on System Sciences",
 		"sigla": "HICSS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "HLT - International Conference Baltic Human Language Technology",
 		"sigla": "HLT",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "HotNets - ACM Workshop on Hot Topics in Networks",
 		"sigla": "HOTNETS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "HPCA - IEEE  International Symposium on High Performance Computer Architecture",
 		"sigla": "HPCA",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "HPDC - International Symposium on High Performance Distributed Computing",
 		"sigla": "HPDC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICASSP - IEEE International Conference on Acoustics, Speech and Signal Processing",
 		"sigla": "ICASSP",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICC - IEEE International Conference on Communications",
 		"sigla": "ICC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCAD - IEEE/ACM International Conference on ComputerAided Design",
 		"sigla": "ICCAD",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCS - International Conference on Computational Science",
 		"sigla": "ICCS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICDAR - International Conference on Document Analysis and Recognition",
 		"sigla": "ICDAR",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICDCS - International Conference on Distributed Computing Systems",
 		"sigla": "ICDCS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICDE - IEEE International Conference on Data Engineering",
 		"sigla": "ICDE",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICDM - IEEE International Conference on Data Mining",
 		"sigla": "ICDM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICIP - IEEE International Conference on Image Processing",
 		"sigla": "ICIP",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICIS - International Conference on Information Systems",
 		"sigla": "ICIS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICML - International Conference on Machine Learning",
 		"sigla": "ICML",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICMR - ACM International Conference on Multimedia Retrieval",
 		"sigla": "ICMR",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICN - ACM International Conference on Information-Centric Networking",
 		"sigla": "ICN",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICPP - International Conference on Parallel Processing",
 		"sigla": "ICPP",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICRA - IEEE International Conference on Robotics and Automation",
 		"sigla": "ICRA",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSE - International Conference on Software Engineering",
 		"sigla": "ICSE",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSME - IEEE International Conference on Software Maintenance and Evolution",
 		"sigla": "ICSM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICWSM - International AAAI Conference on Weblogs and Social Media",
 		"sigla": "ICWSM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "IEEEECLOUD - IEEE International Conference on Cloud Computing",
 		"sigla": "IEEECLOUD",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "IJCAI - International Joint Conference on Artificial Intelligence",
 		"sigla": "IJCAI",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "IJCNN - IEEE International Joint Conference on Neural Networks",
 		"sigla": "IJCNN",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "IMC - ACM Internet Measurement Conference",
 		"sigla": "IMC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "INFOCOM - IEEE International Conference on Computer Communications",
 		"sigla": "INFOCOM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "INTERSPEECH - Conference of the International Speech Communication Association",
 		"sigla": "INTERSPEECH",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "IPDPS - IEEE International Parallel & Distributed Processing Symposium",
 		"sigla": "IPDPS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "IPSN - International Conference on Information Processing in Sensor Networks",
 		"sigla": "IPSN",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "IROS - IEEE/RSJ International Conference on Intelligent Robots and Systems",
 		"sigla": "IROS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISCA - International Symposium on Computer Architecture",
 		"sigla": "ISCA",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISCAS - IEEE International Symposium on Circuits and Systems",
 		"sigla": "ISCAS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISIT - International Symposium on Information Theory",
 		"sigla": "ISIT",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISMIR - International Society for Music Information Retrieval Conference",
 		"sigla": "ISMIR",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISSTA - International Symposium on Software Testing and Analysis",
 		"sigla": "ISSTA",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISWC - International Semantic Web Conference",
 		"sigla": "ISWC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "KDD - ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
 		"sigla": "KDD",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "LAK - International Learning Analytics and Knowledge Conference",
 		"sigla": "LAK",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "LREC - International Conference on Language Resources and Evaluation",
 		"sigla": "LREC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "MICCAI - International Conference on Medical Image Computing and Computer Assisted Intervention",
 		"sigla": "MICCAI",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "MOBICOM - ACM/IEEE International Conference on Mobile Computing and Networking",
 		"sigla": "MOBICOM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "MOBILEHCI - International Conference on Human-Computer Interaction with Mobile Devices and Services Adjunct",
 		"sigla": "MOBILEHCI",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "MSR - Working Conference on Mining Software Repositories",
 		"sigla": "MSR",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "NSDI - Networked Systems Design and Implementation",
 		"sigla": "NSDI",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "OOPSLA - Conference on Object-Oriented Programming Systems, Languages, and Applications",
 		"sigla": "OOPSLA",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "PACT - International Conference on Parallel Architectures and Compilation Techniques",
 		"sigla": "PACTT",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "PERCOM - International Conference on Pervasive Computing and Communications",
 		"sigla": "PERCOM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "PIMRC - International Symposium on Personal, Indoor and Mobile Radio Communications",
 		"sigla": "PIMRC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "PLDI - SIGPLAN Conference on Programming Language Design and Implementation",
 		"sigla": "PLDI",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "POPL - Symposium on Principles of Programming Languages",
 		"sigla": "POPL",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "PPoPP - ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming",
 		"sigla": "PPOPP",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "RecSYS - ACM Conference on Recommender Systems",
 		"sigla": "RECSYS",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SAC - ACM Symposium on Applied Computing",
 		"sigla": "SAC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SC - International Conference for High Performance Computing, Networking, Storage and Analysis",
 		"sigla": "SC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SDM - SIAM International Conference on Data Mining",
 		"sigla": "SDM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SenSys - ACM Conference on Embedded Network Sensor Systems",
 		"sigla": "SenSys",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SIGCOMM - ACM SIGCOMM Conference",
 		"sigla": "SIGCOMM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SIGCSE - ACM Technical Symposium on Computer Science Education",
 		"sigla": "SIGCSE",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SIGIR -  International ACM SIGIR Conference on Research and Development in Information Retrieval",
 		"sigla": "SIGIR",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SIGMOD - ACM Conference on Management Data",
 		"sigla": "SIGMOD",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SocialCom - International Conference on Social Computing",
 		"sigla": "SOCIALCOM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SODA - ACM-SIAM Symposium on Discrete Algorithms",
 		"sigla": "SODA",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "SPLC - International Software Product Line Conference: New Directions in Systems and Software Product Line Engineering",
 		"sigla": "SPLC",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "UAI - Conference on Uncertainty in Artificial Intelligence",
 		"sigla": "UAI",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "UbiComp - ACM International Joint Conference on Pervasive and Ubiquitous Computing",
 		"sigla": "UbiComp",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "UIST - User Interface Software Technology Symposium",
 		"sigla": "UIST",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "WACV - Winter Conference on Applications of Computer Vision",
 		"sigla": "WACV",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "WSDM - ACM Conference International Conference on Web Search and Data Mining",
 		"sigla": "WSDM",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "WWW - International World Wide Web Conferences",
 		"sigla": "WWW",
 		"qualis": "A1"
-	},
-	{
+	 },
+	 {
 		"nome": "AIED - Intternational Conference on Artificial Intelligence in Education",
 		"sigla": "AIED",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "AIIDE - AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment",
 		"sigla": "AIIDE",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "AINA - IEEE International Conference on Advanced Information Networking and Applications",
 		"sigla": "AINA",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "AMCIS - Americas Conference on Information Systems",
 		"sigla": "AMCIS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ARES - International Conference on Availability, Reliability and Security",
 		"sigla": "ARES",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ASONAM - IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining",
 		"sigla": "ASONAM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ASSETS - International ACM SIGACCESS Conference on Computers and Accessibility",
 		"sigla": "ASSETS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "AVSS - IEEE International Conference on Advanced Video and Signal Based Surveillance",
 		"sigla": "AVSS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "BPM - International Conference on Business Process Management",
 		"sigla": "BPM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "BTAS - IEEE International Conference on Biometrics: Theory, Applications, and Systems",
 		"sigla": "BTAS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CADE - International Conference on Automated Deduction",
 		"sigla": "CADE",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CAISE - International Conference on Advanced Information Systems Engineering",
 		"sigla": "CAISE",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CGO - International Symposium on Code Generation and Optimization",
 		"sigla": "CGO",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CICC - IEEE Custom Integrated Circuits Conference",
 		"sigla": "CICC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CICLing - International Conference on Intelligent Text Processing and Computational Linguistics",
 		"sigla": "CICLING",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CIG - IEEE Conference on Computational Intelligence and Games",
 		"sigla": "CIG",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CLOSER - International Conference on Cloud Computing and Services Science",
 		"sigla": "CLOSER",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CLUSTER - IEEE International Conference on Cluster Computing",
 		"sigla": "CLUSTER",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CNSM - International Conference on Network and Service Management",
 		"sigla": "CNSM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CODES+ISSS - International Conference on Hardware/Software Codesign and System Synthesis",
 		"sigla": "CODES+ISSS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "COLING - International Conference on Computational Linguistics",
 		"sigla": "COLING",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SoCG - International Symposium on Computational Geometry",
 		"sigla": "COMPGEOM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "COMPSAC - Annual International Computers, Software & Applications Conference",
 		"sigla": "COMPSAC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "COMSNETS - International Conference on COMmunication Systems & NETworkS",
 		"sigla": "COMSNETS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CONCUR - International Conference on Concurrency Theory",
 		"sigla": "CONCUR",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CoopIS - International Conference on Cooperative Information Systems",
 		"sigla": "CoopIS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CP - International Conference on Principles and Practice of Constraint Programming",
 		"sigla": "CP",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CSF - IEEE Computer Security Foundations Symposium",
 		"sigla": "CSF",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CSMR - European Conference on Software Maintenance and Reengineering",
 		"sigla": "CSMR",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "CT-RSA - RSA Conference Cryptographers' Track",
 		"sigla": "CT-RSA",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "DCOSS - International Conference on Distributed Computing in Sensor Systems",
 		"sigla": "DCOSS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "DEBS - International Conference on Distributed and Event-Based Systems",
 		"sigla": "DEBS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ECAI - European Conference on Artificial Intelligence",
 		"sigla": "ECAI",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ECIR - European Conference on Information Retrieval",
 		"sigla": "ECIR",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ECIS - European Conference on Information Systems",
 		"sigla": "ECIS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ECOOP - European Conference on Object-Oriented Programming",
 		"sigla": "ECOOP",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "EDM - International Conference on Educational Data Mining",
 		"sigla": "EDM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "EDOC - IEEE International Enterprise Distributed Object Computing Conference",
 		"sigla": "EDOC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "EICS - ACM SIGCHI Symposium on Engineering Interactive Computing Systems",
 		"sigla": "EICS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ESA - European Symposium on Algorithms",
 		"sigla": "ESA",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ESEM - ACM/IEEE International Symposium on Empirical Software Engineering and Measurement",
 		"sigla": "ESEM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ESORICS - European Symposium on Research in Computer Security",
 		"sigla": "ESORICS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ETRA - Biennial ACM Symposium on Eye Tracking Research & Applications",
 		"sigla": "ETRA",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "EUSIPCO - European Signal Processing Conference",
 		"sigla": "EUSIPCO",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "FASE - International Conference on Fundamental Approaches to Software Engineering",
 		"sigla": "FASE",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "FCCM - IEEE Annual International Symposium on Field-Programmable Custom Computing Machines",
 		"sigla": "FCCM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "FM - International Symposium on Formal Methods",
 		"sigla": "FM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "FMCAD - International Conference on Formal Methods in Computer-Aided Design",
 		"sigla": "FMCAD",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "FPL - International Conference on Field-Programmable Logic and Applications",
 		"sigla": "FPL",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "HPCC - International Conference on High Performance Computing and Communications",
 		"sigla": "HPCC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "HT - ACM Conference on Hypertext and Social Media",
 		"sigla": "HT",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "I2MTC - IEEE International Instrumentation and Measurement Technology Conference",
 		"sigla": "I2MTC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "I3D - ACM Symposium on Interactive 3D Graphics and Games",
 		"sigla": "I3D",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICAISC - International Conference on Artificial Intelligence and Soft Computing",
 		"sigla": "ICAISC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICAPS - International Conference on Automated Planning and Scheduling",
 		"sigla": "ICAPS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICB - International Conference on Biometrics",
 		"sigla": "ICB",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCCN - International Conference on Computer Communications and Networks",
 		"sigla": "ICCCN",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCD - International Conference on Computer Design",
 		"sigla": "ICCD",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICNC - International Conference on Computing, Networking and Communications",
 		"sigla": "ICCNC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICME - IEEE International Conference on Multimedia and Expo",
 		"sigla": "ICME",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICPADS - International Conference on Parallel and Distributed Systems",
 		"sigla": "ICPADS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICPC - International Conference on Program Comprehension",
 		"sigla": "ICPC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICPE - International Conference on Performance Engineering",
 		"sigla": "ICPE",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICPR - International Conference on Pattern Recognition",
 		"sigla": "ICPR",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSOC - International Conference on Service Oriented Computing",
 		"sigla": "ICSOC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICST - IEEE International Conference on Software Testing, Verification and Validation",
 		"sigla": "ICSTV",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICWS - IEEE International Conference on Web Services",
 		"sigla": "ICWS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SCC - IEEE International Conference on Services Computing",
 		"sigla": "IEEESCC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "IGSC - International Green and Sustainable Computing Conference",
 		"sigla": "IGSC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "IISWC - IEEE International Symposium on Workload Characterization",
 		"sigla": "IISWC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "IM - IFIP/IEEE International Symposium on Integrated Network Management",
 		"sigla": "IM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "IMIS - International Conference on Innovative Mobile and Internet Services in Ubiquitous Computing",
 		"sigla": "IMIS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "INTERACT - IFIP TC 13 International Conference on Human-Computer Interaction",
 		"sigla": "INTERACT",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISCC - International Symposium on Computers and Communications",
 		"sigla": "ISCC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISLPED - International Symposium on Low Power Electronics and Design",
 		"sigla": "ISLPED",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISMAR - International Symposium on Mixed and Augmented Reality",
 		"sigla": "ISMAR",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISPASS - IEEE International Symposium on Performance Analysis of Systems and Software",
 		"sigla": "ISPASS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISSRE - IEEE International Symposium on Software Reliability Engineering",
 		"sigla": "ISSRE",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISWCS - International Symposium on Wireless Communication Systems",
 		"sigla": "ISWCS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ITiCSE - Conference on Innovation and Technology in Computer Science Education",
 		"sigla": "ITICSE",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "IUI - International Conference on Intelligent User Interfaces",
 		"sigla": "IUI",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "IWCMC - International Wireless Communications and Mobile Computing Conference",
 		"sigla": "IWCMC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "JCDL - ACM/IEEE Joint Conference on Digital Libraries",
 		"sigla": "JCDL",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "KR - International Conference on Principles of Knowledge Representation and Reasoning",
 		"sigla": "KR",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "MASCOTS - International Symposium on the Modeling, Analysis, and Simulation of Computer and Telecommunication Systems",
 		"sigla": "MASCOTS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "MDM - IEEE International Conference on Mobile Data Management",
 		"sigla": "MDM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "MIDDLEWARE - International Middleware Conference",
 		"sigla": "MIDDLEWARE",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "MMSys - ACM Multimedia Systems Conference",
 		"sigla": "MMSYS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "MOBIHOC - ACM International Symposium on Mobile Ad Hoc Networking and Computing",
 		"sigla": "MOBIHOC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "MODELS - International Conference on Model Driven Engineering Languages and Systems",
 		"sigla": "MODELS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "MODULARITY - International Conference on Modularity",
 		"sigla": "MODULARITY",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "MSST - IEEE Symposium on Mass Storage Systems and Technologies",
 		"sigla": "MSST",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "Networking - IFIP Networking Conference",
 		"sigla": "NETWORKING",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "NFM - NASA Formal Methods Symposium",
 		"sigla": "NFM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "NOMS - IEEE/IFIP Network Operations and Management Symposium",
 		"sigla": "NOMS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "OM - International Workshop on Ontology Matching",
 		"sigla": "OM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "PacificVis - IEEE Pacific Visualization Symposium",
 		"sigla": "PacificVis",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "PAKDD - Pacific-Asia Conference on Knowledge Discovery and Data Mining",
 		"sigla": "PAKDD",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "PAM - Passive and Active Network Measurement Conference",
 		"sigla": "PAM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "PDP - Euromicro International Conference on Parallel, Distributed and Network-Based Processing",
 		"sigla": "PDP",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "RE - IEEE International Requirements Engineering Conference",
 		"sigla": "RE",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "RECOMB - International Conference on Research in Computational Molecular Biology",
 		"sigla": "RECOMB",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "RTSS - Real-Time Systems Symposium",
 		"sigla": "RTSS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SAC - Workshop on Selected Areas in Cryptography",
 		"sigla": "SACRYPT",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SANER - IEEE International Conference on Software Analysis, Evolution and Reengineering",
 		"sigla": "SANER",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SAT - International Conference on Theory and Applications of Satisfiability Testing",
 		"sigla": "SAT",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SEA - International Symposium on Experimental Algorithms",
 		"sigla": "SEA",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SEAMS - International Symposium on Software Engineering for Adaptive and Self-Managing Systems",
 		"sigla": "SEAMS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SERVICES - IEEE World Congress on Services",
 		"sigla": "SERVICES",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SIGGRAPH - International Conference and Exibition on Computer Graphics and Interactive Techniques",
 		"sigla": "SIGGRAPH",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SLT - Workshop on Spoken Language Technology",
 		"sigla": "SLT",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "SMC - IEEE International Conference on Systems, Man and Cybernetics",
 		"sigla": "SMC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "ITS - International Conference on Interactive Tabletops and Surfaces",
 		"sigla": "TABLETOPS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "TEI - International Conference on Tangible, Embedded and Embodied Interaction",
 		"sigla": "TEI",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "TREC - Text Retrieval Conference",
 		"sigla": "TREC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "TrustCom - International Conference on Trust, Security and Privacy in Computing and Communications",
 		"sigla": "TRUSTCOM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "UCC - IEEE/ACM International Conference on Utility and Cloud Computing",
 		"sigla": "UCC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "UMAP - International Conference on User Modeling, Adaptation and Personalization",
 		"sigla": "UMAP",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "VaMoS - International Workshop on Variability Modelling of Software-intensive Systems",
 		"sigla": "VAMOS",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "VAST - IEEE Conference on Visual Analytics Science and Technology",
 		"sigla": "VAST",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "VNC - IEEE Vehicular Networking Conference",
 		"sigla": "VNC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "WCRE - Working Conference on Reverse Engineering",
 		"sigla": "WCRE",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "WebSci - Web Science Conference",
 		"sigla": "WEBSCI",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "WiMob - IEEE International Conference on Wireless and Mobile Computing, Networking and Communications",
 		"sigla": "WIMOB",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "WoWMoM - International Symposium on a World of Wireless, Mobile and Multimedia Networks",
 		"sigla": "WOWMOM",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "WSC - Winter Simulation Conference",
 		"sigla": "WSC",
 		"qualis": "A2"
-	},
-	{
+	 },
+	 {
 		"nome": "3DIC - International 3D System Integration Conference",
 		"sigla": "3DIC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "3DTV - 3DTV Conference: The True Vision-Capture, Transmission and Display of 3D Video",
 		"sigla": "3DTV",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "3DUI - IEEE Symposium on 3D User Interfaces",
 		"sigla": "3DUI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "3PGCIC - International Conference on P2P, Parallel, Grid, Cloud and Internet Computing",
 		"sigla": "3PGCIC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ACE - International Conference on Advances in Computer Entertainment Technology",
 		"sigla": "ACE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ACIVS - Advanced Concepts for Intelligent Vision Systems",
 		"sigla": "ACIVS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ADBIS - East European Conference on Advances in Databases and Information Systems",
 		"sigla": "ADBIS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ADHOC-NOW - International Conference on Ad-Hoc Networks and Wireless",
 		"sigla": "ADHOC-NOW",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "AGI - Conference on Artificial General Intelligence",
 		"sigla": "AGI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "AGILE - Agile Conference",
 		"sigla": "AGILE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "AH - Augmented Human International Conference",
 		"sigla": "AH",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "AHS - NASA/ESA Conference on Adaptive Hardware and Systems",
 		"sigla": "AHS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "AI - Canadian Conference on Artificial Intelligence",
 		"sigla": "AI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "AMW - Alberto Mendelzon International Workshop on Foundations of Data Management",
 		"sigla": "AMW",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "APLAS - Asian Symposium on Programming Languages and Systems",
 		"sigla": "APLAS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ARC - International Symposium on Applied Reconfigurable Computing",
 		"sigla": "ARC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ASAP - IEEE International Conference on Application-specific Systems, Architectures and Processors",
 		"sigla": "ASAP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "BIBE - IEEE International Conference on BioInformatics and BioEngineering",
 		"sigla": "BIBE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "BIBM - IEEE International Conference on Bioinformatics and Biomedicine",
 		"sigla": "BIBM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "BigData - IEEE International Congress on BigData",
 		"sigla": "BIGDATA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "BIOSIG - International Conference of the Biometrics Special Interest Group",
 		"sigla": "BIOSIG",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "BMEI - International Conference BioMedical Engineering and Informatics",
 		"sigla": "BMEI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "BMSB - IEEE International Symposium on Broadband Multimedia Systems and Broadcasting",
 		"sigla": "BMSB",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CAIP - International Conference on Computer Analysis of Images and Patterns",
 		"sigla": "CAIP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CANS - International Conference on Cryptology and Network Security",
 		"sigla": "CANS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CASCON - Annual International Conference on Computer Science and Software Engineering",
 		"sigla": "CASCON",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CASE - IEEE Conference on Automation Science and Engineering",
 		"sigla": "CASE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CASES - International Conference on Compilers, Architecture, and Synthesis for Embedded Systems",
 		"sigla": "CASES",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CASoN - International Conferennce on Computational Aspects of Social Networks",
 		"sigla": "CASON",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CBI - IEEE Conference on Business Informatics",
 		"sigla": "CBI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CBMI - International Workshop on Content-Based Multimedia Indexing",
 		"sigla": "CBMI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CBMS - International Symposium on Computer-Based Medical Systems",
 		"sigla": "CBMS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CBSE - International ACM Sigsoft Symposium on Component-Based Software Engineering",
 		"sigla": "CBSE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CCCG - Canadian Conference on Computational Geometry",
 		"sigla": "CCCG",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CCECE - Canadian Conference on Electrical and Computer Engineering",
 		"sigla": "CCECE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CDC - IEEE Conference on Decision and Control",
 		"sigla": "CDC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CF - ACM International Conference on Computing Frontiers",
 		"sigla": "CF",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CGC - International Conference on Cloud and Green Computing",
 		"sigla": "CGC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CHASE - International Workshop on Cooperative and Human Aspects of Software Engineering",
 		"sigla": "CHASE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CIARP - Iberoamerican Congress on Pattern Recognition",
 		"sigla": "CIARP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CIDM - Symposium on Computational Intelligence and Data Mining",
 		"sigla": "CIDM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CISIS - International Conference on Complex, Intelligent, and Software Intensive Systems",
 		"sigla": "CISIS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CIT - IEEE International Conference on Computer and Information Technology",
 		"sigla": "CIT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CloudNet - IEEE International Conference on Cloud Networking",
 		"sigla": "CloudNet",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CMSB - International Conference on Computational Methods in Systems Biology",
 		"sigla": "CMSB",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "COCOON - International Computing and Combinatorics Conference",
 		"sigla": "COCOON",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CogSIMA - IEEE International Multi-Disciplinary Conference on Cognitive Methods in Situation Awareness and Decision Support",
 		"sigla": "CogSIMA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "COMMA - International Conference on Computational Models of Argument",
 		"sigla": "COMMA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CPM - Annual Symposium on Combinatorial Pattern Matching",
 		"sigla": "CPM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CSCWD - IEEE International Conference on Computer Supported Cooperative Work in Design",
 		"sigla": "CSCWD",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CSE - International Conference on Computational Science and Engineering",
 		"sigla": "CSE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CSEDU - International Conference on Computer Supported Education",
 		"sigla": "CSEDU",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CSEE&T - Conference on Software Engineering Education and Training",
 		"sigla": "CSEE&T",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "CSNDSP - International Symposium on Communication Systems, Networks and Digital Signal Processing",
 		"sigla": "CSNDSP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DAS - International Workshop on Document Analysis Systems",
 		"sigla": "DAS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DaWaK - International Conference on Big Data Analytics and Knowledge Discovery",
 		"sigla": "DAWAK",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DCC - Data Compression Conference",
 		"sigla": "DCC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DDECS - IEEE  International Symposium on Design and Diagnostics of Electronic Circuits and Systems",
 		"sigla": "DDECS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DEXA - International Conference on Database and Expert Systems Applications",
 		"sigla": "DEXA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DFT - IEEE International Symposium on Defect and Fault Tolerance in VLSI Systems",
 		"sigla": "DFT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DG.O - Annual International Conference on Digital Government Research",
 		"sigla": "DGO",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DOCENG - ACM SIGWEB International Symposium on Document Engineering",
 		"sigla": "DOCENG",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DOLAP -  International Workshop On Data Warehousing and OLAP",
 		"sigla": "DOLAP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DRCN - International Conference on the Design of Reliable Communication Networks",
 		"sigla": "DRCN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DSD - Euromicro Conference on Digital System Design",
 		"sigla": "DSD",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DSRT - IEEE/ACM International Symposium on Distributed Simulation and Real Time Applications",
 		"sigla": "DSRT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EASE - International Conference on Evaluation and Assessment in Software Engineering",
 		"sigla": "EASE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ECAL - European Conference on Artificial Life",
 		"sigla": "ECAL",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ECCTD - European Conference on Circuit Theory and Design",
 		"sigla": "ECCTD",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ECMFA - European Conference on Modelling Foundations and Applications",
 		"sigla": "ECMDAFA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ECMS - European Conference on Modelling and Simulation",
 		"sigla": "ECMS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ECSA - European Conference on Software Architecture",
 		"sigla": "ECSA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ECSQARU - European Conference on Symbolic and Quantitative Approaches to Reasoning and Uncertainty",
 		"sigla": "ECSQARU",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EC-TEL - European Conference on Technology Enhanced Learning",
 		"sigla": "ECTEL",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EGOV - International Conference on Electronic Government",
 		"sigla": "EGOV",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EMBC - Annual International Conference of the IEEE Engineering in Medicine and Biology Society",
 		"sigla": "EMBC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EMO - International Conference on Evolutionary Multi-Criterion Optimization",
 		"sigla": "EMO",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EPIA - Portuguese Conference on Artificial Intelligence",
 		"sigla": "EPIA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ER - International Conference on Conceptual Modeling",
 		"sigla": "ER",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ESANN - European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning",
 		"sigla": "ESANN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "e-Science - IEEE International Conference on e-Science",
 		"sigla": "ESCIENCE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ETS - IEEE European Test Symposium",
 		"sigla": "ETS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EuroGP - European Conference on Genetic Programming",
 		"sigla": "EuroGP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EUROITV - European Conference on Interactive TV and Video",
 		"sigla": "EUROITV",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SEAA - Euromicro Conference on Software Engineering and Advanced Applications",
 		"sigla": "EUROMICRO",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EUROSPI2 - European Conference on Software Process Improvement",
 		"sigla": "EuroSPI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EUSFLAT - Conference of the European Society for Fuzzy Logic and Technology",
 		"sigla": "EUSFLAT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EvoApplications - European Conference on the Applications of Evolutionary Computation",
 		"sigla": "EVOAPPLICATIONS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EVOCOP - European Conference on Evolutionary Computation in Combinatorial Optimization",
 		"sigla": "EVOCOP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "EWSDN - European Workshop on Software Defined Networks",
 		"sigla": "EWSDN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "FedCSIS - Federated Conference on Computer Science and Information Systems",
 		"sigla": "FEDCSIS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "FIE - IEEE Frontiers in Education Conference",
 		"sigla": "FIE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "FLAIRS - International Florida Artificial Intelligence Conference",
 		"sigla": "FLAIRS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "FSKD - International Conference on Fuzzy Systems and Knowledge Discovery",
 		"sigla": "FSKD",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "FSTTCS - Annual Conference on Foundations of Software Technology and Theoretical Computer Science",
 		"sigla": "FSTTCS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "FUZZIEEE - IEEE International Conference on Fuzzy Systems",
 		"sigla": "FUZZIEEE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "GI - Graphics Interface Conference",
 		"sigla": "GI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "GlobalSIP - Global Conference on Signal and Information Processing",
 		"sigla": "GLOBALSIP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "GLSVLSI - ACM Great Lakes Symposium on VLSI",
 		"sigla": "GLVLSI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "GRAPP - International Conference on Computer Graphics Theory and Applications",
 		"sigla": "GRAPP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "HAIS - International Conference on Hybrid Artificial Intelligence Systems",
 		"sigla": "HAIS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "HASE - IEEE International Symposium on High Assurance Systems Engineering",
 		"sigla": "HASE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "Hcomp - Conference on Human Computation and Crowdsourcing",
 		"sigla": "HCOMP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "HiPC - IEEE International Conference on High Performance Computing",
 		"sigla": "HIPC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "HOST - IEEE International Symposium on Hardware Oriented Security and Trust",
 		"sigla": "HOST",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "HPCS - International Conference on High Performance Computing & Simulation",
 		"sigla": "HPCS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "HVC - International Haifa Verification Conference",
 		"sigla": "HVC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IAT - IEEE/WIC/ACM International Conference on Intelligent Agent Technology",
 		"sigla": "IAT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICA3PP - International Conference on Algorithms and Architectures for Parallel Processing",
 		"sigla": "ICA3PP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICAART - International Conference on Agents and Artificial Intelligence",
 		"sigla": "ICAART",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICALT - IEEE International Conference on Advanced Learning Technologies",
 		"sigla": "ICALT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICANN - International Conference on Artificial Neural Networks",
 		"sigla": "ICANN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICAR - International Conference on Advanced Robotics",
 		"sigla": "ICAR",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICARCV - International Conference on Control, Automation, Robotics and Vision",
 		"sigla": "ICARV",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCA - IEEE International Conference on Control and Automation",
 		"sigla": "ICCA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCP - IEEE International Conference on Intelligent Computer Communication and Processing",
 		"sigla": "ICCP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCSA - International Conference on Computational Science and Its Applications",
 		"sigla": "ICCSA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "DSP - IEEE International Conference on Digital Signal Processing",
 		"sigla": "ICDSP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICEBE - IEEE International Conference on e-Business Engineering",
 		"sigla": "ICEBE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICEC - IFIP International Conference on Entertainment Computing",
 		"sigla": "ICEC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICECCS - International Conference on Engineering of Complex Computer",
 		"sigla": "ICECCS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICECS - IEEE International Conference on Electronics, Circuits and Systems",
 		"sigla": "ICECS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICFEM - International Conference on Formal Engineering Methods",
 		"sigla": "ICFEM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICFHR - International Conference on Frontiers in Handwriting Recognition",
 		"sigla": "ICFHR",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICGSE - IEEE International Conference on Global Software Engineering",
 		"sigla": "ICGSE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICIAP - International Conference on Image Analysis and Processing",
 		"sigla": "ICIAP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICIAR - International Conference on Image Analysis and Recognition",
 		"sigla": "ICIAR",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICIC - International Conference on Intelligent Computing",
 		"sigla": "ICIC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICISS - International Conference on Information Systems Security",
 		"sigla": "ICISS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICITST - International Conference for Internet Technology and Secured Transactions",
 		"sigla": "ICITST",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICLP - International Conference on Logic Programming",
 		"sigla": "ICLP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICM - International Conference on Microelectronics",
 		"sigla": "ICM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICMC - International Computer Music Conference",
 		"sigla": "ICMC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICMLA - IEEE International Conference on Machine Learning and Applications",
 		"sigla": "ICMLA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICNC - IInternational Conference on Natural Computation",
 		"sigla": "ICNC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICNSC - IEEE International Conference on Networking, Sensing and Control",
 		"sigla": "ICNSC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICOIN - International Conference on Information Networking",
 		"sigla": "ICOIN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICONIP - International Conference on Neural Information Processing",
 		"sigla": "ICONIP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSC - International Conference on Semantic Computing",
 		"sigla": "ICSC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSI - International Conference on Swarm Intelligence",
 		"sigla": "ICSI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSOB - International Conference on Software Business",
 		"sigla": "ICSOB",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSOFT - International Conference on Software and Data Technologies",
 		"sigla": "ICSOFT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICST - International Conference on Sensing Technology",
 		"sigla": "ICST",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICT - International Conference on Telecommunications",
 		"sigla": "ICT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICTAI - IEEE International Conference on Tools with Artificial Intelligence",
 		"sigla": "ICTAI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICVS - International Conference on Computer Vision Systems",
 		"sigla": "ICVS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ICWE - International Conference on Web Engineering",
 		"sigla": "ICWE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IECON - Annual Conference of the IEEE Industrial Electronics Society",
 		"sigla": "IECON",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IEEEANTS - IEEE International Conference on Advanced Networks and Telecommuncations Systems",
 		"sigla": "IEEEANTS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IFAC - World Congress of the International Federation of Automatic Control",
 		"sigla": "IFAC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "iiWAS - International Conference on Information Integration and Web-based Applications & Services",
 		"sigla": "IIWAS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "INCOS - International Conference on Intelligent Networking and Collaborative Systems",
 		"sigla": "INCOS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "INDIN - IEEE International Conference on Industrial Informatics",
 		"sigla": "INDIN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IOLTS - IEEE International On-Line Testing Symposium",
 		"sigla": "IOLTS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IPCCC - International Performance, Computing, and Communications Conference",
 		"sigla": "IPCCC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IPCO - Conference on Integer Programming and Combinatorial Optimization",
 		"sigla": "IPCO",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IRI - IEEE International Conference on Information Reuse and Integration",
 		"sigla": "IRI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISAAC - International Symposium Algorithms and Computation",
 		"sigla": "ISAAC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISCIS - International Symposium on Computer and Information Sciences",
 		"sigla": "ISCIS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISDA - International Conference on Intelligent Systems Design and Applications",
 		"sigla": "ISDA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IS-EUD - International Symposium on End-User Development",
 		"sigla": "ISEUD",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISI - IEEE International Conference on Intelligence and Security Informatics",
 		"sigla": "ISI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISM - IEEE International Symposium on Multimedia",
 		"sigla": "ISM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISMIS - International Symposium on Methodologies for Intelligent Systems",
 		"sigla": "ISMIS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISMM - International Symposium on Mathematical Morphology",
 		"sigla": "ISMM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISNN - International Symposium on Neural Networks",
 		"sigla": "ISNN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISOLA - International Symposium on Leveraging Applications of Formal Methods, Verification and Validation",
 		"sigla": "ISOLA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISORC - IEEE International Symposium on RealTime Distributed Computing",
 		"sigla": "ISORC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISPD - ACM International Symposium on Physical Design",
 		"sigla": "ISPD",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISPDC - International Symposium on Parallel and Distributed Computing",
 		"sigla": "ISPDC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISQED - International Symposium on Quality Electronic Design",
 		"sigla": "ISQED",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISVC - International Symposium on Visual Computing",
 		"sigla": "ISVC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ISVLSI - IEEE Computer Society Annual Symposium on VLSI",
 		"sigla": "ISVLSI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ITC - International Test Conference",
 		"sigla": "ITC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ITNG - International Conference on Information Technology : New Generations",
 		"sigla": "ITNG",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ITS - International Conference on Intelligent Tutoring Systems",
 		"sigla": "ITS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IV - International Conference on Information Visualization",
 		"sigla": "IV",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IVA - International Conference on Intelligent Virtual Agents",
 		"sigla": "IVA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IVAPP - International Conference on Information Visualization Theory and Applications",
 		"sigla": "IVAPP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IVS - Intelligent Vehicles Symposium",
 		"sigla": "IVS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IWANN - International Work-Conference on Artificial and Natural Neural Networks",
 		"sigla": "IWANN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "IWSSIP - International Conference on Systems, Signals and Image Processing",
 		"sigla": "IWSSIP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "KES - International Conference on Knowledge-Based and Intelligent Information & Engineering Systems",
 		"sigla": "KES",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "KES-AMSTA - International KES Conference on Agents and Multi-Agent Systems: Technologies and Applications",
 		"sigla": "KESAMSTA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "LATIN - Latin American Symposium on Theoretical Informatics",
 		"sigla": "LATIN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "LCN - IEEE Conference on Local Computer Networks",
 		"sigla": "LCN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "LION - Learning and Intelligent Optimization Conference",
 		"sigla": "LION",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "LPNMR - International Conference on Logic Programming and Non-monotonic Reasoning",
 		"sigla": "LPNMR",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "Med-Hoc-Net - Mediterranean Ad Hoc Networking Workshop",
 		"sigla": "MEDHOCNET",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "MICAI - Mexican International Conference on Artificial Intelligence",
 		"sigla": "MICAI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "MIG - ACM Siggraph Conference on Motion in Games",
 		"sigla": "MIG",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "MLDM - International Conference on Machine Learning and Data Mining in Pattern Recognition",
 		"sigla": "MLDM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "MLSP - IEEE International Workshop on Machine Learning for Signal Processing",
 		"sigla": "MLSP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "MMM - International Conference on Multimedia Modelling",
 		"sigla": "MMM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "MMSP - International Workshop on Multimedia and Signal Processing",
 		"sigla": "MMSP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "MobiQuitous - International Conference on Mobile and Ubiquitous Systems: Computing, Networking and Services",
 		"sigla": "MOBIQUITOUS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "MSWiM - ACM International Conference on Modeling, Analysis and Simulation of Wireless and Mobile Systems",
 		"sigla": "MSWIM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "MUM - International Conference on Mobile and Ubiquitous Multimedia",
 		"sigla": "MUM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "MWSCAS - International Midwest Symposium on Circuits and Systems",
 		"sigla": "MWSCAS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "NCA - IEEE International Symposium on Network Computing and Applications",
 		"sigla": "NCA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "NEWCAS - IEEE International New Circuits and Systems Conference",
 		"sigla": "NEWCAS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "NIME - International Conference on New Interfaces for Musical Expression",
 		"sigla": "NIME",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "NLDB - International Conference on Application of Natural Language to Information Systems",
 		"sigla": "NLDB",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "NordiCHI - Nordic Conference on Human-Computer Interaction",
 		"sigla": "NordiCHI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "NTMS - IFIP International Conference on New Technologies, Mobility and Security",
 		"sigla": "NTMS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "OFC - IEEE Optical Fiber Communication Conference",
 		"sigla": "OFC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "OPODIS - International Conference on Principles of Distributed Systems",
 		"sigla": "OPODIS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "OzCHI - Australian Conference on Human-Computer Interaction",
 		"sigla": "OzCHI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "P2P - International Conference on Peer-to-Peer Computing",
 		"sigla": "P2P",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PAAMS - International Conference on Practical Applications of Agents, Multi-Agent Systems and Sustainability",
 		"sigla": "PAAMS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PACIS - Pacific Asia Conference on Information Systems",
 		"sigla": "PACIS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PACT - International Conference on Parallel Computing Technologies",
 		"sigla": "PACT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PADS - ACM SIGSIM Conference on Principles of Advanced Discrete Simulation",
 		"sigla": "PADS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "ParCO - International Conference on Parallel Computing",
 		"sigla": "ParCO",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PCS - Picture Coding Symposium",
 		"sigla": "PCS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PDCAT - International Conference on Parallel and Distributed Computing, Applications and Technologies",
 		"sigla": "PDCAT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PESGM - IEEE Power & Energy Society General Meeting",
 		"sigla": "PESGM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PETRA - ACM International Conference on PErvasive Technologies Related to Assistive Environments",
 		"sigla": "PETRA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PPDP - International Symposium on Principles and Practice of Declarative Programming",
 		"sigla": "PPDP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PPSN - International Conference on Parallel Problem Solving from Nature",
 		"sigla": "PPSN",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PRDC - Pacific Rim International Symposium on Dependable Computing",
 		"sigla": "PRDC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PROFES - International Conference on Product-Focused Software Process Improvement",
 		"sigla": "PROFES",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "PST - International Conference on Privacy, Security and Trust",
 		"sigla": "PST",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "QEST - International Conference on Quantitative Evaluation of Systems",
 		"sigla": "QEST",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "QoMEX - International Workshop on Quality of Multimedia Experience",
 		"sigla": "QoMEX",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "RAMS - Annual Reliability and Maintainability Symposium",
 		"sigla": "RAMS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "RANLP - International Conference on Recent Advances in Natural Language Processing",
 		"sigla": "RANLP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "RCIS - International Conference on Research Challenges in Information Science",
 		"sigla": "RCIS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "RECONFIG - International Conference on Reconfigurable Computing and FPGAs",
 		"sigla": "RECONFIG",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "RECOSOC - International Symposium on Reconfigurable Communication-centric Systems-on-Chip",
 		"sigla": "RECOSOC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "REFSQ - International Working Conference on Requirements Engineering: Foundations for Software Quality",
 		"sigla": "REFSQ",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "RFID - IEEE International Conference on RFID",
 		"sigla": "RFID",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "RoboCup - Robocup International Symposium",
 		"sigla": "ROBOCUP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "RTCSA - International Conference on Embedded and Real-Time Computing Systems and Applications",
 		"sigla": "RTCSA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "RuleML - International Web Rule Symposium",
 		"sigla": "RuleML",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SACI - IEEE International Symposium on Applied Computational Intelligence and Informatics",
 		"sigla": "SACI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SAFECOMP - International Conference on Computer Safety, Reliability, and Security",
 		"sigla": "SAFECOMP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SAMOS - International Conference on Embedded Computer Systems: Architectures, Modeling and Simulation",
 		"sigla": "SAMOS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SAS - IEEE Sensors Applications Symposium",
 		"sigla": "SAS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SASO - International Conference on Self-Adaptive and Self-Organizing Systems",
 		"sigla": "SASO",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SBAC-PAD - International Symposium on Computer Architecture and High Performance Computing",
 		"sigla": "SBAC-PAD",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SBIE - Simpósio Brasileiro de Informática na Educação",
 		"sigla": "SBIE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SCAM - IEEE International Working Conference on Source Code Analysis and Manipulation",
 		"sigla": "SCAM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SEC - International Conference on ICT Systems Security and Privacy Protection",
 		"sigla": "SEC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SEFM - International Conference on Software Engineering and Formal Methods",
 		"sigla": "SEFM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SEKE - International Conference on Software Engineering and Knowledge Engineering",
 		"sigla": "SEKE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SIBGRAPI - Conference on Graphics, Patterns and Images",
 		"sigla": "SIBGRAPI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SIMUTools - International Conference on Simulation Tools and Techniques",
 		"sigla": "SIMUTOOLS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SmartGridComm - IEEE International Conference on Smart Grid Communications",
 		"sigla": "SMARTGRIDCOMM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SocInfo - International Conference on Social Informatics",
 		"sigla": "SOCINFO",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SoCS - International Symposium on Combinatorial Search",
 		"sigla": "SOCS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SOFSEM - International Conference on Current Trends in Theory and Practice of Computer Science",
 		"sigla": "SOFSEM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SoftCOM - International Conference on Software, Telecommunications and Computer Networks",
 		"sigla": "SOFTCOM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SOSE - IEEE International Symposium on Service-Oriented System Engineering",
 		"sigla": "SOSE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SPIRE - International Symposium on String Processing and Information Retrieval",
 		"sigla": "SPIRE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SRDS - IEEE Symposium on Reliable Distributed Systems",
 		"sigla": "SRDS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SSBSE - International Symposium on Search Based Software Engineering",
 		"sigla": "SSBSE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SSDBM - International Conference on Scientific and Statistical Database Management",
 		"sigla": "SSDBM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SSTD - International Symposium on Spatial and Temporal Databases",
 		"sigla": "SSTD",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SUM - International Conference on Scalable Uncertainty Management",
 		"sigla": "SUM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "SYSCON - IEEE International Systems Conference",
 		"sigla": "SYSCON",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "TPDL - International Conference on Theory and Practice of Digital Libraries",
 		"sigla": "TPDL",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "TSD - International Conference on Text, Speech and Dialogue",
 		"sigla": "TSD",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "UKSim - International Conference on Computer Modelling and Simulation",
 		"sigla": "UKSIM",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "VCIP - IEEE International Conference on Visual Communications and Image Processing",
 		"sigla": "VCIP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "VISAPP - International Conference on Computer Vision Theory and Applications",
 		"sigla": "VISAPP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "VISSOFT - IEEE Working Conference on Software Visualization",
 		"sigla": "VISSOFT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "VLHCC - IEEE Symposium on Visual Languages and Human-Centric Computing",
 		"sigla": "VLHCC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "VLSI-SOC - International Conference on Very Large Scale Integration",
 		"sigla": "VLSI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "VLSID - International Conference on VLSI Design",
 		"sigla": "VLSID",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "VR - IEEE Virtual Reality Conference",
 		"sigla": "VR",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "VRCIA - International Conference on Virtual Reality Continuum and its Applications",
 		"sigla": "VRCAI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "VTC - Vehicular Technology Conference",
 		"sigla": "VTC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "VTS - IEEE VLSI Test Symposium",
 		"sigla": "VTS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "W4A - Conference on Web Accessibility",
 		"sigla": "W4A",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WABI - Workshop on Algorithms in Bioinformatics",
 		"sigla": "WABI",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WCNC - IEEE Wireless Communications and Networking Conference",
 		"sigla": "WCNC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WD - Wireless Days Conference",
 		"sigla": "WD",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WEB3D - International Conference on 3D Web Technology",
 		"sigla": "WEB3D",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WETICE - IEEE International Conference on Enabling Technologies: Infrastructure for Collaborative Enterprises",
 		"sigla": "WETICE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WFCS - IEEE World Conference on Factory Communication Systems",
 		"sigla": "WFCS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WG - International Workshop on Graph-Theoretic Concepts in Computer Science",
 		"sigla": "WG",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WICSA - Working IEEE/IFIP Conference on Software Architecture",
 		"sigla": "WICSA",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WIFS - IEEE Workshop on Information Forensics and Security",
 		"sigla": "WIFS",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WI-IAT - IEEE/WIC/ACM International Conference on Web Intelligence and Intelligent Agent Technology",
 		"sigla": "WI-IAT",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WISE - International Conference on Web Information Systems Engineering",
 		"sigla": "WISE",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WMNC - Joint IFIP Wireless and Mobile Networking Conference",
 		"sigla": "WMNC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "WoLLIC - International Workshop on Logic, Language, Information and Computation",
 		"sigla": "WOLLIC",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "XP - International Conference on Agile Software Development",
 		"sigla": "XP",
 		"qualis": "B1"
-	},
-	{
+	 },
+	 {
 		"nome": "AAIM - International Conference on Algorithmic Aspects of Information and Management",
 		"sigla": "AAIM",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "AC - International Conference on Augmented Cognition",
 		"sigla": "AC-HCI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ACRI - International conference on Cellular Automata for Research and Industry",
 		"sigla": "ACRI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "AGERE - Workshop on Programming based on Actors, Agents, and Decentralized Control",
 		"sigla": "AGERE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "AGILEGIS -  Conference on Geographic Information Science",
 		"sigla": "AGILEGIS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "AICCSA - ACS/IEEE International Conference on Computer Systems and Applications",
 		"sigla": "AICCSA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "AICT - International Conference on Application of Information and Communication Technologies",
 		"sigla": "AICT",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "AIML - Advances in Modal Logic",
 		"sigla": "AIML",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "AMIA - Annual Symposium of the American Medical Informatics Association",
 		"sigla": "AMIA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ANNPR - International IAPR TC3 Workshop on Artificial Neural Networks in Pattern Recognition",
 		"sigla": "ANNPR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ANTS - International Conference on Swarm Intelligence",
 		"sigla": "ANTS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ASYNC - IEEE International Symposium on Asynchronous Circuits and Systems",
 		"sigla": "ASYNC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "BCB - ACM International Conference on Bioinformatics and Computational Biology and Health Informatics",
 		"sigla": "BCB",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "BEDS - ACM International Conference on Distributed Event-Based Systems",
 		"sigla": "BEDS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "BIH - International Conference on Brain Informatics and Health",
 		"sigla": "BIH",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "BIR - International Conferences on Perspectives in Business Informatics Research",
 		"sigla": "BIR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "BPMDS - International Conference BPMDS/EMMSAD",
 		"sigla": "BPMDS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "BRACIS - Brazilian Conference on Intelligent System",
 		"sigla": "BRACIS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "CANDAR - International Symposium on Computing and Networking",
 		"sigla": "CANDAR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "CC - International Conference on Compiler Construction",
 		"sigla": "CC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "CCNC - Annual IEEE Consumer Communications & Networking Conference",
 		"sigla": "CCNC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "CGI - Computer Graphics International Conference",
 		"sigla": "CGI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "CIBCB - IEEE Conference on Computational Intelligence in Bioinformatics and Computational Biology",
 		"sigla": "CIBCB",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "CISRC - Cyber Security and Information Intelligence Research Workshop",
 		"sigla": "CISRC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "CITS - International Conference on Computer, Information, and Telecommunication Systems",
 		"sigla": "CITS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "CLEF - Conference and Labs of the Evaluation Forum",
 		"sigla": "CLEF",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "COCOA - International Conference on Combinatorial Optimization and Applications",
 		"sigla": "COCOA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "COGSCI - Annual Meeting of the Cognitive Science Society",
 		"sigla": "COGSCI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "CompSysTech - International Conference on Computer Systems and Technologies",
 		"sigla": "CompSysTech",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "COSN - Conference on Online Social Networks",
 		"sigla": "COSN",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "DAIS - International Conference on Distributed Applications and Interoperable Systems",
 		"sigla": "DAIS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "DARS - International Symposium on Distributed Autonomous Robotic Systems",
 		"sigla": "DARS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "DCAI - International Symposium on Distributed Computing and Artificial Intelligence",
 		"sigla": "DCAI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "DESE - International Conference on Developments in eSystems Engineering",
 		"sigla": "DESE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "DH - Digital Heritage",
 		"sigla": "DH",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "DHM - International Conference on Digital Human Modeling - Applications in Health, Safety, Ergonomics and Risk Management",
 		"sigla": "DHM",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "DILS - International Conference on Data Integration in Life Sciences",
 		"sigla": "DILS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "DIVANET - ACM Symposium on Development and Analysis of Intelligent Vehicular Networks and Applications",
 		"sigla": "DIVANET",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "DSAI - International Conference on Software Development for Enhancing Accessibility and Fighting Info-exclusion",
 		"sigla": "DSAI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "DUXU - International Conference on Design, User Experience, and Usability: Interactive Experience Design",
 		"sigla": "DUXU",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "EAIS - IEEE Conference on Evolving and Adaptive Intelligent Systems",
 		"sigla": "EAIS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ECC - European Control Conference",
 		"sigla": "ECC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ECCE - European Conference on Cognitive Ergonomics",
 		"sigla": "ECCE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "EGOVIS - International Conference on Electronic Government and the Information Systems Perspective",
 		"sigla": "EGOVIS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ENASE - International Conference on Evaluation of Novel Approaches to Software Engineering",
 		"sigla": "ENASE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ENIC - European Network Intelligence Conference",
 		"sigla": "ENIC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ETFA - IEEE International Conference on Emerging Technologies and Factory Automation",
 		"sigla": "ETFA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "EUC - IEEE/IFIP International Conferences on Embedded and Ubiquitous Computing",
 		"sigla": "EUC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "EUMAS - European Conference on Multi-Agent Systems",
 		"sigla": "EUMAS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "EUVIP - European Workshop on Visual Information Processing",
 		"sigla": "EUVIP",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "EWSN - European Conference on Wireless Sensor Networks",
 		"sigla": "EWSN",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "FACS - International Conference on Formal Aspects of Component Software",
 		"sigla": "FACS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "FAW - International Frontiers of Algorithmics Workshop",
 		"sigla": "FAW",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "FDL - Forum on Specification and Design Languages",
 		"sigla": "FDL",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "FG - Conference on Formal Grammar",
 		"sigla": "FG",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "FORMATS - International Conference on Formal Modeling and Analysis of Timed Systems",
 		"sigla": "FORMATS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "FOSD - International Workshop on Feature-Oriented Software Development",
 		"sigla": "FOSD",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "GECON - International Conference on Economics of Grids, Clouds, Systems and Services",
 		"sigla": "GECON",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "GIIS - Global Information Infrastructure and Networking Symposium",
 		"sigla": "GIIS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "GPC - International Conference on Grid And Pervasive Computing",
 		"sigla": "GPC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "GPCE - ACM International Conference on Generative Programming: Concepts and Experiences",
 		"sigla": "GPCE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "GREC - International Workshop on Graphic Recognition: Current Trends and Challenges",
 		"sigla": "GREC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "GreenCom - IEEE International Conference on Green Computing and Communications",
 		"sigla": "GreenCom",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "GROUP - International Conference on Supporting Group Work",
 		"sigla": "GROUP",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "HCI - International Conference on Human-Computer Interaction",
 		"sigla": "HCI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "HealthCom - IEEE International Conference on E-health Networking, Application & Services",
 		"sigla": "HEALTHCOM",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "HIMI - Human Interface and the Management of Information Thematic Area",
 		"sigla": "HIMI-HCI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "HIS - International Conference on Hybrid Intelligent Systems",
 		"sigla": "HIS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "HM - International Workshop on Hybrid Metaheuristics",
 		"sigla": "HM",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IAS - Industry Applications Society Annual Meeting",
 		"sigla": "IAS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IBERAMIA - Ibero-American Conference on Artificial Intelligence",
 		"sigla": "IBERAMIA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IbPRIA - Iberian Conference on Pattern Recognition and Image Analysis",
 		"sigla": "IbPRIA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICAT - International Conference on Artificial Reality and Telexistence",
 		"sigla": "ICAT",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCE - IEEE International Conference on Consumer Electronics",
 		"sigla": "ICCE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCIC - International Conference on Computational Intelligence and Computing Research",
 		"sigla": "ICCIC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCL - International Conference on Computational Logistics",
 		"sigla": "ICCL2",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCPS - International Conference on Cyber-Physical Systems",
 		"sigla": "ICCPS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICDIM - International Conference on Digital Information Management",
 		"sigla": "ICDIM",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICEGOV - International Conference on Theory and Practice of Eletronic Governance",
 		"sigla": "ICEGOV",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICEIS - International Conference on Enterprise Information Systems",
 		"sigla": "ICEIS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICGT - International Conference on Graph Transformation",
 		"sigla": "ICGTT",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICINCO - International Conference on Informatics in Control, Automation and Robotics",
 		"sigla": "ICINCO",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICISO - International Conference on Informatics and Semiotics in Organisations",
 		"sigla": "ICISO",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICITS - International Conference on Information Theoretic Security",
 		"sigla": "ICITS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSR - International Conference on Software Reuse",
 		"sigla": "ICSR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICTAC - International Colloquium on Theoretical Aspects of Computing",
 		"sigla": "ICTAC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICTIR - Conference on the Theory of Information Retrieval",
 		"sigla": "ICTIR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICTSS - IFIP International Conference on Testing Software and Systems",
 		"sigla": "ICTSS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ICVR - International Conference on Virtual Rehabilitation",
 		"sigla": "ICVR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IDC - International Symposium on Intelligent Distributed Computing",
 		"sigla": "IDC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IDEAL - International Conference on Intelligent Data Engineering and Automated Learning",
 		"sigla": "IDEAL",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IDEAS - International Database Engineering and Applications Symposium",
 		"sigla": "IDEAS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IFM - International Conference on Integrated Formal Methods",
 		"sigla": "IFM",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IFSA - World Congress of International Fuzzy Systems Association",
 		"sigla": "IFSA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IGARSS - IEEE International Geoscience and Remote Sensing Symposium",
 		"sigla": "IGARSS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IGIC - IEEE International Games Innovation Conference",
 		"sigla": "IGIC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IHC - Simpósio Brasileiro sobre Fatores Humanos em Sistemas Computacionais",
 		"sigla": "IHC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IJCAR - International Joint Conference on Automated Reasoning",
 		"sigla": "IJCAR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ILP - International Conference on Inductive Logic Programming",
 		"sigla": "ILP",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IMR - International Meshing Roundtable and User Forum",
 		"sigla": "IMR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IPAW - International Provenance and Annotation Workshop",
 		"sigla": "IPAW",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IPMU - International Conference on Information Processing and Management of Uncertainty in Knowledge-Based Systems",
 		"sigla": "IPMU",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISAmI - International Symposium on Ambient Intelligence",
 		"sigla": "ISAmI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISBI - IEEE International Symposium on Biomedical Imaging",
 		"sigla": "ISBI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISGT-Europe - IEEE International Conference on Innovative Smart Grid Technologies",
 		"sigla": "ISGTEUROPE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISIC - International Symposium on Integrated Circuits",
 		"sigla": "ISIC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISIE - IEEE International Symposium on Industrial Electronics",
 		"sigla": "ISIE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISSPIT - IEEE International Symposium on Signal Processing and Information Technology",
 		"sigla": "ISSPIT",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ISC - Information Security Conference",
 		"sigla": "ISW",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ITHET - International Conference on Information Technology Based Higher Education and Training",
 		"sigla": "ITHET",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ITSC - IEEE International Conference on Intelligent Transportation Systems",
 		"sigla": "ITSC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IWBBIO - International Work-Conference on Bioinformatics and Biomedical Engineering",
 		"sigla": "IWBBIO",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IWOCA - International Workshop on Combinatorial Algorithms",
 		"sigla": "IWOCA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "IWSM Mensura - International Conference on Measurement and Data Analytics",
 		"sigla": "IWSM-MENSURA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "JCSSE - International Joint Conference on Computer Science and Software Engineering",
 		"sigla": "JCSSE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "JURIX - International Conference on Legal Knowledge and Information Systems",
 		"sigla": "JURIX",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "KESW - International Conference on Knowledge Engineering and Semantic Web",
 		"sigla": "KESW",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "LANMAN - IEEE International Symposium on Local and Metropolitan Area Networks",
 		"sigla": "LANMAM",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "LASCAS - IEEE Latin American Symposium on Circuits and Systems",
 		"sigla": "LASCAS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "LATINCOM - IEEE  Latin-American Conference on Communications",
 		"sigla": "LATINCOM",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "LATW - Latin American Test Workshop",
 		"sigla": "LATW",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "LCTES - ACM SIGPLAN/SIGBED Conference on Languages, Compilers, and Tools for Embedded Systems",
 		"sigla": "LCTRTS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MATES - German Conference on Multiagent System Technologies",
 		"sigla": "MATES",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MCPR - Mexican Conference on Pattern Recognition",
 		"sigla": "MCPR2",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MCS - International Workshop on Multiple Classifier Systems Multiple Classifier Systems",
 		"sigla": "MCS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MDAI - International Conference on Modeling Decisions for Artificial Intelligence",
 		"sigla": "MDAI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MEDES - International Conference on Management of Emergent Digital EcoSystems",
 		"sigla": "MEDES",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MOBILECLOUD - International Conference on Mobile Cloud, Computing and Service Engineering",
 		"sigla": "MOBILECLOUD",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MOBILESOFT - International Conference on Mobile Software Engineering and Systems",
 		"sigla": "MOBILESOFT",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MOBIWAC - ACM International Symposium on Mobility Management and Wireless Access",
 		"sigla": "MOBIWAC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MODELSWARD - International Conference on Model-Driven Engineering and Software Development",
 		"sigla": "MODELSWARD",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MS - IEEE International Conference on Mobile Services",
 		"sigla": "MS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MSN - International Conference on Mobile Ad-Hoc and Sensor Networks",
 		"sigla": "MSN",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "MTSR - International Conference on Metadata and Semantics Research",
 		"sigla": "MTSR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "NaBIC - World Congress on Nature and Biologically Inspired Computing",
 		"sigla": "NABIC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "NAFIPS - Annual Conference of the North American Fuzzy Information Processing Society",
 		"sigla": "NAFIPS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "NEW2AN - International Conference on Internet of Things, Smart Spaces, and Next Generation Networks and Systems",
 		"sigla": "NEW2AN",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "NFV-SDN - IEEE Conference on Network Function Virtualization and Software Defined Networks",
 		"sigla": "NFV-SDN",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "NOF - International Conference on Network of the Future",
 		"sigla": "NOF",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "OR - International Conference on Operations Research",
 		"sigla": "OR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "OSS - International Conference on Open Source Systems",
 		"sigla": "OSS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "PDES - IFAC International Conference on Programmable Devices and Embedded Systems",
 		"sigla": "PDES",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "PE-WASUM - ACM International Symposium on Performance Evaluation of Wireless Ad Hoc, Sensor, and Ubiquitous Networks",
 		"sigla": "PE-WASUN",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "PLOP - Conference on Pattern Languages of Programs",
 		"sigla": "PLOP",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "POST - International Conference on Principles of Security and Trust",
 		"sigla": "POST",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "PRIB - IAPR International Conference on Pattern Recognition in Bioinformatics",
 		"sigla": "PRIB",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "PRIMA -International Conference on Principles and Practice of Multi-Agent Systems",
 		"sigla": "PRIMA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "PROMISE - International Conference on Predictive Models and Data Analytics in Software Engineering",
 		"sigla": "PROMISE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "PSCC - Power Systems Computation Conference",
 		"sigla": "PSCC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "Q2SWinet - ACM Symposium on QoS and Security for Wireless and Mobile Networks",
 		"sigla": "Q2SWinet",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "QoSA - International ACM Sigsoft Conference on the Quality of Software Architectures",
 		"sigla": "QoSA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "QUATIC - International Conference on Quality of Information and Communications Technology",
 		"sigla": "QUATIC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "RACS - Conference on Research in Adaptive and Convergent Systems",
 		"sigla": "RACS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ROSE - IEEE International Symposium on Robotic and Sensors Environments",
 		"sigla": "ROSE",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "RSP - IEEE International Symposium on Rapid System Prototyping",
 		"sigla": "RSP",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "ruSMART - Conference on Internet of Things and Smart Spaces",
 		"sigla": "RUSMART",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SBBD - Simpósio Brasileiro de Banco de Dados",
 		"sigla": "SBBD",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SBCCI - Symposium on Integrated Circuits and Systems Design",
 		"sigla": "SBCCI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SBES - Brazilian Symposium on Software Engineering",
 		"sigla": "SBES",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SBESC - Brazilian Symposium on Computing System Engineering",
 		"sigla": "SBESC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SBGames - Simpósio Brasileiro de Jogos e Entretenimento Digital",
 		"sigla": "SBGAMES",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SBIA - Brazilian Symposium on Artificial Intelligence",
 		"sigla": "SBIA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SBRC - Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
 		"sigla": "SBRC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SBSI - Simpósio Brasileiro de Sistemas de Informação",
 		"sigla": "SBSI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SCSM - International Conference on Social Computing and Social Media",
 		"sigla": "SCSM",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SDL - Symposium on Dynamic Languages",
 		"sigla": "SDL",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SIGDOC - ACM International Conference on Design of Communication",
 		"sigla": "SIGDOC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SIMULTECH - International Conference on Simulation and Modeling Methodologies, Technologies and Applications",
 		"sigla": "SIMULTECH",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SISAP -International Conference on Similarity Search and Applications",
 		"sigla": "SISAP",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SIYSTOR - ACM International on Systems and Storage Conference",
 		"sigla": "SIYSTOR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SOCC - IEEE International System-on-Chip Conference",
 		"sigla": "SOCC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SPIN - International SPIN symposium on Model Checking of Software",
 		"sigla": "SPIN",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SSPR - International Workshop on Structural and Syntactic Pattern Recognition",
 		"sigla": "SSPR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SVR - Symposium on Virtual and Augmented Reality",
 		"sigla": "SVR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "SYSTOL - Conference on Control and Fault-Tolerant Systems",
 		"sigla": "SYSTOL",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "TABLEAUX - International Conference on Automated Reasoning with Analytic Tableaux and Related Methods",
 		"sigla": "TABLEAUX",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "TAP - International Conference on Tests and Proofs",
 		"sigla": "TAP",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "TAROS - Conference Towards Autonomous Robotics Systems",
 		"sigla": "TAROS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "UAHCI - International Conference Universal Access in Human-Computer Interaction",
 		"sigla": "UAHCI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "UCAMI - International Conference on Ubiquitous Computing and Ambient Intelligence",
 		"sigla": "UCAMI",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "UIC - IEEE International Conference on Ubiquitous Intelligence and Computing",
 		"sigla": "UIC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "VAMR - International Conference on Virtual, Augmented and Mixed Reality",
 		"sigla": "VAMR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "VECPAR - International Meeting on High Performance Computing for Computational Science",
 		"sigla": "VECPAR",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "VMV - Vision, Modeling & Visualization",
 		"sigla": "VMV",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "VRST - ACM Symposium on Virtual Reality Software and Technology",
 		"sigla": "VRST",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "W2GIS - International Symposium Web and Wireless Geographical Information Systems",
 		"sigla": "W2GIS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "WALCOM - International Workshop on Algorithms and Computation",
 		"sigla": "WALCOM",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "WAOA - Workshop on Approximation and Online Algorithms",
 		"sigla": "WAOA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "WEBIST - International Conference on Web Information Systems and Technologies",
 		"sigla": "WEBIST",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "WebMedia - Brazilian Symposium on Multimedia and the Web",
 		"sigla": "WEBMEDIA",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "WiSec - ACM Conference on Security & Privacy in Wireless and Mobile Networks",
 		"sigla": "WiSec",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "WOCC - Wireless and Optical Communications Conference",
 		"sigla": "WOCC",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "WSKS - World Summit on the Kowledge Society",
 		"sigla": "WSKS",
 		"qualis": "B2"
-	},
-	{
+	 },
+	 {
 		"nome": "BDCLOUD - International Conference on Big Data and Cloud Computing",
 		"sigla": "BDCLOUD",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "BigMM - IEEE International Conference on Multimedia Big Data",
 		"sigla": "BIGMM",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "BSB - Brazilian Symposium on Bioinformatics",
 		"sigla": "BSB",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CAD/Graphics - International Conference on Computer-Aided Design and Computer Graphics",
 		"sigla": "CADGRAPHICS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CALDAM - International Conference on Algorithms and Discrete Applied Mathematics",
 		"sigla": "CALDAM",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CASA - Conference on Computer Animation and Social Agents",
 		"sigla": "CASA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CDVE - International Conference on Cooperative Design, Visualization, and Engineering",
 		"sigla": "CDVE",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CEDEM - International Conference for E-Democracy and Open Government",
 		"sigla": "CEDEM",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CENTERIS - Conference on ENTERprise Information Systems",
 		"sigla": "CENTERIS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CICOMMS - Symposium on Computational Intelligence for Communication Systems and Networks",
 		"sigla": "CICOMMS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CICS - Symposium on Computational Intelligence in Cyber Security",
 		"sigla": "CICS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CLEI - Conferencia Latinoamericana de Informática",
 		"sigla": "CLEI",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "COLOGNETWENTE - Cologne-Twente Workshop on Graphs and Combinatorial Optimization",
 		"sigla": "COLOGNETWENTE",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CompIMAGE - International Symposium CompIMAGE",
 		"sigla": "COMPIMAGE",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "CRIWG - International Conference on Collaboration and Technology",
 		"sigla": "CRIWG",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "DepCoS-RELCOMEX - International Conference on Dependability and Complex Systems",
 		"sigla": "DEPCOS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "DMS - International Conference on Distributed Multimedia Systems",
 		"sigla": "DMS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "DS - International Conference on Discovery Science",
 		"sigla": "DS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "DSAA - IEEE International Conference on Data Science and Advanced Analytics",
 		"sigla": "DSAA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "EANN - Internation Conference on Engineering Applications of Neural Networks",
 		"sigla": "EANN",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "EATIS - Euro American Conference on Telematics and Information Systems",
 		"sigla": "EATIS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ECWeb - International Conference on Electronic Commerce and Web Technologies",
 		"sigla": "ECWeb",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "EDCC - European Dependable Computing Conference",
 		"sigla": "EDCC",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "EUROHAPTICS - Eurohaptics",
 		"sigla": "EUROHAPTICS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "EuroPloP -  European Conference on Pattern Languages of Programs",
 		"sigla": "EuroPloP",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "EVA - Electronic Visualisation and the Arts",
 		"sigla": "EVA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "EXP.AT - Experiment@ International Conference",
 		"sigla": "EXP.AT",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "FOGA - ACM Conference on Foundations of Genetic Algorithms",
 		"sigla": "FOGA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "FOIS - International Conference on Formal Ontology in Information Systems",
 		"sigla": "FOIS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "GAMEON - Annual Simulation and AI in Games Conference",
 		"sigla": "GAMEON",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "GeoInfo - Brazilian Symposium on GeoInformatics",
 		"sigla": "GEOINFO",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "HCIST - International Conference on Health and Social Care Information Systems and Technologies",
 		"sigla": "HCIST",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "HCSE - International Working Conference on Human-Centred Software Engineering",
 		"sigla": "HCSE",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ICAIS - International Conference on Adaptive and Intelligent Systems",
 		"sigla": "ICAIS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCEBerlin - IEEE International Conference on Consumer Electronics Berlin",
 		"sigla": "ICCEBerlin",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ICIST - International Conference on Information and Software Technologies",
 		"sigla": "ICIST",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ICIT - IEEE International Conference on Industrial Technology",
 		"sigla": "ICIT",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ICLA - Indian Conference on Logic and its Applications",
 		"sigla": "ICLA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ICTON - International Conference on Transparent Optical Networks",
 		"sigla": "ICTON",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ICUAS - International Conference on Unmanned Aircraft Systems",
 		"sigla": "ICUAS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ICUMT - International Conference on Ultra Modern Telecommunications",
 		"sigla": "ICUMT",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IDCS - International Conference on Internet and Distributed Computing Systems",
 		"sigla": "IDCS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IEA/AIE - International Conference on Industrial Engineering & Other Applications of Appled Intelligence Systems",
 		"sigla": "IEAAIE",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IEEENANO - International Conference on Nanotechnology",
 		"sigla": "IEEENANO",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IESS - IFIP International Embedded Systems Symposium",
 		"sigla": "IESS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IFUZZY - International Conference on Fuzzy Theory and its Applications",
 		"sigla": "IFUZZY",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IHM - Conférence Francophone sur l’Interaction Homme-Machine",
 		"sigla": "IHM",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IIR - Italian Information Retrieval Workshop",
 		"sigla": "IIR",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IJCCI - International Joint Conference on Computational Intelligence",
 		"sigla": "IJCCI",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IMS3TW - Annual International Mixed-Signals, Sensors and Systems Test Workshop",
 		"sigla": "IMS3TW",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "INTECH - International Conference on Innovative Computing Technology",
 		"sigla": "INTECH",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IRMMW - International Conference on Infrared, Millimeter, and Terahertz Waves",
 		"sigla": "IRMMW",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ISBRA - International Symposium on Bioinformatics Research and Applications",
 		"sigla": "ISBRA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ISC2 - IEEE International Smart Cities Conference",
 		"sigla": "ISC2",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ISCE - IEEE International Symposium on Consumer Electronics",
 		"sigla": "ISCE",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ISCO - International Symposium on Combinatorial Optimization",
 		"sigla": "ISCOPT",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ISD - International Conference on Information Systems Development",
 		"sigla": "ISDEVEL",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ISER - International Symposium on Experimental Robotics",
 		"sigla": "ISER",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ISSI - International Society of Scientometrics and Informetrics Conference",
 		"sigla": "ISSI",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "iStar - International  i*Workshop",
 		"sigla": "ISTAR",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IWBF - International Workshop on Biometrics and Forensics",
 		"sigla": "IWBF",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IWEI - International IFIP Working Conference on Enterprise Interoperability",
 		"sigla": "IWEI",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "IWT - International Workshop on Telecommunications",
 		"sigla": "IWT",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "KMO - International Conference on Knowledge Management in Organizations",
 		"sigla": "KMO",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LACLO - Latin American Conference on Learning Objects and Technologies",
 		"sigla": "LACLO",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LADC - Latin-American Symposium on Dependable Computing",
 		"sigla": "LADC",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LAGOS - Latin-American Algorithms, Graphs and Optimization Symposium",
 		"sigla": "LAGOS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LANC - Latin American Networking Conference",
 		"sigla": "LANC",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LANOMS - Latin-American Network Operations and Management Symposium",
 		"sigla": "LANOMS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LARS - IEEE Latin American Robotics Symposium",
 		"sigla": "LARS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LATINCRYPT - International Conference on Cryptology and Information Security in Latin America",
 		"sigla": "LATINCRYPT",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LAW - Linguistic Annotation Workshop",
 		"sigla": "LAW",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LA-WEB - Latin American Web Congress",
 		"sigla": "LA-WEB",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LightSec - International Workshop on Lightweight Cryptography for Security & Privacy",
 		"sigla": "LightSec",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "LSFA - Workshop on Logical and Semantic Frameworks, with Applications",
 		"sigla": "LSFA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "MED - Mediterranean Conference on Control and Automation",
 		"sigla": "MED",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "MeMeA - IEEE International Symposium on Medical Measurements and Applications",
 		"sigla": "MEMEA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "MOBILWARE - International Conference on MOBILe Wireless MiddleWARE, Operating Systems, and Applications",
 		"sigla": "MOBILWARE",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "NETWORKS - International Telecommunications Network Strategy and Planning Symposium",
 		"sigla": "NETWORKS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "ONTOBRAS - Brazilian Seminar on Ontologies",
 		"sigla": "ONTOBRAS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "PATMOS - International Workshop on Power and Timing Modeling, Optimization and Simulation",
 		"sigla": "PATMOS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "PGM - International Conference on Probabilistic Graphical Models",
 		"sigla": "PGM",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "PROPOR - International Conference on Computational Processing of the Portuguese Language",
 		"sigla": "PROPOR",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "QRS - IEEE International Conference on Software Quality, Reliability and Security",
 		"sigla": "QRS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "RADECS - European Conference on Radiation Effects on Components and Systems",
 		"sigla": "RADECS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SAICC - Science and Information Conference",
 		"sigla": "SAICC",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SAM - Sensor Array and Multichannel Signal Processing Workshop",
 		"sigla": "SAM",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SBCARS - Brazilian Symposium on Components, Architectures and Reuse Software",
 		"sigla": "SBCARS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SBCM - Simpósio Brasileiro de Computação Musical",
 		"sigla": "SBCM",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SBLP - Brazilian Symposium on Programming Languages",
 		"sigla": "SBLP",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SBMF - Brazilian Symposium on Formal Methods",
 		"sigla": "SBMF",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SBQS - Simpósio Brasileiro de Qualidade de Software",
 		"sigla": "SBQS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SBSC - Simpósio Brasileiro de Sistemas Colaborativos",
 		"sigla": "SBSC",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SBSeg - Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
 		"sigla": "SBSeg",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SCCC - International Conference of the Chilean Computer Science Society",
 		"sigla": "SCCC",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SeGAH - International Conference on Serious Games and Applications for Health",
 		"sigla": "SEGAH",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SENSORNETS - International Conference on Sensor Networks",
 		"sigla": "SENSORNETS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SENSORS - IEEE Sensors",
 		"sigla": "SENSORS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SIIE - Simpósio Internacional de Informática Educatica",
 		"sigla": "SIIE",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SMARTGREENS - International Conference on Smart Grids and Green ICT Systems",
 		"sigla": "SMARTGREENS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SOC - International Symposium on System-on-Chip",
 		"sigla": "SOC",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SPA - Signal Processing: Algorithms, Architectures, Arrangements, and Applications Conference",
 		"sigla": "SPA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SPACE - International Conference on Security, Privacy, and Applied Cryptography Engineering",
 		"sigla": "SPACE",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SSIAI - Southwest Symposium on Image Analysis and Interpretation",
 		"sigla": "SSIAI",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "STAG - Eurographics Italian Chapter Conference",
 		"sigla": "STAG",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "STIL - Brazilian Symposium in Information and Human Language Technology",
 		"sigla": "STIL",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SustainIT - Conference on Sustainable Internet and ICT for Sustainability",
 		"sigla": "SustainIT",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "SWQD - Conference Software Quality Days",
 		"sigla": "SWQD",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "T&D - IEEE/PES Transmission and Distribution Conference and Exposition",
 		"sigla": "T&D",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "TLCA -  International Conference on Typed Lambda Calculi and Applications",
 		"sigla": "TLCA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "TVX - International Conference on Interactive Experiences for Television and Online Video",
 		"sigla": "TVX",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "VNS - International Conference on Variable Neighborhood Search",
 		"sigla": "VNS",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "WCCI - IEEE World Congress on Computational Intelligence",
 		"sigla": "WCCI",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "WEI - Workshop sobre Educação em Computação",
 		"sigla": "WEI",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "WF-IoT - IEEE World Forum on Internet of Things",
 		"sigla": "WF-IoT",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "WIE - Workshop de Informática na Escola",
 		"sigla": "WIE",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "WPerformance - Workshop em Desempenho de Sistemas Computacionais e de Comunicação",
 		"sigla": "WPerformance",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "WRLA - International Workshop on Rewriting Logic and its Applications",
 		"sigla": "WRLA",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "WSCAD - Simpósio em Sistemas Computacionais de Alto Desempenho",
 		"sigla": "WSCAD",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "WSCG - International Conference in Central Europe on Computer Graphics and Visualization and Computer Vision",
 		"sigla": "WSCG",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "WUWNet - International Conference on UnderWater Networks and Systems",
 		"sigla": "WUWNET",
 		"qualis": "B3"
-	},
-	{
+	 },
+	 {
 		"nome": "21CW - IEEE Conference on Norbert Wiener in the 21st Century",
 		"sigla": "21CW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "3DCVE - International Workshop on Collaborative Virtual Environments",
 		"sigla": "3DCVE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "3DOR - Eurographics Workshop on 3D Object Retrieval",
 		"sigla": "3DOR",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "AAAIW - Workshop on Symbiotic Cognitive Systems",
 		"sigla": "AAAI W",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "AINAW - IEEE International Conference on Advanced Information Networking and Applications Workshops",
 		"sigla": "AINAW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "AISEC - ACM Workshop on Artificial Intelligence and Security",
 		"sigla": "AISEC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "APCASE - Asia-Pacific Conference on Computer Aided System Engineering",
 		"sigla": "APCASE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "APDCM - Workshop on Advances in Parallel and Distributed Computational Models",
 		"sigla": "APDCM",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ARMS-CC - International Workshop on Adaptive Resource Management and Scheduling for Cloud Computing",
 		"sigla": "ARMS-CC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "A-TEST - International Workshop on Automating Test Case Design, Selection and Evaluation",
 		"sigla": "A-TEST",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ATT - International Workshop on Agents in Traffic and Transportation",
 		"sigla": "ATT",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "BAI - Workshop on Advances in Bioinformatics and Artificial Intelligence: bridging the Gaps",
 		"sigla": "BAI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "BeyondMR - Workshop on Algorithms and Systems for MapReduce and Beyond",
 		"sigla": "BeyondMR",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "BIGDSE - IEEE/ACM International Workshop on Big Data Software Engineering",
 		"sigla": "BIGDSE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "BigSpatial - ACM SIGSPATIAL International Workshop on Analytics for Big Geospatial Data",
 		"sigla": "BigSpatial",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "BIOKDD - International Workshop on Biological Knowledge Discovery and Data Mining",
 		"sigla": "BIOKDD",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "BMAW - Bayesian Modeling Applications Workshop",
 		"sigla": "BMAW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "BPMS2 - Workshop on Social and Human Aspects of Business Process Management",
 		"sigla": "BPMS2",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "BRC - ISSNIP Biosignals and Biorobotics Conference",
 		"sigla": "BRC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "BRESCI - Brazilian e-Science Workshop",
 		"sigla": "BRESCI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "BWILD - International Workshop on Biometrics in the Wild",
 		"sigla": "BWILD",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CARLA - Latin American High-Performance Computing Conference",
 		"sigla": "CARLA",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CBSF - Congresso Brasileiro de Sistemas Fuzzy",
 		"sigla": "CBSF",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CIMSIVP - IEEE Symposium on Computational Intelligence for Multimedia, Signal and Vision Processing",
 		"sigla": "CIMSIVP",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CIT/IUCC/DASC/PICOM - CIT, IUCC, DASC, PICOM",
 		"sigla": "CIT/IUCC/DASC/PICOM",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CIVTS - IEEE Symposium on Computational Intelligence in Vehicles and Transportation Systems",
 		"sigla": "CIVTS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CL4LC - Workshop on Computational Linguistics for Linguistic Complexity",
 		"sigla": "CL4LC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CLIHC - Latin American Conference on Human Computer Interaction",
 		"sigla": "CLIHC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CLOUDTECH - International Conference on Cloud Computing Technologies and Applications",
 		"sigla": "CLOUDTECH",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "COGNISE - International Workshop on Cognitive Aspects of Information Systems Engineering",
 		"sigla": "COGNISE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "COIN - International Workshop on Coordination, Organisations, Institutions and Norms",
 		"sigla": "COIN",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CONFIRM - International Conference on Information Resources Management",
 		"sigla": "CONFIRM",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CONTECSI - International Conference on Information Systems and Technology Management",
 		"sigla": "CONTECSI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CORAL - International Workshop on Emerging COgnitive Radio Applications and aLgorithms",
 		"sigla": "CORAL",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "COTB - Computer on The Beach",
 		"sigla": "COTB",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CSC - SIAM Workshop on Combinatorial Scientific Computing",
 		"sigla": "CSC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CSI-SE - International Workshop on Crowdsourcing in Software Engineering",
 		"sigla": "CSI-SE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CVPRW - IEEE Conference on Computer Vision and Pattern Recognition Workshops",
 		"sigla": "CVPRW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "DaMNet - Workshop on Data Mining in Networks",
 		"sigla": "DaMNet",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "DCC - ACM Workshop on Distributed Cloud Computing",
 		"sigla": "DCCW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "DeMiMoP - Workshop on Decision Mining & Modeling for Business Processes",
 		"sigla": "DeMiMoP",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "DESWEB - International Workshop on Data Engineering meets the Semantic Web",
 		"sigla": "DESWEB",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "DISN - Workshop on Dependability Issues on SDN and NFV",
 		"sigla": "DISN",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "DMNPL - Workshop on Interactions between Data Mining and Natural Language Processing",
 		"sigla": "DMNPL",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "DroNet - Workshop on Micro Aerial Vehicle Networks, Systems, and Applications for Civilian Use",
 		"sigla": "DroNet",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "DSNW - IEEE International Conference on Dependable Systems and Networks Workshops",
 		"sigla": "DSNW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "DYNAK - International Workshop on Dynamic Networks and Knowledge Discovery",
 		"sigla": "DYNAK",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ECSAW - European Conference on Software Architecture Workshops",
 		"sigla": "ECSAW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "EMAS - International Workshop on Engineering Multiagent Systems",
 		"sigla": "EMAS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ENIAC - Encontro Nacional de Inteligencia Artificial e Computacional",
 		"sigla": "ENIAC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ERLANG - ACM SIGPLAN Erlang Workshop",
 		"sigla": "ERLANG",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ESELAW - Workshop Latinoamericano de Ingeniería de Software Experimental",
 		"sigla": "ESELAW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "EURO - European Conference on Operational Research",
 		"sigla": "EURO",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "EuroParW - Parallel Processing Workshops",
 		"sigla": "EuroParW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "EuroPKI - European Public Key Infrastructure Workshop",
 		"sigla": "EUROPKI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "EVL-BP - International Workshop on Evolutionary Business Processes",
 		"sigla": "EVLBP",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "EXAMPI - Workshop on Exascale MPI",
 		"sigla": "EXAMPI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "FCTA - International Conference on Fuzzy Computation Theory and Applications",
 		"sigla": "FCTA",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "FLinAI - Workshop on Fuzzy Logic in AI",
 		"sigla": "FLinAI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "FOCI - IEEE Symposium on Foundations of Computational Intelligence",
 		"sigla": "FOCI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "FOFAI - International Workshop on Formal Ontologies for Artificial Intelligence",
 		"sigla": "FOFAI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "FSEW - Workhops of the SIGSOFT FSE International Symposium on Foundations of Software Engineering",
 		"sigla": "FSEW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "FTXS - Workshop on Fault Tolerance for HPC at eXtreme Scale",
 		"sigla": "FTXS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "GAS - International Workshop on Games and Software Engineering",
 		"sigla": "GAS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "GCCE - IEEE Global Conference on Consumer Electronics",
 		"sigla": "GCCE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "GeoPrivacy - Workshop on Privacy in Geographic Information Collection and Analysis",
 		"sigla": "GeoPrivacy",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "GraphQ - International Workshop on Querying Graph Structured Data (EDBT)",
 		"sigla": "GraphQ",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "GREENS - International Workshop on Green and Sustainable Software",
 		"sigla": "GREENS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "GT-VMT - International Workshop on Graph Transformation and Visual Modeling Techniques",
 		"sigla": "GTVMT",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "HAI - International Workshop on Human Aspects in Ambient Intelligence",
 		"sigla": "HAI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "HCI3P - Workshop on Human Computer Interaction in Third Places",
 		"sigla": "HCI3P",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "HPCB -  International Workshop on High Performance Computing on Bioinformatics",
 		"sigla": "HPCB",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "HR - Workshop on Hybrid Reasoning",
 		"sigla": "HR",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "IC3K - International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management",
 		"sigla": "IC3K",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCCC - International Conference on Computers Communications and Control",
 		"sigla": "ICCCC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCVE - International Conference on Connected Vehicles & Exp",
 		"sigla": "ICCVE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCW - IEEE International Conference on Communications Workshops",
 		"sigla": "ICCW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "KEYS - International Workshop on Keyword Search and Data Exploration on Structured Data",
 		"sigla": "ICDEW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ICERI - International Conference of Education, Research and Innovation",
 		"sigla": "ICERI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ICGSEW - IEEE International Conference on Global Software Engineering Wokshops",
 		"sigla": "ICGSEW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ICHQP - IEEE International Conference on Harmonics and Power Quality",
 		"sigla": "ICHQP",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ICORES - International Conference on Operations Research and Enterprise Systems",
 		"sigla": "ICORES",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSEW - International Conference on Software Engineering Workshops",
 		"sigla": "ICSEW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "IA - IEEE Symposium on Intelligent Agents",
 		"sigla": "IEEEIA",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "IMOC - SBMO/IEEE MTT-S International Microwave and Optoelectronics Conference",
 		"sigla": "IMOC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "INDUSCON - International Conference on Industry Applications",
 		"sigla": "INDUSCON",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "CNTCV - IEEE Workshop on Communication & Networking Techniques for Contemporary Video",
 		"sigla": "INFOCOMW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "IoTAAL - Workshop on Internet of Things for Ambient Assisted Living",
 		"sigla": "IoTAAL",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "IPDPSW - IEEE International Parallel & Distributed Processing Symposium Workshops",
 		"sigla": "IPDPSW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ISAP - International Conference on Intelligent System Applications to Power Systems",
 		"sigla": "ISAP",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ISCRAM - International Conference on Information Systems for Crisis Response and Management",
 		"sigla": "ISCRAM",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ISEOLE - International Workshop on Intelligent Support in Exploratory and Open-Ended Learning Environments",
 		"sigla": "ISEOLE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ISSREW - IEEE International Symposium on Software Reliability Engineering Workshops",
 		"sigla": "ISSREW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "IESD - Intenational Workshop on Intelligent Exploration of Semantic Data",
 		"sigla": "ISWCW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ITA - International Conference on Internet Technologies and Applications",
 		"sigla": "ITA",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "IWPSE - International Workshop on Principles of Software Evolution",
 		"sigla": "IWPSE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "IWSC - International Workshop on Smart Cities: People, Technology and Data",
 		"sigla": "IWSC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "IWSECO - International Workshop on Software Ecosystems",
 		"sigla": "IWSECO",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "KnowLOD - Workshop on Knowledge Discovery and Data Mining Meets Linked Open Data",
 		"sigla": "KnowLOD",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "KSBT - Workshop on Knowledge, Skill, and Behavior Transfer in Autonomous Robots",
 		"sigla": "KSBT",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "LA-CCI - Latin American Conference on Computational Intelligence",
 		"sigla": "LA-CCI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "LANCOMM - ACM SIGCOMM Workshop on Fostering Latin-American Research in Data Communication Networks",
 		"sigla": "LANCOMM",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "LCDNET - Workshop on Lowest Cost Denominator Networking for Universal Access",
 		"sigla": "LCDNET",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "M4IOT - Workshop on Middleware for Context-Aware Applications in the IoT",
 		"sigla": "M4IOT",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MABS - International Workshop on Multi-Agent Based Simulation",
 		"sigla": "MABS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "ManSDN/NFV - International Workshop on Management of SDN and NFV Systems",
 		"sigla": "MANSDNNFV",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MARMI - International Workshop on Multimedia Analysis and Retrieval for Multimodal Interaction",
 		"sigla": "MARMI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MASS - Mobility Analytics from Spatial and Social Data",
 		"sigla": "MASS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MDMW - IEEE International Conference on Mobile Data Management Workshops",
 		"sigla": "MDMW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MetaSel - International Workshop on  Meta-Learning and Algorithm Selection",
 		"sigla": "MetaSel",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MISE - Workshop on Modeling in Software Engineering",
 		"sigla": "MISE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MobiArch - Workshop on Mobility in the Evolving Internet Architecture",
 		"sigla": "MobiArch",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MOBILEHCIW - International Conference on Human-Computer Interaction with Mobile Devices and Services Workshops",
 		"sigla": "MOBILEHCIW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MOCRYSEN - International Workshop on Modern Cryptography and Security Engineering",
 		"sigla": "MOCRYSEN",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MODULARITYW - International Conference on Modularity Workshops",
 		"sigla": "MODULARITYW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MPPU - Models and Paradigms for Planning under Uncertainty: a Broad Perspective Workshop",
 		"sigla": "MPPU",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MTD - International Workshop on Managing Technical Debt",
 		"sigla": "MTD",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MUCS - IEEE Workshop on Managing Ubiquitous Communications and Services",
 		"sigla": "MUCS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MULTIPROG - Workshop on Programmability Issues for Heterogeneous Multicore",
 		"sigla": "MULTIPROG",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MWAIL - ICAIL Multi-Lingual Workshop on AI & Law",
 		"sigla": "MWAIL",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "MWE - Workshop on Multiword Expressions",
 		"sigla": "MWE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "NESY@HLAI - Workshop on Neural-Symbolic Learning and Reasoning",
 		"sigla": "NESY@HLAI",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "NEWSIR - International Workshop on Recent Trends in News Information Retrieval",
 		"sigla": "NEWSIR",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "NFMCP -  International Workshop on New Frontiers in Mining Complex Patterns",
 		"sigla": "NFmcp",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "NIDISC - International Workshop on Nature Inspired Distributed Computing",
 		"sigla": "NIDISC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "PerCol - International Workshop on Pervasive Collaboration and Social Networking",
 		"sigla": "PerCol",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "PerComW - IEEE International Conference on Pervasive Computing and Communication Workshops",
 		"sigla": "PerComW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "PESOS - International Workshop on Principles of Engineering Service-Oriented and Cloud Systems",
 		"sigla": "PESOS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "PLATEAU - Workshop on Evaluation and Usability of Programming Languages and Tools",
 		"sigla": "PLATEAU",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "PPNIV - Workshop on Planning, Perception and Navigation for Intelligent Vehicles",
 		"sigla": "PPNIV",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "RAHA - IEEE Internacional Conference on Robotics and Automation for Humanitarian Applications",
 		"sigla": "RAHA",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "RELAW - International Workshop on Requirements Engineering and Law",
 		"sigla": "RELAW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "RePa - IEEE International Workshop on Requirements Patterns",
 		"sigla": "RePa",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SBACPADW - International Symposium on Computer Architecture and High Performance Computing Workshop",
 		"sigla": "SBACPADW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SBCUP - Simpósio Brasileiro de Computação Ubíqua e Pervasiva",
 		"sigla": "SBCUP",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SBMicro - Symposium on Microelectronics Technology and Devices",
 		"sigla": "SBMICRO",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SBPO - Simpósio Brasileiro de Pesquisa Operacional",
 		"sigla": "SBPO",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SBST - International Workshop on Search-Based Software Testing",
 		"sigla": "SBST",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SCCTSA - International Workshop on Smart City Clouds: Technologies, Systems and Applications",
 		"sigla": "SCCTSA",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SCGSE - Workshop on Software Support for Collaborative and Global Software Engineering",
 		"sigla": "SCGSE",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SCSS - International Symposium on Symbolic Computation in Software Science",
 		"sigla": "SCSS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SDE - IEEE Symposium on Differential Evolution",
 		"sigla": "SDIEV",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SEARIS - Workshop on Software Engineering and Architectures for Realtime Interactive Systems",
 		"sigla": "SEARIS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SeCoGIS - International Workshop on Semantic and Conceptual Issues in Geographic Information Systems",
 		"sigla": "SeCoGis",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SEM - Joint Conference on Lexical and Computational Semantics",
 		"sigla": "SEM",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SEMISH - Seminário Integrado de Software e Hardware",
 		"sigla": "SEMISH",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SESCPS - International Workshop on Software Engineering for Smart Cyber-Physical Systems",
 		"sigla": "SESCPS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SESoS - International Workshop on Software Engineering for Systems-of-Systems",
 		"sigla": "SESoS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SET - Software Engineering Track",
 		"sigla": "SET",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SHAPES - Interdisciplinary Worshop The Shape of Things",
 		"sigla": "SHAPES",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SmartObjects - Workshop on Interacting with Smart Objects",
 		"sigla": "SmartObjects",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SNAA - Workshop on Social Network Analysis in Applications",
 		"sigla": "SNAA",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SOCIALEDU - International Workshop on Social Computing in Digital Education",
 		"sigla": "SOCIALEDU",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SOCM - International Workshop on the Theory and Practice of Social Machines",
 		"sigla": "SOCM",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SC - International Conference on Software Composition",
 		"sigla": "SOCO",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SORT - IEEE Workshop on Self-Organizing Real-Time Systems",
 		"sigla": "SORT",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SugarLoafPLop - Latin American Conference on Pattern Languages of Programming",
 		"sigla": "SUGARLOAFPLOP",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SummerSim - Summer Simulation Multi-conference",
 		"sigla": "SUMMERSIM",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "SWEET - Workshop on Scalable Workflow Execution Engines and Technologies",
 		"sigla": "SWEET",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "T&DLA - IEEE PES Transmission & Distribution Conference and Exposition Latin America",
 		"sigla": "T&DLA",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "UbiSafe - IEEE International Symposium on UbiSafe Computing",
 		"sigla": "UbiSafe",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "UCHPC - Workshop on UnConventional High Performance Computing",
 		"sigla": "UCHPC",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "UNIF - International Workshop on Unification",
 		"sigla": "UNIF",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "URSW - International Workshop on Uncertainty Reasoning for the Semantic Web",
 		"sigla": "URSW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "WAMCA - Workshop on Applications for Multi-Core Architectures",
 		"sigla": "WAMCA",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "WER - Workshop on Requirements Engineering",
 		"sigla": "WER",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "WETSOM - International Workshop on Emerging Trends in Software Metrics",
 		"sigla": "WETSOM",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "WIM - Workshop de Informática Médica",
 		"sigla": "WIM",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "WNUT - Workshop on Noisy User-generated Text",
 		"sigla": "WNUT",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "WORKS - Workshop on Workflows in Support of Large-Scale Science",
 		"sigla": "WORKS",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "WoSAR - International Workshop on Software Aging and Rejuvenation",
 		"sigla": "WOSAR",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "WOSP - International Workshop on Mining Scientific Publications",
 		"sigla": "WOSP",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "WWWW - International World Wide Web Conference Workshops",
 		"sigla": "WWWW",
 		"qualis": "B4"
-	},
-	{
+	 },
+	 {
 		"nome": "3DIPM - Three-Dimensional Image Processing, Measurement and Applications",
 		"sigla": "3DIPM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "AAATE - Association for the Advancement of Assistive Technology in Europe Congress",
 		"sigla": "AAATE",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ACHI - IARIA International Conference on Advances in Computer-Human Interactions",
 		"sigla": "ACHI-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ACRA - Australasian Conference on Robotics and Automation",
 		"sigla": "ACRA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ADVCOMP -  IARIA International Conference on Advanced Engineering Computing and Applications in Sciences",
 		"sigla": "ADVCOMP-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "AICT - IARIA Advanced International Conference on Telecommunications",
 		"sigla": "AICT-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ALIO/EURO - Workshop on Applied Combinatorial Optimization",
 		"sigla": "ALIO/EURO",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "AM - Audio Mostly on Interaction With Sound",
 		"sigla": "AM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "AOFA - International Conference on Probabilistic, Combinatorial and Asymptotic Methods for the Analysis of Algorithms",
 		"sigla": "AOFA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ArgMAS - International Workshop on Argumentation in Multiagent Systems",
 		"sigla": "ARGMAS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "BIGDATASECURITY - IEEE International Conference on Big Data Security on Cloud",
 		"sigla": "BIGDATASECURITY",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "BioCOMP - International Conference on Bioinformatics & Computational Biology",
 		"sigla": "BioCOMP-WC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "BNAIC - Benelux Conference on Artificial Intelligence",
 		"sigla": "BNAIC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "BrasNAM - Brazilian Workshop on Social Network Analysis and Mining",
 		"sigla": "BRASNAM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "C4BIE - International Workshop on Cloud for Business, Industry and Enterprises",
 		"sigla": "C4BIE",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CAAD - Computer-Aided Architectural Design Futures Conference",
 		"sigla": "CAAD",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CAD - International CAD Conference",
 		"sigla": "CAD",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CARE - Workshop on Collaborative Agents Research and Development",
 		"sigla": "CARE",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CGIM - International Conference on Computer Graphics and Imaging",
 		"sigla": "CGIM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CLAIO - Latin-Ibero-American Conference on Operations Research",
 		"sigla": "CLAIO",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CLOUDCOMPUTING - IARIA International Conference on Cloud Computing, GRIDs, and Virtualization",
 		"sigla": "CLOUDCOMPUTING-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CMC - International Conference on Concept Mapping",
 		"sigla": "CMC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CobRA - International Workshop on Exploring Component-based Techniques for Constructing Reference Architectures",
 		"sigla": "CobRA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "COGNITIVE - IARIA International Conference on Advanced Cognitive Technologies and Applications",
 		"sigla": "COGNITIVE-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "COMSOC - International Workshop on Computational Social Choice",
 		"sigla": "COMSOC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CONTEXT-BPM - International Workshop on Context for Business Process Management",
 		"sigla": "CONTEXT-BPM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CPA - Communicating Process Architectures",
 		"sigla": "CPA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CSCL - International Conference on Computer Supported Collaborative Learning",
 		"sigla": "CSCL",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "CSC -  International Conference on Scientific Computing",
 		"sigla": "CSCWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "DATAANALYTICS - IARIA International Conference on Data Analytics",
 		"sigla": "DATAANALYTICS-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "DBKDA - IARIA International Conference on Advances in Databases, Knowledge, and Data Applications",
 		"sigla": "DBKD-AIARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "DCM - International Workshop on Developments in Computational Models",
 		"sigla": "DCM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "DesafIE - Workshop de Desafios da Computação Aplicada à Educação",
 		"sigla": "DESAFIE",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "EA - International Conference on Artificial Evolution",
 		"sigla": "EA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ECTA - International Conference on Evolutionary Computation Theory and Applications",
 		"sigla": "ECTA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "EEE - International Conference on e-Learning, e-Business, Enterprise Information Systems, and e-Government",
 		"sigla": "EEEWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "EIS - SPIE Human Vision and Electronic Imaging",
 		"sigla": "EIS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "eKNOW-IARIA - IARIA International Conference on Information, Process, and Knowledge Management",
 		"sigla": "eKNOW",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "EnDM - Workshop on Energy Data Management",
 		"sigla": "EnDM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ENERGY - IARIA International Conference on Smart Grids, Green Communications and IT Energy-aware Technologies",
 		"sigla": "ENERGY-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "EPAMUS - International Workshop on Engineering Parallel and Multi-core Systems",
 		"sigla": "EPAMUS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "E-Telemed - IARIA International Conference on eHealth, Telemedicine, and Social Medicine",
 		"sigla": "ETELEMED-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "EUROCG - European Workshop on Computational Geometry",
 		"sigla": "EUROCG",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "EuroComb - European Conference on Combinatorics, Graph Theory and Applications",
 		"sigla": "EUROCOMB",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "EUROSIM - Congress on Modelling and Simulation",
 		"sigla": "EUROSIM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "EuroVAW - EuroVis Workshop on Visual Analytics (EuroVA)",
 		"sigla": "EuroVISW",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "FCA4AI - Workshop What can FCA do for Artificial Intelligence",
 		"sigla": "FCA4AI",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "FECS - WS International Conference on Frontiers in Education: Computer  Science and Computer Engineering",
 		"sigla": "FECS-WS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "FINS - International Workshop on Future Internet and Smart Networks",
 		"sigla": "FINS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "FLINS - International FLINS Conference on Decision Making and Soft Computing",
 		"sigla": "FLINS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "GeoProcessing - IARIA International Conference on Advanced Geographic Information Systems, Applications, and Services",
 		"sigla": "GeoPROCESSING-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "GLOBALDEV - Workshop of the AIS Special Interest Group for ICT in Global Development",
 		"sigla": "GLOBALDEV",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "HEALTHINF - International Conference on Health Informatics",
 		"sigla": "HEALTHINF",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "HPG - High-Performance Graphics",
 		"sigla": "HPG",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "HPPN - Workshop on High Performance and Programmable Networking",
 		"sigla": "HPPN",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "HUMANCOM - International Conference on Human-centric Ubiquitous Computing and Applications",
 		"sigla": "HUMANCOM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICAI - International Conference on Artificial Intelligence",
 		"sigla": "ICAIWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICARSC - IEEE International Conference on Autonomous Robot Systems and Competitions",
 		"sigla": "ICARSC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICAS - IARIA International Conference on Autonomic and Autonomous Systems",
 		"sigla": "ICAS-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCDCS - International Caribbean Conference on Devices, Circuits and Systems",
 		"sigla": "ICCDCS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCETW - IEEE International Conference on Consumer Electronics Taiwan",
 		"sigla": "ICCETaiwan",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICCRTS - International Command and Control Research and Technology Symposium",
 		"sigla": "ICCRTS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICDP - International Conference on Imaging for Crime Detection and Prevention",
 		"sigla": "ICDP",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICDS - IARIA International Conference on Digital Society",
 		"sigla": "ICDS-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICED - International Conference on Engineering Design",
 		"sigla": "ICED",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICIEOM - International Conference on Industrial Engineering and Operations Management",
 		"sigla": "ICIEOM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICIQ - International Conference on Information Quality",
 		"sigla": "ICIQ",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICIW - IARIA International Conference on Internet and Web Applications and Services",
 		"sigla": "ICIW-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICN - IARIA International Conference on Networks",
 		"sigla": "ICN-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICNS - IARIA International Conference on Networking and Services",
 		"sigla": "ICNS-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICOMP - International Conference on Internet Computing and Internet of Things",
 		"sigla": "ICOMPWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICONS - IARIA International Conference on Systems",
 		"sigla": "ICONS-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSEA - IARIA International Conference on Software Engineering Advances",
 		"sigla": "ICSEA-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICSNC - IARIA International Conference on Systems and Networks Communications",
 		"sigla": "ICSNC-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICWMC - IARIA International Conference on Wireless and Mobile Communications",
 		"sigla": "ICWMC-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ICWN - International Conference on Wireless Networks",
 		"sigla": "ICWNWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "iEMSs - International Congress on Environmental Modelling & Software",
 		"sigla": "IEMSS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "INNOV - IARIA International Conference on Communications, Computation, Networks and Technologies",
 		"sigla": "INNOV-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "INOC - International Network Optimization Conference",
 		"sigla": "INOC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "INTELLI - IARIA International Conference on Intelligent Systems and Applications",
 		"sigla": "INTELLI-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "INTELLISYS - SAI Intelligent Systems Conference",
 		"sigla": "INTELLISYS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "INTERACCION - International Conference on Human Computer Interaction",
 		"sigla": "INTERACCION",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "IPCV - International Conference on Image Processing, Computer Vision, and Pattern Recognition",
 		"sigla": "IPCVWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ISCAW - Image-Based Smart City Application Workshop",
 		"sigla": "ISCAW",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ISWPC - International Symposium on Wireless and Pervasive Computing",
 		"sigla": "ISWPC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "IWC - International Workshop on Confluence",
 		"sigla": "IWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "IWS - Iberchip Workshop",
 		"sigla": "IWS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "IWSG - International Workshop on Science Gateways",
 		"sigla": "IWSG",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "KDMiLe - Symposium on Knowledge Discovery, Mining and Learning",
 		"sigla": "KDMILE",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "LAC - Linux Audio Conference",
 		"sigla": "LAC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "LAFM - Latin American Workshop on Formal Methods",
 		"sigla": "LAFM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "LANMR - Latin American Workshop on Logic/Languages, Algorithms and New Methods of Reasoning",
 		"sigla": "LANMR",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "LATINCLOUD - IEEE Latin America Conference on Cloud Computing and Communications",
 		"sigla": "LATINCLOUD",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "LAWGC - Latin American Workshop on Cliques in Graphs",
 		"sigla": "LAWCG",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "LISS - International Conference on Logistics, Informatics and Services Sciences",
 		"sigla": "LISS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "LRC - Workshop on Logical Reasoning and Computation",
 		"sigla": "LRC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "MASLE - Workshop in Multiagent System Based Learning Environments",
 		"sigla": "MASLE",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "Matheuristics - International Workshop on Model-based metaheuristics",
 		"sigla": "Matheuristics",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "MCDM - International Conference on Multiple Criteria Decision Making",
 		"sigla": "MCDM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "MEDIAN - Workshop On Manufacturable and Dependable Multicore Architectures at Nanoscale",
 		"sigla": "MEDIAN",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "MIC - Metaheuristics International Conference",
 		"sigla": "MIC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "MIKON - International Conference on Microwave, Radar and Wireless Communications",
 		"sigla": "MIKON",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "MMEDIA - International Conferences on Advances in Multimedia",
 		"sigla": "MMEDIA-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "MoWNeT - International Conference on Selected Topics in Mobile and Wireless Networking",
 		"sigla": "MoWNeT",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "MSI - International Conference on Modelling, Simulation and Identification",
 		"sigla": "MSI",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "MSSUW - IEEE MS Special Track on Services for the Ubiquitous Web",
 		"sigla": "MS-ST",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "MSV - International Conference on Modeling, Simulation and Visualization Methods",
 		"sigla": "MSVWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "NLPCS - International Workshop on Natural Language Processing and Cognitive Science",
 		"sigla": "NLPCS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "NRW - Asia Pacific Advanced Network Research Workshop",
 		"sigla": "NRW",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "PAAMSW - International Workshops of Practical Applications of Agents, Multi-Agent Systems, and Sustainability",
 		"sigla": "PAAMSW",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "PATAT - International Conference on the Practice and Theory of Automated Timetabling",
 		"sigla": "PATAT",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "PATTERNS - International Conferences on Pervasive Patterns and Applications",
 		"sigla": "PATTERNS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "PDPTA - International Conference on Parallel and Distributed Processing Techniques and Applications",
 		"sigla": "PDPTAWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "PLP - International Workshop on Probabilistic Programming",
 		"sigla": "PLP",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "PoEM - IFIP WG 8.1 Working Conference on the Practice of Enterprise Modelling",
 		"sigla": "PoEM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "QMMQ - Quality of Models and Models of Quality Workshop",
 		"sigla": "QMMQ",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "QRSW - IEEE International Conference on Software Quality, Reliability and Security Companion",
 		"sigla": "QRSW",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "REM - Workshop on Reactivity, Events and Modularity",
 		"sigla": "REM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "RESER - International Workshop on Replication in Empirical Software Engineering Research",
 		"sigla": "RESER",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SACCONET - International Conference on Smart Communications in Network Technologies",
 		"sigla": "SACCONET",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SAM - International Conference on Security and Management",
 		"sigla": "SAMWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SAST - Brazilian Workshop on Systematic and Automated Software Testing",
 		"sigla": "SAST",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SBAI - Simpósio Brasileiro de Automação Inteligente",
 		"sigla": "SBAI",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SBIAGRO - Congresso Brasileiro de Agroinformática",
 		"sigla": "SBIAGRO",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "Scrowd - Workshop de Sistemas de Crowdsourcing",
 		"sigla": "Scrowd",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SCSC - Summer Computer Simulation Conference",
 		"sigla": "SCSC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SDH - International Symposium on Spatial Data Handling",
 		"sigla": "SDH",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SEAWAVE - Workshop on Seamless Adaptive Multi-cloud Management of Service-based Applications",
 		"sigla": "SEAWAVE",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SECURWARE - IARIA International Conference on Emerging Security Information, Systems and Technologies",
 		"sigla": "SECURWARE-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SEMAPRO - IARIA International Conference on Advances in Semantic Processing",
 		"sigla": "SEMAPROIARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SemEval - International Workshop on Semantic Evaluation",
 		"sigla": "SEMEVAL",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SERP - International Conference on Software Engineering Research and Practice",
 		"sigla": "SERPWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SESENA - International Workshop on Software Engineering for Sensor Network Applications",
 		"sigla": "SESENA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SIGGRAPH-Asia - Conference on Computer Graphics and Interactive Techniques",
 		"sigla": "SIGGRAPH-Asia",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SLISW - Simposio Latinoamericano de Ingeniería de Software",
 		"sigla": "SLISW",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SMC - Sound and Music Computing Conference",
 		"sigla": "SMusC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SOFTENG - IARIA International Conference on Advances and Trends in Software Engineering",
 		"sigla": "SOFTENG-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SoWeMi - International Workshop on Mining the Social Web",
 		"sigla": "SoWeMi",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SPECTS - International Symposium on Performance Evaluation of Computer and Telecommunications Systems",
 		"sigla": "SPECTS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SSC - Social Simulation Conference",
 		"sigla": "SSC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "SWWS - International Conference on Semantic Web and Web Services",
 		"sigla": "SWWSWC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "TaPP - International Workshop on Theory and Practice of Provenance",
 		"sigla": "TaPP",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "TISE - Congreso Internacional de Informática Educativa",
 		"sigla": "TISE",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "ToRPorEsp - Workshop on Tools and Resources for Automatically Processing Portuguese and Spanish",
 		"sigla": "ToRPorEsp",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "UBICOMM - IARIA International Conference on Mobile Ubiquitous Computing, Systems, Services and Technologies",
 		"sigla": "UBICOMM-IARIA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "UNET - International Symposium on Ubiquitous Networking",
 		"sigla": "UNET",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "VEM - Workshop on Software Visualization, Evolution and Maintenance",
 		"sigla": "VEM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "VPQM - International Workshop on Video Processing and Quality Metrics for Consumer Electronics",
 		"sigla": "VPQM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WAPCO - Workshop on Approximate Computing",
 		"sigla": "WAPCO",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WCAMA - Workshop de Computação Aplicada à Gestão do Meio Ambiente e Recursos Naturais",
 		"sigla": "WCAMA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WCAS - Workshop on Circuits and Systems Design",
 		"sigla": "WCAS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WCGE - Workshop de Computação Aplicada ao Governo Eletrônico",
 		"sigla": "WCGE",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WDES - Workshop de Desenvolvimento Distribuído de Software",
 		"sigla": "WDES",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WEAC - Workshop sobre Educação em Arquitetura de Computadores",
 		"sigla": "WEAC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WEIHC - Workshop sobre Ensino de IHC",
 		"sigla": "WEIHC",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WESB - Workshop de Engenharia de Software Baseada em Busca",
 		"sigla": "WESB",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WFA - Workshop de Ferramentas e Aplicações",
 		"sigla": "WFA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WISM - Workshop on Web Information Systems Modeling",
 		"sigla": "WISM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WMOD - Workshop on Software Modularity",
 		"sigla": "WMOD",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WOCCES - Workshop de Comunicação em Sistemas Embarcados Crítico",
 		"sigla": "WOCCES",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WoMO - International Workshop on Modular Ontologies",
 		"sigla": "WoMO",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WP2P+ - Workshop de Redes P2P, Dinâmicas, Sociais e Orientadas a Conteúdo",
 		"sigla": "WP2P+",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WPEIF - Workshop de Pesquisa Experimental da Internet do Futuro",
 		"sigla": "WPEIF",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WRE - Workshop of Robotics in Education",
 		"sigla": "WRE",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WRVA - Workshop de Realidade Virtual e Aumentada",
 		"sigla": "WRVA",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WSL - Workshop de Software Livre",
 		"sigla": "WSL",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WTF - Workshop de Testes e Tolerância a Falhas",
 		"sigla": "WTF",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WTRANS - Workshop de Transparência de Sistema",
 		"sigla": "WTranS",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WTTM - Workshop on the Theory of Transactional Memory",
 		"sigla": "WTTM",
 		"qualis": "B5"
-	},
-	{
+	 },
+	 {
 		"nome": "WVC - Workshop de Visão Computacional",
 		"sigla": "WVC",
 		"qualis": "B5"
-	}
-]
+	 }
+	]
+ }
