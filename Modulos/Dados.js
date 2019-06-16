@@ -2,8 +2,14 @@ const fs = require('fs');
 const path = require('path');
 
 
-var self = module.exports = {
+module.exports = {
 
+
+    retornaNomePesquisador : function(jsonLattesObj) {
+
+        let pesquisador = jsonLattesObj['CURRICULO-VITAE']['DADOS-GERAIS']['_attributes']['NOME-COMPLETO'];
+        return console.log('\n------------------------------  ' + pesquisador + '  ------------------------------\n');
+    },
 
     retornaJsonObj : function (filepath) { 
 
@@ -25,51 +31,6 @@ var self = module.exports = {
     retornaLattesEventos : function (jsonLattesObj) {
 
         return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
-    },
-
-    cruzaDadosEve : function (conferenciasLattes, conferenciasQualis, anoInicial, anoFinal, similaridade, origem) {
-
-        let stringSimilarity = require('string-similarity');
-        let conferenciaLattes = {}, conferenciaQualis = {}, conferenciasEncontradas = [], conferenciasNaoEncontradas = [], qualis = [];
-        let flag, cont;
-    
-        for ( var i in conferenciasLattes ) {  
-            
-            self.getInfosConferenciaLattes(conferenciaLattes, conferenciasLattes[i]);
-    
-            if ( conferenciaLattes.anoTrabalho >= anoInicial && conferenciaLattes.anoTrabalho <= anoFinal ) {
-    
-                cont = 0; flag = false; 
-                var maiorSimilaridade = 0, conferencia = {};
-    
-                for ( var j in conferenciasQualis ) {
-    
-                    self.getInfosConferenciaQualis(conferenciaQualis, conferenciasQualis[j]);
-                    
-                    var resultadoSimilaridade = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
-                    
-                    if ( resultadoSimilaridade >= similaridade ) {
-    
-                        if ( resultadoSimilaridade > maiorSimilaridade ) maiorSimilaridade = resultadoSimilaridade;
-    
-                        self.preencheObjConferencia(conferencia, conferenciaLattes, conferenciaQualis, maiorSimilaridade);
-                        flag = true;
-                    } 
-                    
-                    cont++;
-                    
-                    if ( origem == 'conferencia' ) self.salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciasQualis, cont, flag, resultadoSimilaridade);
-                }      
-    
-                if ( conferencia.similaridade ) {
-
-                    conferenciasEncontradas.push(conferencia);
-                    qualis.push(conferencia.qualis);
-                    if ( origem == 'conferencia' ) self.escreveJsonObj("./resultado_conferencias_encontradas.json", conferenciasEncontradas);
-                }
-            }
-        }
-        if ( origem == 'indice' ) return qualis;
     },
 
     getInfosConferenciaLattes : function (conferenciaLattes, indice) {
@@ -108,7 +69,7 @@ var self = module.exports = {
             // conferencia.similaridade = String(resultadoSimilaridade);
     
             conferenciasNaoEncontradas.push(conferencia);
-            self.escreveJsonObj("./resultado_conferencias_nao_encontradas.json", conferenciasNaoEncontradas);
+            // this.escreveJsonObj("./resultado_conferencias_nao_encontradas.json", conferenciasNaoEncontradas);
         }   
     },
         
@@ -121,5 +82,15 @@ var self = module.exports = {
             if (err) return console.log("Erro na criação de arquivo com resultado final: " + err);
             console.log('Arquivo gerado com sucesso.');
         })  
+    },
+
+    verificaLista : function (lista, string) {
+
+        if ( lista.length > 0 ) {
+
+            console.log('\n------------------------------  ' + string + '  ------------------------------\n');
+            console.log(lista);
+            console.log('\n');
+        } 
     }
 }
