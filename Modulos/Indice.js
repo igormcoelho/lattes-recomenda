@@ -1,12 +1,6 @@
-const path = require('path');
-const fs = require('fs');
-
-
-const Parse = require('./ParseData');
-const dados = require('./Dados');
-
-
-exports = module.exports.CalculoIndice = CalculoIndice
+module.exports = {
+    CalculoIndice: CalculoIndice
+}
 
 
 function CalculoIndice(config, callback) {
@@ -17,20 +11,25 @@ function CalculoIndice(config, callback) {
 
 function Indice(config, callback) {
 
-    var anoAtual = new Date().getFullYear();
-    var anoInicial = anoAtual - 4;    
+    const Parse = require('./ParseData');
+    const dados = require('./Dados');
+    const publicacoes = require('./Publicacoes');
+    const conferencias = require('./Conferencias');
 
     let parse = new Parse();
+    
+    let anoAtual = new Date().getFullYear();
+    let anoInicial = anoAtual - 4;    
 
     let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
+
+    dados.retornaNomePesquisador(jsonLattesObj);
 
     let lattesArtigos = dados.retornaLattesArtigos(jsonLattesObj);
     
     let qualisPeriodicos = dados.retornaJsonObj("../Arquivos/qualis_periodicos_interdisciplinar_2016.json");
 
-    let artigosComQualis = cruzaDadosArt(lattesArtigos, qualisPeriodicos);    
-
-    let categorias = filtraArtigosPorAno(artigosComQualis, anoInicial, anoAtual);
+    let categorias = publicacoes.cruzaDadosArt(lattesArtigos, qualisPeriodicos, anoInicial, anoAtual, 'indice');    
 
     let indiceArtigos = calculaIndiceArtigos(categorias);
 
@@ -38,64 +37,13 @@ function Indice(config, callback) {
 
     let qualisEventos = dados.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
 
-    let qualis = dados.cruzaDadosEve(lattesEventos, qualisEventos, anoInicial, anoAtual, 0.7, 'indice');    
+    let qualis = conferencias.cruzaDadosEve(lattesEventos, qualisEventos.conferencias, anoInicial, anoAtual, 0.7, 'indice');    
 
     let indiceEventos = calculaIndiceEventos(qualis);        
 
     let indiceFinal = indiceArtigos + indiceEventos;
 
-    console.log(indiceFinal);
-    
-}
-
-
-function cruzaDadosArt(dadosLattes, dadosQualis) {
-
-    let artigos = []; 
-
-    for (var i in dadosLattes) {
-            
-        let artigo = {}, periodico = {};
-
-        artigo.titulo = dadosLattes[i]['DADOS-BASICOS-DO-ARTIGO']["_attributes"]["TITULO-DO-ARTIGO"];
-        artigo.ano = dadosLattes[i]['DADOS-BASICOS-DO-ARTIGO']["_attributes"]["ANO-DO-ARTIGO"];
-        artigo.issn = dadosLattes[i]['DETALHAMENTO-DO-ARTIGO']["_attributes"]["ISSN"];
-
-        for (var j in dadosQualis) {
-
-            periodico.issn = dadosQualis[j]['ISSN'].trim();
-            periodico.issn = periodico.issn.split('-').join('');
-            periodico.conceito = dadosQualis[j]['Estrato'].trim();
-
-            if (artigo.issn == periodico.issn) {
-
-                artigo.conceito = periodico.conceito;
-                
-                artigos.push(artigo);
-                break;
-            }
-        }
-    }
-
-    return artigos;
-}
-
-
-function filtraArtigosPorAno(artigos, anoInicial, anoAtual) {
-
-    var categorias = [];    
-
-    for (var i in artigos) {
-
-        var anoArtigo = parseInt(artigos[i].ano);
-
-        if (anoArtigo >= anoInicial && anoArtigo <= anoAtual) { 
-
-            categorias.push(artigos[i].conceito);
-        }
-    }
-
-    return categorias;
+    console.log('Indíce PPG-CCOMP: ' + indiceFinal + "\n");
 }
 
 
