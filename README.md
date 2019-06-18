@@ -45,7 +45,7 @@ const avaliacaoQualis = require('avaliacao-qualis');
 
 avaliacaoQualis.conferencias({
 
-        arquivoLattes: './caminho/para/curriculo.xml',
+        curriculoLattes: './caminho/para/curriculo.xml',
         anoInicial: 2010,
         anoFinal: 2019,
         similaridade: 0.7 // entre 0.1 e 1
