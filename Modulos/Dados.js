@@ -5,10 +5,11 @@ const path = require('path');
 module.exports = {
 
 
-    retornaNomePesquisador : function(jsonLattesObj) {
+    retornaDadosPesquisador : function(jsonLattesObj, string) {
 
         let pesquisador = jsonLattesObj['CURRICULO-VITAE']['DADOS-GERAIS']['_attributes']['NOME-COMPLETO'];
-        return console.log('\n------------------------------  ' + pesquisador + '  ------------------------------\n');
+        console.log('\n------------------------------  ' + pesquisador + '  ------------------------------\n');
+        console.log('\n------------------------------  ' + string + '  ------------------------------\n');
     },
 
     retornaJsonObj : function (filepath) { 

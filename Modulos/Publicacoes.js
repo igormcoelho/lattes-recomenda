@@ -33,7 +33,7 @@ function Publicacao(config, callback) {
     let jsonQualisObj = parse.parseXlsToJson(config.classificacoesPublicadas, callback);
     let lattesArtigos = dados.retornaLattesArtigos(jsonLattesObj);
 
-    dados.retornaNomePesquisador(jsonLattesObj);
+    dados.retornaDadosPesquisador(jsonLattesObj, 'Avaliação de publicações');
     cruzaDadosArt(lattesArtigos, jsonQualisObj, config.anoInicial, config.anoFinal, 'publicacao');    
 }
 

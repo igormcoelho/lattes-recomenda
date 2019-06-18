@@ -23,7 +23,7 @@ function Conferencia(config, callback) {
     let conferenciasLattes = dados.retornaLattesEventos(jsonLattesObj);
     let conferenciasQualis = dados.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
 
-    dados.retornaNomePesquisador(jsonLattesObj);
+    dados.retornaDadosPesquisador(jsonLattesObj, 'Avaliação de conferências');
     cruzaDadosEve(conferenciasLattes, conferenciasQualis.conferencias, config.anoInicial, config.anoFinal, config.similaridade, 'conferencia');
 }
 

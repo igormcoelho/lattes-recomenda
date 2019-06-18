@@ -23,7 +23,7 @@ function Indice(config, callback) {
 
     let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
 
-    dados.retornaNomePesquisador(jsonLattesObj);
+    dados.retornaDadosPesquisador(jsonLattesObj, 'Cálculo do Índice PPG-CCOMP');
 
     let lattesArtigos = dados.retornaLattesArtigos(jsonLattesObj);
     
@@ -37,13 +37,13 @@ function Indice(config, callback) {
 
     let qualisEventos = dados.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
 
-    let qualis = conferencias.cruzaDadosEve(lattesEventos, qualisEventos.conferencias, anoInicial, anoAtual, 0.7, 'indice');    
+    let qualis = conferencias.cruzaDadosEve(lattesEventos, qualisEventos.conferencias, anoInicial, anoAtual, config.similaridade, 'indice');    
 
     let indiceEventos = calculaIndiceEventos(qualis);        
 
     let indiceFinal = indiceArtigos + indiceEventos;
 
-    console.log('Indíce PPG-CCOMP: ' + indiceFinal + "\n");
+    console.log('Índice PPG-CCOMP: ' + indiceFinal + "\n");
 }
 
 
