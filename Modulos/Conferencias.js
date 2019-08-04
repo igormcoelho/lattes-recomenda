@@ -47,7 +47,9 @@ function cruzaDadosEve(conferenciasLattes, conferenciasQualis, anoInicial, anoFi
 
                 dados.getInfosConferenciaQualis(conferenciaQualis, conferenciasQualis[j]);
                 
-                var resultadoSimilaridade = stringSimilarity.compareTwoStrings(conferenciaLattes.nome, conferenciaQualis.nome); 
+                var resultadoSimilaridade = stringSimilarity.findBestMatch(conferenciaLattes.nome, [conferenciaQualis.nome, conferenciaQualis.sigla]); 
+                
+                resultadoSimilaridade = resultadoSimilaridade.bestMatch.rating;
                 
                 if ( resultadoSimilaridade >= similaridade ) {
 
@@ -74,9 +76,9 @@ function cruzaDadosEve(conferenciasLattes, conferenciasQualis, anoInicial, anoFi
     if ( conferenciasEncontradas.length == 0 && conferenciasNaoEncontradas.length == 0 ) {
 
         if ( origem == 'indice' ) {
-            console.log('Não há conferências publicadas nos últimos quatro anos.');
+            console.log('Não há trabalhos publicados em conferências nos últimos quatro anos.');
         } else {
-            console.log('Não há conferências para o intervalo informado.');
+            console.log('Não há trabalhos publicados em conferências no intervalo informado.');
         }
 
     } else { 
