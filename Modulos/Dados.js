@@ -26,12 +26,20 @@ module.exports = {
 
     retornaLattesArtigos : function(jsonLattesObj) {
 
-        return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['ARTIGOS-PUBLICADOS']['ARTIGO-PUBLICADO'];
+        try {
+            return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['ARTIGOS-PUBLICADOS']['ARTIGO-PUBLICADO'];
+        } catch (err) {
+            console.log('Não existem publicações no currículo Lattes a serem avaliadas.');
+        }
     },
 
     retornaLattesEventos : function (jsonLattesObj) {
 
-        return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
+        try {
+            return jsonLattesObj['CURRICULO-VITAE']['PRODUCAO-BIBLIOGRAFICA']['TRABALHOS-EM-EVENTOS']['TRABALHO-EM-EVENTOS'];
+        } catch (err) {
+            console.log('Não existem trabalhos no currículo Lattes a serem avaliados.');
+        }
     },
 
     getInfosConferenciaLattes : function (conferenciaLattes, indice) {
@@ -90,6 +98,7 @@ module.exports = {
         if ( lista.length > 0 ) {
 
             console.log('\n------------------------------  ' + string + '  ------------------------------\n');
+            console.log('Quantidade: ' + lista.length + '\n');
             console.log(lista);
             console.log('\n');
         } 
