@@ -22,28 +22,31 @@ function Indice(config, callback) {
     let anoInicial = anoAtual - 4;    
 
     let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
-
-    dados.retornaDadosPesquisador(jsonLattesObj, 'Cálculo do Índice PPG-CCOMP');
-
     let lattesArtigos = dados.retornaLattesArtigos(jsonLattesObj);
+    let lattesEventos = dados.retornaLattesEventos(jsonLattesObj);
+
+    if ( lattesArtigos || lattesEventos ) {
+
+        dados.retornaDadosPesquisador(jsonLattesObj, 'Cálculo do Índice PPG-CCOMP');
+        
+        let qualisPeriodicos = dados.retornaJsonObj("../Arquivos/qualis_periodicos_interdisciplinar_2016.json");
     
-    let qualisPeriodicos = dados.retornaJsonObj("../Arquivos/qualis_periodicos_interdisciplinar_2016.json");
-
-    let categorias = publicacoes.cruzaDadosArt(lattesArtigos, qualisPeriodicos, anoInicial, anoAtual, 'indice');    
-
-    let indiceArtigos = calculaIndiceArtigos(categorias);
-
-    let lattesEventos = dados.retornaLattesEventos(jsonLattesObj);    
-
-    let qualisEventos = dados.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
-
-    let qualis = conferencias.cruzaDadosEve(lattesEventos, qualisEventos.conferencias, anoInicial, anoAtual, config.similaridade, 'indice');    
-
-    let indiceEventos = calculaIndiceEventos(qualis);        
-
-    let indiceFinal = indiceArtigos + indiceEventos;
-
-    console.log('Índice PPG-CCOMP: ' + indiceFinal + "\n");
+        let categorias = publicacoes.cruzaDadosArt(lattesArtigos, qualisPeriodicos, anoInicial, anoAtual, 'indice');    
+    
+        let indiceArtigos = calculaIndiceArtigos(categorias);    
+    
+        let qualisEventos = dados.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
+    
+        let qualis = conferencias.cruzaDadosEve(lattesEventos, qualisEventos.conferencias, anoInicial, anoAtual, config.similaridade, 'indice');    
+    
+        let indiceEventos = calculaIndiceEventos(qualis);        
+    
+        let indiceFinal = indiceArtigos + indiceEventos;
+    
+        console.log('Índice PPG-CCOMP: ' + indiceFinal + "\n");
+    } else {
+        console.log("Não há trabalhos publicados para o cálculo do índice PPG-CCOMP");
+    }
 }
 
 
