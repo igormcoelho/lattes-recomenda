@@ -42,28 +42,86 @@ module.exports = {
         }
     },
 
+    getEventoSemDigitos : function (evento) {
+        var result;
+        
+        result = evento.replace(/\d{2,4}/g, '').trim();
+        return result;
+    },
+
+    getEventoEntreParenteses : function (evento) {
+        var regExp = /\(([^)]+)\)/;
+        var matches = regExp.exec(evento);
+        var result = evento;
+
+        try {
+            if (matches) {
+                result = matches[1];
+                result = this.getEventoSemDigitos(result);                
+            }
+        } catch(e) {
+
+        }
+
+        return result; 
+    },
+
     getInfosConferenciaLattes : function (conferenciaLattes, indice) {
 
         conferenciaLattes.nome = indice['DETALHAMENTO-DO-TRABALHO']['_attributes']['NOME-DO-EVENTO'].toUpperCase();
+        // conferenciaLattes.nome = this.parseEntidadesEspeciais(conferenciaLattes.nome);        
+        // conferenciaLattes.nome.toUpperCase();
+
+        conferenciaLattes.proceeding = indice['DETALHAMENTO-DO-TRABALHO']['_attributes']['TITULO-DOS-ANAIS-OU-PROCEEDINGS'];
+        conferenciaLattes.proceeding = this.parseEntidadesEspeciais(conferenciaLattes.proceeding).toUpperCase();
+        
         conferenciaLattes.tituloTrabalho = indice['DADOS-BASICOS-DO-TRABALHO']['_attributes']['TITULO-DO-TRABALHO'];
+        conferenciaLattes.tituloTrabalho = this.parseEntidadesEspeciais(conferenciaLattes.tituloTrabalho);
+        
         conferenciaLattes.anoTrabalho = indice['DADOS-BASICOS-DO-TRABALHO']['_attributes']['ANO-DO-TRABALHO'];
+        conferenciaLattes.homePage = indice['DADOS-BASICOS-DO-TRABALHO']['_attributes']['HOME-PAGE-DO-TRABALHO'];
+
+        conferenciaLattes.nomeSemDigitos = this.getEventoSemDigitos(conferenciaLattes.nome);
+        conferenciaLattes.nomeEntreParenteses = this.getEventoEntreParenteses(conferenciaLattes.nome);
+        conferenciaLattes.proceedingSemDigitos = this.getEventoSemDigitos(conferenciaLattes.proceeding);
+        conferenciaLattes.proceedingEntreParenteses = this.getEventoEntreParenteses(conferenciaLattes.proceeding);
     },
 
     getInfosConferenciaQualis : function (conferenciaQualis, indice) {
 
         conferenciaQualis.nome = indice.nome.toUpperCase();
-        conferenciaQualis.sigla = indice.sigla;
+        conferenciaQualis.sigla = indice.sigla.toUpperCase();
         conferenciaQualis.conceito = indice.qualis;
     },
 
-    preencheObjConferencia : function(conferencia, conferenciaLattes, conferenciaQualis, maiorSimilaridade) {
+    parseEntidadesEspeciais : function (string) {
+        string = string.replace(/&amp;/g, "&");
+        string = string.replace(/&apos;/g, "'");
 
+        return string;
+    },
+
+    preencheObjConferencia : function(conferencia, conferenciaLattes, conferenciaQualis, maiorSimilaridade) {
         conferencia.nomeTrabalho = conferenciaLattes.tituloTrabalho; 
-        conferencia.eventoLattes = conferenciaLattes.nome; 
-        conferencia.eventoQualis = conferenciaQualis.nome; 
         conferencia.ano = conferenciaLattes.anoTrabalho;
+        conferencia.pagina = conferenciaLattes.homePage;
+        conferencia.eventoLattes = conferenciaLattes.nome; 
+        conferencia.proceeding = conferenciaLattes.proceeding;
+        conferencia.eventoQualis = conferenciaQualis.nome; 
         conferencia.qualis = conferenciaQualis.conceito; 
-        conferencia.similaridade = maiorSimilaridade; 
+        conferencia.similaridade = maiorSimilaridade.toString(); 
+    },
+
+    salvaConferenciasEncontradas : function (conferenciasEncontradas, conferencia, flag) {
+
+        // let conferencia = {};
+
+        if ( flag == true ) {
+            conferenciasEncontradas.push(conferencia);
+        }
+
+        // console.log(conferenciasEncontradas);
+        
     },
 
     salvaConferenciasNaoEncontradas : function (conferenciasNaoEncontradas, conferenciaLattes, conferenciasQualis, cont, flag, resultadoSimilaridade) {
@@ -73,7 +131,9 @@ module.exports = {
         if ( cont == conferenciasQualis.length && flag == false ) {
             
             conferencia.nomeTrabalho = conferenciaLattes.tituloTrabalho; 
+            conferencia.pagina = conferenciaLattes.homePage;
             conferencia.eventoLattes = conferenciaLattes.nome; 
+            conferencia.proceeding = conferenciaLattes.proceeding;
             conferencia.ano = conferenciaLattes.anoTrabalho;
             // conferencia.similaridade = String(resultadoSimilaridade);
     
@@ -86,20 +146,25 @@ module.exports = {
     
         var json = JSON.stringify(data, null, " ");
     
-        fs.writeFileSync(filePath, json, function(err) {
-            
-            if (err) return console.log("Erro na criação de arquivo com resultado final: " + err);
-            console.log('Arquivo gerado com sucesso.');
-        })  
+        try {
+            fs.writeFileSync(filePath, json, function(err) {
+                
+                if (err) return console.log("Erro na criação de arquivo com resultado final: " + err);
+                console.log('Arquivo gerado com sucesso.');
+            })  
+        } catch (err) {
+            console.log("Que erro deu: " + err);
+        }
     },
 
-    verificaLista : function (lista, string) {
+    verificaLista : function (lista, string, filePath) {
 
         if ( lista.length > 0 ) {
 
             console.log('\n------------------------------  ' + string + '  ------------------------------\n');
             console.log('Quantidade: ' + lista.length + '\n');
-            console.log(lista);
+            // console.log(lista);
+            this.escreveJsonObj(filePath, lista);
             console.log('\n');
         } 
     }

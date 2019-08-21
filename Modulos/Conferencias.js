@@ -48,26 +48,39 @@ function cruzaDadosEve(conferenciasLattes, conferenciasQualis, anoInicial, anoFi
 
                 dados.getInfosConferenciaQualis(conferenciaQualis, conferenciasQualis[j]);
                 
-                var resultadoSimilaridade = stringSimilarity.findBestMatch(conferenciaLattes.nome, [conferenciaQualis.nome, conferenciaQualis.sigla]); 
+                var arrQualis = [conferenciaQualis.nome, conferenciaQualis.sigla];
                 
-                resultadoSimilaridade = resultadoSimilaridade.bestMatch.rating;
-                
+                var evento = stringSimilarity.findBestMatch(conferenciaLattes.nomeSemDigitos, arrQualis); 
+                var eventoEntreParentesis = stringSimilarity.findBestMatch(conferenciaLattes.nomeEntreParenteses, arrQualis);     
+                var proceeding = stringSimilarity.findBestMatch(conferenciaLattes.proceedingSemDigitos, arrQualis); 
+                var proceedingEntreParenteses = stringSimilarity.findBestMatch(conferenciaLattes.proceedingEntreParenteses, arrQualis);      
+
+                evento = evento.bestMatch.rating;
+                eventoEntreParentesis = eventoEntreParentesis.bestMatch.rating;
+                proceeding = proceeding.bestMatch.rating;
+                proceedingEntreParenteses = proceedingEntreParenteses.bestMatch.rating;
+
+                var resultadoSimilaridade = Math.max(evento, proceeding, eventoEntreParentesis, proceedingEntreParenteses);
+
                 if ( resultadoSimilaridade >= similaridade ) {
-
-                    if ( resultadoSimilaridade > maiorSimilaridade ) maiorSimilaridade = resultadoSimilaridade;
-
-                    dados.preencheObjConferencia(conferencia, conferenciaLattes, conferenciaQualis, maiorSimilaridade);
-                    flag = true;
+                    
+                    if ( resultadoSimilaridade > maiorSimilaridade ) {
+                        maiorSimilaridade = resultadoSimilaridade;
+                        dados.preencheObjConferencia(conferencia, conferenciaLattes, conferenciaQualis, maiorSimilaridade);
+                        flag = true;
+                    }
                 } 
-                
                 cont++;
-                
+                    
                 dados.salvaConferenciasNaoEncontradas(conferenciasNaoEncontradas, conferenciaLattes, conferenciasQualis, cont, flag, resultadoSimilaridade);
-            }      
+            } 
+
+            dados.salvaConferenciasEncontradas(conferenciasEncontradas, conferencia, flag);
 
             if ( conferencia.similaridade ) {
-
-                conferenciasEncontradas.push(conferencia);
+                // console.log(conferenciasEncontradas);
+                
+                // conferenciasEncontradas.push(conferencia);
                 qualis.push(conferencia.qualis);
                 // if ( origem == 'conferencia' ) dados.escreveJsonObj("./resultado_conferencias_encontradas.json", conferenciasEncontradas);
             }
@@ -83,9 +96,9 @@ function cruzaDadosEve(conferenciasLattes, conferenciasQualis, anoInicial, anoFi
         }
 
     } else { 
-
-        dados.verificaLista(conferenciasEncontradas, 'CONFERÊNCIAS ENCONTRADAS');
-        dados.verificaLista(conferenciasNaoEncontradas, 'CONFERÊNCIAS NÃO ENCONTRADAS');
+        console.log((conferenciasEncontradas.length + conferenciasNaoEncontradas.length) + " trabalho(s) em eventos");
+        dados.verificaLista(conferenciasEncontradas, 'CONFERÊNCIAS ENCONTRADAS', "./resultado_conferencias_encontradas.json");
+        dados.verificaLista(conferenciasNaoEncontradas, 'CONFERÊNCIAS NÃO ENCONTRADAS', "./resultado_conferencias_nao_encontradas.json");
     }
 
     if ( origem == 'indice' ) return qualis;
