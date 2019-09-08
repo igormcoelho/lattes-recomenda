@@ -1,4 +1,3 @@
-
 const dados = require('./Dados');
 
 module.exports = {
@@ -93,9 +92,8 @@ function cruzaDadosArt(dadosLattes, dadosQualis, anoInicial, anoFinal, origem) {
         }
         
     } else { 
-
-        dados.verificaLista(dadosArtigos.artigos, 'ARTIGOS ENCONTRADOS');
-        dados.verificaLista(artigosNaoEncontrados, 'ARTIGOS NÃO ENCONTRADOS');
+        dados.verificaLista(dadosArtigos.artigos, 'ARTIGOS ENCONTRADOS', './resultado_periodicos_encontrados.json');
+        dados.verificaLista(artigosNaoEncontrados, 'ARTIGOS NÃO ENCONTRADOS', './resultado_periodicos_nao_encontrados.json');
     }
 
     if ( origem == 'indice' ) return qualis;

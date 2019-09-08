@@ -1,4 +1,3 @@
-
 const dados = require('./Dados');
 
 module.exports = {
