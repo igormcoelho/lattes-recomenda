@@ -51,3 +51,20 @@ avaliacaoQualis.publicacoes({
         }
     }
 );
+
+avaliacaoQualis.conferencias({
+
+    curriculoLattesJSON: myLattesJSON,
+    anoInicial: 2010,
+    anoFinal: 2019,
+    similaridade: 0.7 // entre 0.1 e 1
+},
+
+function(err, result) {
+    if (err) {
+        console.error(err);
+    } else {
+        console.log(result);
+    }
+}
+);
