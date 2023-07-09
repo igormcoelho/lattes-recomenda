@@ -14,11 +14,10 @@ function AvaliacaoConferencia(config, callback) {
 
 function Conferencia(config, callback) {
 
-    const Parse = require('./ParseData');
-    
-    let parse = new Parse();
-
-    let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
+    //const Parse = require('./ParseDataXML');
+    //let parse = new Parse();
+    //let jsonLattesObj = parse.parseXmlFileToJson(config.curriculoLattes, callback);
+    let jsonLattesObj = config.curriculoLattesJSON;
     let conferenciasLattes = dados.retornaLattesEventos(jsonLattesObj);
     let conferenciasQualis = dados.retornaJsonObj("../Arquivos/qualis_eventos_cc_2016.json");
 

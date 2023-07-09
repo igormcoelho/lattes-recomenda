@@ -8,13 +8,13 @@ module.exports = {
 
 function AvaliacaoPublicacao(config, callback) {
 
-    if (!config.classificacoesPublicadas) {
+    if (!config.classificacoesPublicadasJSON) {
 
-        callback(new Error("Você não informou o arquivo xls de entrada."), null);
+        callback(new Error("Você não informou o arquivo qualis json de entrada."), null);
         
-    } else if (!config.curriculoLattes) {
+    } else if (!config.curriculoLattesJSON) {
 
-        callback(new Error("Você não informou o arquivo xml de entrada."), null);
+        callback(new Error("Você não informou o arquivo curriculo json de entrada."), null);
     
     }
 
@@ -23,13 +23,22 @@ function AvaliacaoPublicacao(config, callback) {
     
 
 function Publicacao(config, callback) { 
+    // TODO: prevent XLS parsing in browser mode
+    let jsonQualisObj = {};
+    if(false) {
+        const ParseXLS = require('../ModulosHelper/ParseDataFS');
+        let parse = new Parse();    
+        jsonQualisObj = parse.parseXlsFileToJson(config.classificacoesPublicadasXLS, callback);
+    }
+    jsonQualisObj = config.classificacoesPublicadasJSON;
     
-    const Parse = require('./ParseData');
-    
-    let parse = new Parse();
-
-    let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
-    let jsonQualisObj = parse.parseXlsToJson(config.classificacoesPublicadas, callback);
+    // get curriculo from XML file
+    if(false) {
+        const Parse = require('./ParseData');
+        let parse = new Parse();    
+        let jsonLattesObj = parse.parseXmlFileToJson(config.curriculoLattes, callback);
+    }
+    let jsonLattesObj = config.curriculoLattesJSON;
     let lattesArtigos = dados.retornaLattesArtigos(jsonLattesObj);
 
     if (lattesArtigos) {

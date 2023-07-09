@@ -21,7 +21,8 @@ function Indice(config, callback) {
     let anoAtual = new Date().getFullYear();
     let anoInicial = anoAtual - 4;    
 
-    let jsonLattesObj = parse.parseXmlToJson(config.curriculoLattes, callback);
+    // let jsonLattesObj = parse.parseXmlFileToJson(config.curriculoLattes, callback);
+    let jsonLattesObj = config.curriculoLattesJSON;
     let lattesArtigos = dados.retornaLattesArtigos(jsonLattesObj);
     let lattesEventos = dados.retornaLattesEventos(jsonLattesObj);
 

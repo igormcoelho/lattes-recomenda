@@ -1,0 +1,1 @@
+Para 'demo.js', adicionar aqui um arquivo chamado 'curriculo.xml'
