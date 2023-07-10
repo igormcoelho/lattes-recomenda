@@ -1,6 +1,6 @@
-# Qualis Recomenda
+# Lattes Recomenda
 
-Um pacote npm para gestão de arquivos lattes e qualis.
+Um pacote npm para gestão de arquivos e recomendação com base no lattes.
 Baseado no pacote `avaliacao-qualis`.
 
 Veja demo.js
